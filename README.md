@@ -8,7 +8,8 @@ Anoxygenic phototrophic Chlorobi form stable near-clonal blooms with broad metab
 
 ## Directories
 
-### Amplicon 
+### Amplicon Scripts and Plots
 
+### LoopSeq Scripts and Plots
 
-### LoopSeq 
+### Metaproteomics Scripts and Plots
