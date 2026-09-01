@@ -14,3 +14,24 @@ Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins,
 ### LoopSeq Scripts and Plots
 
 ### Metaproteomics Scripts and Plots
+
+### Weed_et_al
+Contains code for Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense with the following sub-directories:
+#### viral_workflow
+This folder contains the scripts for the generation of vMAGs, starting from raw reads. Although not designed to be run continuously, they were run in the following order:
+
+viral_assembly.sh
+viral_identification.sh
+viral_QC_and_combine.sh
+vMAG_generation.sh
+host_matching.sh
+
+#### bloomer_review_code
+This folder contains scripts for the review of bloom-forming organisms across the tree of life. Although not designed to be run continuously, they were run in the following order:
+1. download_and_filter_initial_sandpiper_db.sh
+2. sandpiper_db_filtering.R
+3. bloomer_and_rand_subset_defense_id.sh
+
+#### additional files
+nanopore_sequence_processing.sh contains the workflow for processing the Nanopore data.
+read_mapping.sh contains code for mapping reads to MAGs and vMAGs for relative abundance estimations using CoverM.
