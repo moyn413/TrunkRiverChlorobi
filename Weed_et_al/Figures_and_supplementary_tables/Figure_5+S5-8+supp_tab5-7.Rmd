@@ -1,0 +1,423 @@
+---
+title: "Trunk River Phage Figure 5"
+output: html_notebook
+---
+This script contains code used to generate Weed et al. figure 5, supplementary figures S5, S6, S7, S8, and supplementary tables 5-7
+# Load packages
+```{r}
+library(tidyverse)
+library(dplyr)
+library("pheatmap")
+library(RColorBrewer)
+library(export)
+library(tidybayes)
+#install.packages("readxl")
+library(readxl)
+library(forcats)
+```
+
+# Load files
+```{r}
+setwd("/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final")
+
+proteome <- read.csv("Original_documents/EXP330_MatWebBloom_Run3_SearchV2_MasterProMerge_NSAF_percent.csv", header = TRUE)
+c1_to_reference <- read.csv("Original_documents/contig_1_to_actual_reference.m8", header = FALSE, sep = "\t")
+c20_to_reference <- read.csv("Original_documents/contig_20_to_actual_reference.m8", header = FALSE, sep = "\t")
+contextual_data <- read.csv("contextual_data_w_counts.csv", header = TRUE)
+defense_genes <- read.csv("Original_documents/contig1_20_concat_defense_finder_genes.txt", header = TRUE, sep = "\t")
+
+
+#match headers in proteome to real sample names
+contextual_data$Proteome_ID <- sub("$", "_NSAF", contextual_data$Proteome_ID)
+header_names <- contextual_data %>% 
+  # new variable names, old variable names
+  select(Sample, Proteome_ID) %>% 
+  deframe()
+proteome_sample_headers <-  proteome %>% rename(!!!header_names)
+
+#give mapping files headers
+m8_header <- c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore")
+colnames(c1_to_reference) <- m8_header
+colnames(c20_to_reference) <- m8_header
+
+#make file with one to one matching between protein IDs
+#take only above 95% identity
+c1_to_reference <- filter(c1_to_reference, pident >= 0.95)
+c20_to_reference <- filter(c20_to_reference, pident >= 0.95)
+c1_20_combined <- rbind(c1_to_reference, c20_to_reference)
+c1_20_combined_unique <- c1_20_combined %>% group_by(qseqid) %>% slice_max(pident, n = 1, with_ties = FALSE)
+
+#merge proteome with matches
+proteome_matched <- merge(c1_20_combined_unique, proteome_sample_headers, by.x = "sseqid", by.y = "Accession")
+
+#normalize relative abundances by total organismal relative abundance (each value is divided by the sum of the column and then multiplied by 100)
+proteome_matched_normalized <- proteome_matched %>%
+  mutate(across(TR06_PB:TR17_B05_sup, function(x){(x/sum(x))*100}))
+
+```
+
+# Plot defense
+```{r}
+simple_heatmap <- function(df,meta,sample_list) {
+  for_plot <- df %>% select(all_of(sample_list))
+  #put in order
+  for_labels <- filter(meta, Sample %in% colnames(for_plot))
+  row.names(for_labels) <- for_labels$Sample
+
+  pheatmap(for_plot, cluster_cols = FALSE, cluster_rows =FALSE, labels_row = df$qseqid, labels_col = for_labels$Days_since_onset, breaks=seq(0.01, 0.15, length=101), color = colorRampPalette(brewer.pal(n = 7, name = "YlOrRd"))(100), na_col = "#FAFAFA")
+}
+
+
+
+b05_samples <- c("TR08_B05","TR09_B05","TR10_B05","TR11_B05","TR12_B05","TR13_B05","TR14_B05","TR15_B05","TR16_B05")
+
+#c20_crispr
+c20_crispr <- c("PJCOJHNP_00027","PJCOJHNP_00028", "PJCOJHNP_00029","PJCOJHNP_00030","PJCOJHNP_00031","PJCOJHNP_00032","PJCOJHNP_00033","PJCOJHNP_00034","PJCOJHNP_00035")
+c20_crispr_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_crispr)
+c20_crispr_plot[c20_crispr_plot == 0] <- NA
+c20_crispr_heatmap <- simple_heatmap(c20_crispr_plot, contextual_data, b05_samples)
+graph2svg(x=c20_crispr_heatmap, file="Plots/c20_crispr_heatmap.svg", font = "Arial", height = 5, bg = "white")
+
+#c20_t4ss
+c20_t4ss <- c("PJCOJHNP_00046","PJCOJHNP_00047","PJCOJHNP_00048","PJCOJHNP_00049","PJCOJHNP_00050","PJCOJHNP_00051","PJCOJHNP_00052","PJCOJHNP_00053","PJCOJHNP_00054","PJCOJHNP_00055","PJCOJHNP_00056","PJCOJHNP_00057")
+c20_t4ss_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_t4ss)
+c20_t4ss_plot[c20_t4ss_plot == 0] <- NA
+c20_t4ss_heatmap <- simple_heatmap(c20_t4ss_plot, contextual_data, b05_samples)
+graph2svg(x=c20_t4ss_heatmap, file="Plots/c20_t4ss_heatmap.svg", font = "Arial", height = 5, bg = "white")
+
+#Gabija and RM systems
+c20_rm_gabija <- c("PJCOJHNP_00009","PJCOJHNP_00010","PJCOJHNP_00072","PJCOJHNP_00074","PJCOJHNP_00092","PJCOJHNP_00093","PJCOJHNP_00094","PJCOJHNP_00095","PJCOJHNP_00096")
+c20_rm_gabija_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_rm_gabija)
+c20_rm_gabija_plot[c20_rm_gabija_plot == 0] <- NA
+c20_rm_gabija_heatmap <- simple_heatmap(c20_rm_gabija_plot, contextual_data, b05_samples)
+graph2svg(x=c20_rm_gabija_heatmap, file="Plots/c20_rm_gabija_heatmap.svg", font = "Arial", height = 5, bg = "white")
+
+#putative prophage and surrounding region:
+c1_prophage_region <- c("EDNFDMHJ_01828","EDNFDMHJ_01829","EDNFDMHJ_01830","EDNFDMHJ_01831","EDNFDMHJ_01832","EDNFDMHJ_01833","EDNFDMHJ_01834","EDNFDMHJ_01835","EDNFDMHJ_01837","EDNFDMHJ_01846","EDNFDMHJ_01850","EDNFDMHJ_01852","EDNFDMHJ_01859","EDNFDMHJ_01863","EDNFDMHJ_01864","EDNFDMHJ_01865")
+c1_prophage_region_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_prophage_region)
+c1_prophage_region_plot[c1_prophage_region_plot == 0] <- NA
+c1_prophage_region_heatmap <- simple_heatmap(c1_prophage_region_plot, contextual_data, b05_samples)
+graph2svg(x=c1_prophage_region_heatmap, file="Plots/c1_prophage_region_heatmap.svg", font = "Arial", height = 5, bg = "white")
+
+#crispr system
+c1_crispr <- c("EDNFDMHJ_00636","EDNFDMHJ_00637","EDNFDMHJ_00638","EDNFDMHJ_00639","EDNFDMHJ_00640","EDNFDMHJ_00641","EDNFDMHJ_00642")
+c1_crispr_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_crispr)
+c1_crispr_plot[c1_crispr_plot == 0] <- NA
+c1_crispr_heatmap <- simple_heatmap(c1_crispr_plot, contextual_data, b05_samples)
+graph2svg(x=c1_crispr_heatmap, file="Plots/c1_crispr_heatmap.svg", font = "Helvetica", height = 5, bg = "white")
+
+#other defense
+c1_misc_defense <- c("EDNFDMHJ_00271","EDNFDMHJ_00272","EDNFDMHJ_00273","EDNFDMHJ_00301","EDNFDMHJ_00306","EDNFDMHJ_00307","EDNFDMHJ_00434","EDNFDMHJ_01233","EDNFDMHJ_01306","EDNFDMHJ_01490", "EDNFDMHJ_01918")
+c1_misc_defense_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_misc_defense)
+c1_misc_defense_plot[c1_misc_defense_plot == 0] <- NA
+c1_misc_defense_heatmap <- simple_heatmap(c1_misc_defense_plot, contextual_data, b05_samples)
+graph2svg(x=c1_misc_defense_heatmap, file="Plots/c1_misc_defense_heatmap.svg", font = "Helvetica", height = 5, bg = "white")
+
+#b01
+b01_samples <- c("TR07_B01","TR08_B01","TR09_B01","TR10_B01")
+
+#c20_crispr
+c20_crispr <- c("PJCOJHNP_00027","PJCOJHNP_00028", "PJCOJHNP_00029","PJCOJHNP_00030","PJCOJHNP_00031","PJCOJHNP_00032","PJCOJHNP_00033","PJCOJHNP_00034","PJCOJHNP_00035")
+c20_crispr_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_crispr)
+c20_crispr_plot[c20_crispr_plot == 0] <- NA
+c20_crispr_heatmap <- simple_heatmap(c20_crispr_plot, contextual_data, b01_samples)
+graph2svg(x=c20_crispr_heatmap, file="Plots/c20_crispr_heatmap_b01.svg", font = "Helvetica", height = 5, bg = "white")
+
+#c20_t4ss
+c20_t4ss <- c("PJCOJHNP_00046","PJCOJHNP_00047","PJCOJHNP_00048","PJCOJHNP_00049","PJCOJHNP_00050","PJCOJHNP_00051","PJCOJHNP_00052","PJCOJHNP_00053","PJCOJHNP_00054","PJCOJHNP_00055","PJCOJHNP_00056","PJCOJHNP_00057")
+c20_t4ss_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_t4ss)
+c20_t4ss_plot[c20_t4ss_plot == 0] <- NA
+c20_t4ss_heatmap <- simple_heatmap(c20_t4ss_plot, contextual_data, b01_samples)
+graph2svg(x=c20_t4ss_heatmap, file="Plots/c20_t4ss_heatmap_b01.svg", font = "Arial", height = 5, bg = "white")
+
+#Gabija and RM systems
+c20_rm_gabija <- c("PJCOJHNP_00009","PJCOJHNP_00010","PJCOJHNP_00072","PJCOJHNP_00074","PJCOJHNP_00092","PJCOJHNP_00093","PJCOJHNP_00094","PJCOJHNP_00095","PJCOJHNP_00096")
+c20_rm_gabija_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_rm_gabija)
+c20_rm_gabija_plot[c20_rm_gabija_plot == 0] <- NA
+c20_rm_gabija_heatmap <- simple_heatmap(c20_rm_gabija_plot, contextual_data, b01_samples)
+graph2svg(x=c20_rm_gabija_heatmap, file="Plots/c20_rm_gabija_heatmap_b01.svg", font = "Arial", height = 5, bg = "white")
+
+#putative prophage and surrounding region:
+c1_prophage_region <- c("EDNFDMHJ_01828","EDNFDMHJ_01829","EDNFDMHJ_01830","EDNFDMHJ_01831","EDNFDMHJ_01832","EDNFDMHJ_01833","EDNFDMHJ_01834","EDNFDMHJ_01835","EDNFDMHJ_01837","EDNFDMHJ_01846","EDNFDMHJ_01850","EDNFDMHJ_01852","EDNFDMHJ_01859","EDNFDMHJ_01863","EDNFDMHJ_01864","EDNFDMHJ_01865")
+c1_prophage_region_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_prophage_region)
+c1_prophage_region_plot[c1_prophage_region_plot == 0] <- NA
+c1_prophage_region_heatmap <- simple_heatmap(c1_prophage_region_plot, contextual_data, b01_samples)
+graph2svg(x=c1_prophage_region_heatmap, file="Plots/c1_prophage_region_heatmap_b01.svg", font = "Arial", height = 5, bg = "white")
+
+#crispr system
+c1_crispr <- c("EDNFDMHJ_00636","EDNFDMHJ_00637","EDNFDMHJ_00638","EDNFDMHJ_00639","EDNFDMHJ_00640","EDNFDMHJ_00641","EDNFDMHJ_00642")
+c1_crispr_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_crispr)
+c1_crispr_plot[c1_crispr_plot == 0] <- NA
+c1_crispr_heatmap <- simple_heatmap(c1_crispr_plot, contextual_data, b01_samples)
+graph2svg(x=c1_crispr_heatmap, file="Plots/c1_crispr_heatmap_b01.svg", font = "Helvetica", height = 5, bg = "white")
+
+#other defense
+c1_misc_defense <- c("EDNFDMHJ_00271","EDNFDMHJ_00272","EDNFDMHJ_00273","EDNFDMHJ_00301","EDNFDMHJ_00306","EDNFDMHJ_00307","EDNFDMHJ_00434","EDNFDMHJ_01233","EDNFDMHJ_01306","EDNFDMHJ_01490", "EDNFDMHJ_01918")
+c1_misc_defense_plot <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_misc_defense)
+c1_misc_defense_plot[c1_misc_defense_plot == 0] <- NA
+c1_misc_defense_heatmap <- simple_heatmap(c1_misc_defense_plot, contextual_data, b01_samples)
+graph2svg(x=c1_misc_defense_heatmap, file="Plots/c1_misc_defense_heatmap_b01.svg", font = "Helvetica", height = 5, bg = "white")
+
+```
+# Make line plots
+```{r}
+#b05:
+c20_crispr_df <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c20_crispr)
+c20_crispr_df_b05 <- c20_crispr_df[,b05_samples]
+mean_data_c20 <- data.frame(
+  column_name = names(c20_crispr_df_b05),
+  mean = colMeans(c20_crispr_df_b05),
+  sd = sapply(c20_crispr_df_b05, sd)
+)
+mean_data_c20 <- merge(mean_data_c20, contextual_data, by.x = "column_name", by.y = "ID")
+
+c1_crispr_df <- proteome_matched_normalized %>% filter(proteome_matched_normalized$qseqid %in% c1_crispr)
+c1_crispr_df_b05 <- c1_crispr_df[,b05_samples]
+mean_data_c1 <- data.frame(
+  column_name = names(c1_crispr_df_b05),
+  mean = colMeans(c1_crispr_df_b05),
+  sd = sapply(c1_crispr_df_b05, sd)
+)
+mean_data_c1 <- merge(mean_data_c1, contextual_data, by.x = "column_name", by.y = "ID")
+b05_counts_data <- contextual_data %>% filter(Type2 == "Bloom_B05")
+
+crispr_means_b05 <- mean_data_c20 %>% 
+  ggplot(aes(x = Days_since_onset, y = mean, group = 1))  +
+  geom_line(aes(color = "plasmid"), size = 2) + 
+  geom_ribbon(data = mean_data_c20, aes(ymax = mean + sd, ymin = mean - sd), alpha = 0.5, fill = "#fd6467") +
+  geom_line(data = mean_data_c1, aes(x = Days_since_onset, y = mean, group = 1, color = "genome"),size = 2) + 
+  geom_ribbon(data = mean_data_c1, aes(ymax = mean + sd, ymin = mean - sd), alpha = 0.5, fill = "#7f2b2a") +
+  geom_point(data = mean_data_c1, aes(x = Days_since_onset, y = mean, group = 1),shape = 21, colour = "#7f2b2a", fill = "white", size = 3, stroke = 1) +
+  geom_point(data = mean_data_c20, aes(x = Days_since_onset, y = mean, group = 1),shape = 21, colour = "#fd6467", fill = "white", size = 3, stroke = 1) +
+  geom_line(data = b05_counts_data, aes(x = Days_since_onset, y = Average_total_cell_count / 10000000000, group = 1, color = "cells"),size = 1, linetype = "dashed") +
+  scale_color_manual(values=c(plasmid = "#fd6467", genome = "#7f2b2a", cells = "#9ea940")) + 
+  theme_classic() +
+  scale_x_continuous(breaks=seq(2,17,1),limits = c(2,17)) + 
+  theme(panel.border = element_rect(color = "black", fill = NA, linewidth = 1)) + 
+  theme(text = element_text(size = 14)) + 
+  xlab("Days since bloom onset") + ylab("Mean % (NSAF)") +
+  scale_y_continuous(name = "Mean % (NSAF)", sec.axis = sec_axis( transform =~.*10000000000, name=expression(Average~cells~mL^-1)))
+
+graph2svg(x=crispr_means_b05, file="Plots/crispr_means_b05_new.svg", font = "Helvetica", height = 4, width = 8, bg = "white")
+
+#b01:
+c20_crispr_df_b01 <- c20_crispr_df[,b01_samples]
+mean_data_c20_b01 <- data.frame(
+  column_name = names(c20_crispr_df_b01),
+  mean = colMeans(c20_crispr_df_b01),
+  sd = sapply(c20_crispr_df_b01, sd)
+)
+mean_data_c20_b01 <- merge(mean_data_c20_b01, contextual_data, by.x = "column_name", by.y = "ID")
+
+c1_crispr_df_b01 <- c1_crispr_df[,b01_samples]
+mean_data_c1_b01 <- data.frame(
+  column_name = names(c1_crispr_df_b01),
+  mean = colMeans(c1_crispr_df_b01),
+  sd = sapply(c1_crispr_df_b01, sd)
+)
+mean_data_c1_b01 <- merge(mean_data_c1_b01, contextual_data, by.x = "column_name", by.y = "ID")
+b01_counts_data <- contextual_data %>% filter(Type2 == "Bloom_B01")
+
+crispr_means_b01 <- mean_data_c20_b01 %>% 
+  ggplot(aes(x = Days_since_onset, y = mean, group = 1)) + 
+  geom_line(aes(color = "plasmid"), size = 2) + 
+  geom_ribbon(data = mean_data_c20_b01, aes(ymax = mean + sd, ymin = mean - sd), alpha = 0.5, fill = "#fd6467") + 
+  geom_line(data = mean_data_c1_b01, aes(x = Days_since_onset, y = mean, group = 1, color = "genome"),size = 2) + 
+  geom_ribbon(data = mean_data_c1_b01, aes(ymax = mean + sd, ymin = mean - sd), alpha = 0.5, fill = "#7f2b2a") +
+  geom_point(data = mean_data_c1_b01, aes(x = Days_since_onset, y = mean, group = 1),shape = 21, colour = "#7f2b2a", fill = "white", size = 3, stroke = 1) +
+  geom_point(data = mean_data_c20_b01, aes(x = Days_since_onset, y = mean, group = 1),shape = 21, colour = "#fd6467", fill = "white", size = 3, stroke = 1) +
+  geom_line(data = b01_counts_data, aes(x = Days_since_onset, y = Average_total_cell_count / 1000000000, group = 1, color = "cells"),size = 1, linetype = "dashed") +
+  scale_color_manual(values=c(plasmid = "#fd6467", genome = "#7f2b2a", cells = "#9ea940")) + 
+  theme_classic() +
+  scale_x_continuous(breaks=seq(1,4,1),limits = c(1,4)) + 
+  theme(panel.border = element_rect(color = "black", fill = NA, linewidth = 1)) + 
+  theme(text = element_text(size = 14)) + 
+  xlab("Days since bloom onset") + ylab("Mean % (NSAF)") +
+  scale_y_continuous(name = "Mean % (NSAF)", sec.axis = sec_axis( transform =~.*1000000000, name=expression(Average~cells~mL^-1)))
+graph2svg(x=crispr_means_b01, file="Plots/crispr_means_b01_new.svg", font = "Helvetica", height = 4, width = 8, bg = "white")
+
+
+```
+
+# Plot viral structural proteins (for supplementary figure S7)
+```{r}
+ct3_annotations <- read.csv("Original_documents/final_genes_to_contigs_annotation_summary.tsv", header = TRUE, sep = "\t")
+contig_name_map <- read.csv("Original_documents/contig_name_map.tsv", header = FALSE, sep = "\t")
+#this is the AA translations of the viral sequences from ct3 mapped to the proteomic reference file with mmseqs2
+vMAGs_to_reference <- read.csv("Original_documents/B05_vMAGs_to_actual_reference.m8",header = FALSE, sep = "\t")
+colnames(vMAGs_to_reference) <- m8_header
+
+#filter for 95% match and then take highest if multiple matches
+vMAGs_to_reference_95 <- vMAGs_to_reference %>% filter(vMAGs_to_reference$pident >= 0.95)
+vMAGs_to_reference_95 <- vMAGs_to_reference_95 %>% group_by(sseqid) %>% slice_min(pident, with_ties = FALSE)
+
+#merge original contig name:
+vMAGs_to_reference_95$contig <- gsub("_[^_]*$", "", vMAGs_to_reference_95$qseqid)
+vMAGs_to_reference_95 <- merge(vMAGs_to_reference_95, contig_name_map, by.x = "contig", by.y = "V1")
+
+#merge with annotations
+vMAGs_to_reference_95_ct3 <- merge(vMAGs_to_reference_95, ct3_annotations, by.x = "qseqid", by.y = "gene_name")
+#remove unneeded columns:
+vMAGs_to_reference_95_ct3 <- vMAGs_to_reference_95_ct3 %>% select(-c("contig.x", "contig.y", "chunk_name", "chunk_length", "chunk_start", "chunk_stop"))
+vMAGs_to_reference_95_ct3 <- vMAGs_to_reference_95_ct3 %>% rename(contig = V2)
+
+#merge with proteome:
+viral_proteome <- merge(vMAGs_to_reference_95_ct3, proteome_sample_headers, by.x = "sseqid", by.y = "Accession")
+
+
+#plot
+make_heatmap <- function(df,n,category,bloom,meta) {
+  #filter by category
+  filtered_df <- df %>% filter(str_detect(df$vscore_category,category))
+  
+  #choose bloom:
+  if (bloom == "B01") {
+    exclude <- c("B05","M01", "W_P", "White")
+    include <- c("B01", "PB")
+    sample_order <- c("TR06_PB","TR07_B01","TR08_B01","TR09_B01","TR10_B01","TR07_B01_sup","TR08_B01_sup","TR09_B01_sup","TR10_B01_sup")
+  } else if (bloom == "B05") {
+    exclude <- c("B01","M01", "W_P", "White")
+    include <- c("B05", "PB")
+    sample_order <- c("TR06_PB","TR08_B05","TR09_B05","TR10_B05","TR11_B05","TR12_B05","TR13_B05","TR14_B05","TR15_B05","TR16_B05","TR17_B05_MW","TR08_B05_sup","TR09_B05_sup","TR10_B05_sup","TR11_B05_sup","TR13_B05_sup","TR14_B05_sup","TR16_B05_sup")
+  }
+  
+  filtered_df <- filtered_df %>% select(-matches(exclude))
+  include_only <- select(filtered_df,matches(include))
+  
+  #take top most abundant genes
+  filtered_df$sums <- rowSums(include_only)
+  filtered_df <- filtered_df %>% arrange(desc(sums)) %>% slice_head(n=n)
+  filtered_df <- filtered_df[-length(filtered_df)]
+  for_plot <- filtered_df %>% select(matches(include))
+  
+  #put in order
+  for_plot <- for_plot[sample_order]
+  for_labels <- filter(meta, Sample %in% sample_order)
+  row.names(for_labels) <- for_labels$Sample
+  
+  #set up column annotations:
+  for_annotation <- for_labels %>% select(matches("Type"))
+  for_annotation <- for_annotation %>% select(-matches("Type2"))
+  
+  my_colour = list(
+    Type = c(PreBloom = "#dce0bd", Bloom = "#9da841", Supernatant = "#e5f1f1")
+  )
+  pheatmap(for_plot, cluster_cols = FALSE, cluster_rows =FALSE, labels_row = substr(paste(filtered_df$contig, "|", filtered_df$evidence_description), start = 1, stop = 50),labels_col = for_labels$Days_since_onset, breaks=seq(0, 0.15, length=101), color = colorRampPalette(c("white", "yellow", "orange", "red","darkred"))(101), na_col = "grey", annotation_col = for_annotation, annotation_colors = my_colour)
+  
+}
+
+
+b05_top_viral_in_super <- make_heatmap(viral_proteome,20,"common_virus","B05",contextual_data)
+b01_top_viral_in_super <- make_heatmap(viral_proteome,20,"common_virus","B01",contextual_data)
+b05_top_viral_in_super
+b01_top_viral_in_super
+
+#graph2svg(x=b05_top_viral_in_super, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final/Plots/B05_viral_proteome.svg", font = "Helvetica", bg = "white")
+#graph2svg(x=b01_top_viral_in_super, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final/Plots/B01_viral_proteome.svg", font = "Helvetica", bg = "white")
+
+```
+
+#Viral biomass estimate (supplementary figure S8)
+```{r}
+viral_biomass_proteome <- read_excel("Original_documents/20260520_EXP330_MWBv2_MergedProteinResults1PUPv4.xlsx")
+#match headers in proteome to real sample names
+contextual_data <- read.csv("contextual_data_w_counts.csv", header = TRUE)
+contextual_data$Proteome_ID <- sub("$", "_140min_Run3_Proteins.txt", contextual_data$Proteome_ID)
+contextual_data$Proteome_ID <- sub("^", "EXP330_", contextual_data$Proteome_ID)
+header_names <- contextual_data %>% 
+  # new variable names, old variable names
+  select(Sample, Proteome_ID) %>% 
+  deframe()
+proteome_sample_headers_biomass <-  viral_biomass_proteome %>% rename(!!!header_names)
+
+#merge with annotations
+viral_biomass_proteome <- merge(vMAGs_to_reference_95_ct3, proteome_sample_headers_biomass, by.x = "sseqid", by.y = "...1", all.y = TRUE)
+
+#Label anything non-viral:
+viral_biomass_proteome <- viral_biomass_proteome %>% mutate(contig = tidyr::replace_na(contig, "non-viral"))
+
+#get percent biomass
+viral_biomass_proteome_percent <- viral_biomass_proteome %>% group_by(contig) %>% summarise(across(all_of(contextual_data$Sample), ~sum(.x, na.rm = TRUE)), .groups = "drop")
+viral_biomass_proteome_percent <- viral_biomass_proteome_percent %>% mutate(across(where(is.numeric), ~ (.x / sum(.x, na.rm = TRUE)) * 100))
+
+#get shared palette
+for_pal <- viral_biomass_proteome_percent %>% filter(contig != "non-viral")
+for_pal <- for_pal %>% select(c("contig", contains("B0"))) %>% select(!c(contains("MW")))
+for_pal <- for_pal %>% mutate(row_sum = rowSums(across(where(is.numeric)), na.rm = TRUE))
+for_pal <- for_pal %>% mutate(contigs_grouped = fct_lump_n(contig, n = 30, w = row_sum, other_level = "Other"))
+#get number of colors
+num_colors <- length(unique(for_pal$contigs_grouped))
+#Expand palette
+get_palette <- colorRampPalette(brewer.pal(8, "Paired"))
+my_colors <- get_palette(num_colors)
+names(my_colors) <- unique(unique(for_pal$contigs_grouped))
+my_colors["Other"] <- "#7f7f7f"
+
+
+#plot
+viral_biomass_plot <- function(biomass_db, bloom, fraction, contextual_data) {
+  #filter df:
+  if (fraction == "sup") {
+      plot_df <- biomass_db %>% select(c("contig", contains("sup"))) %>% select(c("contig", contains(bloom))) %>% select(!c(contains("MW")))
+      scaling_factor = 100000000
+  } else {
+      plot_df <- biomass_db %>% select(c("contig", contains(bloom))) %>% select(!c(contains("sup"), contains("MW")))
+      if (bloom == "B05") {
+        scaling_factor = 1000000000
+      } else {
+        scaling_factor = 500000000
+      }
+  }
+  #take only viral contigs
+  plot_df <- plot_df %>% filter(contig != "non-viral")
+  #lump lowly abundant samples together
+  plot_df_lump <- plot_df %>% mutate(row_sum = rowSums(across(where(is.numeric)), na.rm = TRUE))
+  plot_df_lump <- plot_df_lump %>% mutate(contigs_grouped = fct_lump_n(contig, n = 8, w = row_sum, other_level = "Other"))
+  
+  #pivot longer
+  plot_df_lump_long <- as.data.frame(plot_df_lump) %>% pivot_longer(cols = names(select(plot_df_lump, starts_with("TR"))), names_to = "sample", values_to = "percent_abundance")
+  
+  #factor contigs to get correct order for plot
+  plot_df_lump_long$contigs_grouped <- factor(plot_df_lump_long$contigs_grouped)
+  #reverse factor
+  plot_df_lump_long$contigs_grouped <- fct_rev(plot_df_lump_long$contigs_grouped)
+  
+  #make plot labels
+  for_labels <- filter(contextual_data, Sample %in% plot_df_lump_long$sample)
+  my_labels <- for_labels %>% distinct(Sample, Days_since_onset) %>% deframe()
+  
+  plot <- ggplot(plot_df_lump_long, aes(fill=contigs_grouped, y=percent_abundance, x=sample)) + 
+    geom_bar(position="stack", stat="identity") + 
+    geom_line(data = for_labels, aes(x = Sample, y = Average_total_cell_count / scaling_factor, group = 1), inherit.aes = FALSE, color = "#9ea940", linewidth = 1, linetype = 2) +
+    geom_point(data = for_labels, aes(x = Sample, y = Average_total_cell_count / scaling_factor, group = 1), inherit.aes = FALSE, color = "#9ea940", size = 3) +
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_rect(fill = "white", colour = "black"), text = element_text(size = 15)) + 
+    labs(x = "Days after bloom onset", y = "Percent viral biomass") + 
+    scale_x_discrete(labels = my_labels) +
+    scale_y_continuous(name = "Percent viral biomass", sec.axis = sec_axis(~ . * scaling_factor, name = "Average total cell count")) +
+    scale_fill_manual(values = my_colors)
+  return(plot)
+}
+viral_biomass_plot(viral_biomass_proteome_percent, "B05", "sup", contextual_data)
+viral_biomass_plot(viral_biomass_proteome_percent, "B05", "cell", contextual_data)
+viral_biomass_plot(viral_biomass_proteome_percent, "B01", "sup", contextual_data)
+viral_biomass_plot(viral_biomass_proteome_percent, "B01", "cell", contextual_data)
+graph2svg(x=viral_biomass_plot(viral_biomass_proteome_percent, "B05", "sup", contextual_data), file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final/Plots/S8_v2/viral_biomass_b05_supernatant.svg", font = "Helvetica", bg = "white")
+graph2svg(x=viral_biomass_plot(viral_biomass_proteome_percent, "B05", "cell", contextual_data), file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final/Plots/S8_v2/viral_biomass_b05.svg", font = "Helvetica", bg = "white")
+graph2svg(x=viral_biomass_plot(viral_biomass_proteome_percent, "B01", "sup", contextual_data), file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final/Plots/S8_v2/viral_biomass_b01_supernatant.svg", font = "Helvetica", bg = "white")
+graph2svg(x=viral_biomass_plot(viral_biomass_proteome_percent, "B01", "cell", contextual_data), file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Proteomics_figure/clean_final/Plots/S8_v2/viral_biomass_b01.svg", font = "Helvetica", bg = "white")
+
+```
+# Generate supplementary tables 5-7
+```{r}
+#export genome and plasmid proteome for supplementary tables
+defense_proteome <- merge(proteome_matched_normalized, defense_genes, by.y = "Sequence_id", by.x = "qseqid", all.x = TRUE)
+write_tsv(defense_proteome, "/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Supplementary_data/defense_proteome.tsv")
+
+#export viral proteome
+write_tsv(viral_proteome, "/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Supplementary_data/viral_proteome.tsv")
+
+#export viral biomass proteome
+write_tsv(viral_biomass_proteome_percent, "/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Supplementary_data/viral_biomass_proteome.tsv")
+
+```
+
