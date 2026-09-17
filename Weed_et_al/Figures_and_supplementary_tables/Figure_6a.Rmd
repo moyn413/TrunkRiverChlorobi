@@ -1,0 +1,81 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(stats)
+library(ggplot2)
+library(export)
+```
+
+
+```{r}
+setwd("/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Blooms/Bloom_former_review")
+bloomers_db <- read.csv("Bloom_former_review_final.txt", header=TRUE, sep = "\t")
+genome_stats <- read.csv("all_genome_stats.txt", header=TRUE, sep = "\t")
+
+#add genome length to bloomers_db
+bloomers_db <- merge(bloomers_db, genome_stats[ , c("ID", "genome_size")], by.x = "globdb_ID", by.y = "ID")
+
+#somehow some rows get repeated, so take only one:
+bloomers_db <- distinct(bloomers_db)
+
+#manually add TR
+TR <- list("None", "Prosthecochloris sp.",	"Chlorobiota", "Coastal lagoon",	"Woods Hole", "1.00E+09",	"Our paper!",	"","FISH counts","", "High",	"d__Bacteria;p__Bacteroidota_A;c__Chlorobiia;o__Chlorobiales;f__Chlorobiaceae;g__Prosthecochloris;s__","", "", 18, 2308139)
+bloomers_db <- rbind(bloomers_db,TR)
+bloomers_db$Number_of_systems <- as.numeric(bloomers_db$Number_of_systems)
+bloomers_db$genome_size <- as.numeric(bloomers_db$genome_size)
+
+#calculate defense per Mb
+bloomers_db$defense_per_Mb <- (bloomers_db$Number_of_systems / bloomers_db$genome_size) * 1000000
+#write.csv2(bloomers_db, "Bloom_former_review_final_df_norm.txt", sep = "\t")
+
+
+files <- list.files(path="subsets_systems_by_id", full.names=TRUE, recursive=FALSE)
+
+res <- lapply(files, function(x) {
+    t = read.table(x, header=FALSE)
+    t <- merge(t, genome_stats[ , c("ID", "genome_size")], by.x = "V1", by.y = "ID")
+    t$defense_per_Mb <- (t$V2 / t$genome_size) * 1000000
+    
+    sam = bloomers_db[sample(1:nrow(bloomers_db), 20, replace=FALSE),]
+    
+    p = t.test(sam$defense_per_Mb, t$defense_per_Mb)$p.value
+
+    data.frame(
+      Bloomer = mean(sam$defense_per_Mb),
+      Non_bloomer = mean(t$defense_per_Mb),
+      p_val = p
+    )
+})
+
+out_df <- do.call(rbind, res)
+
+#prep for box_plot
+for_plot <- out_df %>% pivot_longer(Bloomer:Non_bloomer)
+#plot
+plot <- ggplot(for_plot, aes(x = name, y = value)) +
+  geom_boxplot(outlier.shape = NA, fill = NA) +
+  # Add the individual data points with jitter to avoid overlap
+  geom_jitter(aes(color = p_val), # Map the 'hp' variable to the color aesthetic
+              position = position_jitter(width = 0.2), # Adjust jitter width
+              size = 3, alpha = 0.8) +
+  # Use a color scale for the continuous variable 'hp'
+  scale_color_viridis_c(option = "plasma") + # You can use other scales like "magma", "inferno" etc.
+  # Add titles and labels
+  labs(x = "Subsample type",
+       y = "Mean number of defense systems per Mb",
+       color = "p-value") +
+  # Apply a clean theme
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black"))
+
+#ggsave(file="bar_plot.svg", plot=plot, width=7, height=4)
+plot
+
+```
+
