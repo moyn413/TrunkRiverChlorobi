@@ -1,0 +1,2235 @@
+gene_callers_id	source	accession	function	e_value
+0	prodigal	AFKMEEHG_02141	hypothetical protein	0
+1	prodigal	AFKMEEHG_02142	IS3 family transposase ISDsp4	0
+2	prodigal	AFKMEEHG_02143	hypothetical protein	0
+3	prodigal	AFKMEEHG_02144	hypothetical protein	0
+4	prodigal	AFKMEEHG_02145	hypothetical protein	0
+5	prodigal	AFKMEEHG_02146	IS3 family transposase ISPpr7	0
+6	prodigal	AFKMEEHG_02147	hypothetical protein	0
+7	prodigal	AFKMEEHG_01086	DNA-invertase hin (hin_2)	0
+8	prodigal	AFKMEEHG_01085	DNA replication and repair protein RecF (recF_2)	0
+9	prodigal	AFKMEEHG_01084	hypothetical protein	0
+10	prodigal	AFKMEEHG_01083	hypothetical protein	0
+11	prodigal	AFKMEEHG_00485	hypothetical protein	0
+12	prodigal	AFKMEEHG_00484	hypothetical protein	0
+13	prodigal	AFKMEEHG_00483	hypothetical protein	0
+14	prodigal	AFKMEEHG_00482	hypothetical protein	0
+15	prodigal	AFKMEEHG_00481	"GTP 3',8-cyclase (moaA_1)"	0
+16	prodigal	AFKMEEHG_00480	hypothetical protein	0
+17	prodigal	AFKMEEHG_00479	hypothetical protein	0
+18	prodigal	AFKMEEHG_00478	hypothetical protein	0
+19	prodigal	AFKMEEHG_00477	hypothetical protein	0
+20	prodigal	AFKMEEHG_00476	hypothetical protein	0
+21	prodigal	AFKMEEHG_00475	hypothetical protein	0
+22	prodigal	AFKMEEHG_00474	HTH-type transcriptional repressor NsrR (nsrR_1)	0
+23	prodigal	AFKMEEHG_00473	Hydroxylamine reductase (hcp)	0
+24	prodigal	AFKMEEHG_00472	hypothetical protein	0
+25	prodigal	AFKMEEHG_00471	hypothetical protein	0
+26	prodigal	AFKMEEHG_02117	Adaptive-response sensory-kinase SasA (sasA_5)	0
+27	prodigal	AFKMEEHG_02116	Phosphate regulon transcriptional regulatory protein PhoB (phoB)	0
+28	prodigal	AFKMEEHG_02115	Transcriptional regulatory protein ZraR (zraR_2)	0
+29	prodigal	AFKMEEHG_01063	Sensor kinase CckA (cckA_2)	0
+30	prodigal	AFKMEEHG_01062	Nucleoid occlusion factor SlmA (slmA)	0
+31	prodigal	AFKMEEHG_01061	Multidrug resistance protein MdtA (mdtA_1)	0
+32	prodigal	AFKMEEHG_01060	putative ABC transporter permease	0
+33	prodigal	AFKMEEHG_01059	Lipoprotein-releasing system ATP-binding protein LolD (lolD_3)	0
+34	prodigal	AFKMEEHG_01058	Outer membrane protein OprM (oprM_1)	0
+35	prodigal	AFKMEEHG_01057	High-affinity proline transporter PutP (putP)	0
+36	prodigal	AFKMEEHG_01056	hypothetical protein	0
+37	prodigal	AFKMEEHG_02058	hypothetical protein	0
+38	prodigal	AFKMEEHG_02057	hypothetical protein	0
+39	prodigal	AFKMEEHG_02056	hypothetical protein	0
+40	prodigal	AFKMEEHG_02055	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP (phoP_1)	0
+41	prodigal	AFKMEEHG_02054	Chemoreceptor glutamine deamidase CheD (cheD)	0
+42	prodigal	AFKMEEHG_02053	Hydroxyethylthiazole kinase (thiM)	0
+43	prodigal	AFKMEEHG_02052	hypothetical protein	0
+44	prodigal	AFKMEEHG_02051	Adaptive-response sensory-kinase SasA (sasA_4)	0
+45	prodigal	AFKMEEHG_02050	Putative ketoacyl reductase (actIII)	0
+46	prodigal	AFKMEEHG_02049	hypothetical protein	0
+47	prodigal	AFKMEEHG_02048	hypothetical protein	0
+48	prodigal	AFKMEEHG_02047	Lipoyl synthase (lipA)	0
+49	prodigal	AFKMEEHG_02046	Putative peroxiredoxin bcp (bcp_2)	0
+50	prodigal	AFKMEEHG_02045	hypothetical protein	0
+51	prodigal	AFKMEEHG_01544	Putative peroxiredoxin bcp (bcp_1)	0
+52	prodigal	AFKMEEHG_01545	hypothetical protein	0
+53	prodigal	AFKMEEHG_01656	hypothetical protein	0
+54	prodigal	AFKMEEHG_01657	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase	0
+55	prodigal	AFKMEEHG_01658	hypothetical protein	0
+56	prodigal	AFKMEEHG_01659	hypothetical protein	0
+57	prodigal	AFKMEEHG_01660	Protein glycosylation K (pglK_2)	0
+58	prodigal	AFKMEEHG_01661	hypothetical protein	0
+59	prodigal	AFKMEEHG_01662	D-inositol-3-phosphate glycosyltransferase (mshA_9)	0
+60	prodigal	AFKMEEHG_01663	hypothetical protein	0
+61	prodigal	AFKMEEHG_01664	hypothetical protein	0
+62	prodigal	AFKMEEHG_01665	Beta-monoglucosyldiacylglycerol synthase	0
+63	prodigal	AFKMEEHG_01666	D-inositol-3-phosphate glycosyltransferase (mshA_10)	0
+64	prodigal	AFKMEEHG_01667	hypothetical protein	0
+65	prodigal	AFKMEEHG_01668	hypothetical protein	0
+66	prodigal	AFKMEEHG_01669	hypothetical protein	0
+67	prodigal	AFKMEEHG_01670	"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (dapH)"	0
+68	prodigal	AFKMEEHG_01671	hypothetical protein	0
+69	prodigal	AFKMEEHG_01672	hypothetical protein	0
+70	prodigal	AFKMEEHG_01673	Serine acetyltransferase (cysE_2)	0
+71	prodigal	AFKMEEHG_01674	hypothetical protein	0
+72	prodigal	AFKMEEHG_01675	Serine-protein kinase RsbW (rsbW)	0
+73	prodigal	AFKMEEHG_01676	Anti-sigma-B factor antagonist (rsbV)	0
+74	prodigal	AFKMEEHG_01677	UTP--glucose-1-phosphate uridylyltransferase (cugP_2)	0
+75	prodigal	AFKMEEHG_01678	hypothetical protein	0
+76	prodigal	AFKMEEHG_01679	putative sugar transferase EpsL (epsL)	0
+77	prodigal	AFKMEEHG_01680	hypothetical protein	0
+78	prodigal	AFKMEEHG_01681	Anaerobic nitric oxide reductase transcription regulator NorR (norR)	0
+79	prodigal	AFKMEEHG_01682	hypothetical protein	0
+80	prodigal	AFKMEEHG_01683	hypothetical protein	0
+81	prodigal	AFKMEEHG_01684	hypothetical protein	0
+82	prodigal	AFKMEEHG_01685	hypothetical protein	0
+83	prodigal	AFKMEEHG_01686	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase (lgt)	0
+84	prodigal	AFKMEEHG_01687	putative iron export permease protein FetB (fetB)	0
+85	prodigal	AFKMEEHG_01688	putative iron export ATP-binding protein FetA (fetA)	0
+86	prodigal	AFKMEEHG_01689	Putative manganese exporter (mneA)	0
+87	prodigal	AFKMEEHG_01690	Outer membrane lipoprotein Blc (blc_3)	0
+88	prodigal	AFKMEEHG_01691	Mycothiol acetyltransferase (mshD)	0
+89	prodigal	AFKMEEHG_01692	Anaerobic nitric oxide reductase flavorubredoxin (norV)	0
+90	prodigal	AFKMEEHG_01693	Lipoprotein-releasing system transmembrane protein LolC (lolC)	0
+91	prodigal	AFKMEEHG_01694	Lipoprotein-releasing system transmembrane protein LolE (lolE_2)	0
+92	prodigal	AFKMEEHG_01695	hypothetical protein	0
+93	prodigal	AFKMEEHG_01696	hypothetical protein	0
+94	prodigal	AFKMEEHG_01697	N-acetyl-gamma-glutamyl-phosphate reductase (argC)	0
+95	prodigal	AFKMEEHG_01698	Arginine biosynthesis bifunctional protein ArgJ (argJ)	0
+96	prodigal	AFKMEEHG_01699	Acetylglutamate kinase (argB)	0
+97	prodigal	AFKMEEHG_01700	Ornithine carbamoyltransferase (argF)	0
+98	prodigal	AFKMEEHG_01701	Arginine repressor (argR)	0
+99	prodigal	AFKMEEHG_01702	Argininosuccinate synthase (argG)	0
+100	prodigal	AFKMEEHG_01703	Cytochrome c551 peroxidase (ccp)	0
+101	prodigal	AFKMEEHG_01704	Long-chain-fatty-acid--CoA ligase (fadD)	0
+102	prodigal	AFKMEEHG_01705	DNA polymerase III PolC-type (polC_1)	0
+103	prodigal	AFKMEEHG_01706	Argininosuccinate lyase (argH)	0
+104	prodigal	AFKMEEHG_01707	Tail-specific protease (prc)	0
+105	prodigal	AFKMEEHG_01708	Fructose-bisphosphate aldolase (fda)	0
+106	prodigal	AFKMEEHG_01709	N-acetylcysteine deacetylase (scmP)	0
+107	prodigal	AFKMEEHG_01710	hypothetical protein	0
+108	prodigal	AFKMEEHG_01711	Ribose-5-phosphate isomerase B (rpiB)	0
+109	prodigal	AFKMEEHG_01712	Polyphosphate kinase (ppk)	0
+110	prodigal	AFKMEEHG_01713	5-formyltetrahydrofolate cyclo-ligase	0
+111	prodigal	AFKMEEHG_01714	putative protein YcgM (ycgM)	0
+112	prodigal	AFKMEEHG_01715	Dihydroorotase (pyrC)	0
+113	prodigal	AFKMEEHG_01716	hypothetical protein	0
+114	prodigal	AFKMEEHG_01717	"2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial (COQ5_2)"	0
+115	prodigal	AFKMEEHG_01718	DNA polymerase III PolC-type (polC_2)	0
+116	prodigal	AFKMEEHG_01719	hypothetical protein	0
+117	prodigal	AFKMEEHG_01720	Aurachin B dehydrogenase (auaH)	0
+118	prodigal	AFKMEEHG_01721	hypothetical protein	0
+119	prodigal	AFKMEEHG_01722	Membrane lipoprotein TmpC (tmpC)	0
+120	prodigal	AFKMEEHG_01723	hypothetical protein	0
+121	prodigal	AFKMEEHG_01724	Sporulation initiation inhibitor protein Soj (soj_2)	0
+122	prodigal	AFKMEEHG_01726	Long-chain-fatty-acid--CoA ligase FadD15	0
+123	prodigal	AFKMEEHG_01727	Adenine DNA glycosylase (mutY)	0
+124	prodigal	AFKMEEHG_01728	50S ribosomal protein L19 (rplS)	0
+125	prodigal	AFKMEEHG_01729	tRNA (guanine-N(1)-)-methyltransferase (trmD)	0
+126	prodigal	AFKMEEHG_01730	Ribosome maturation factor RimM (rimM)	0
+127	prodigal	AFKMEEHG_01731	hypothetical protein	0
+128	prodigal	AFKMEEHG_01732	Signal recognition particle protein (ffh)	0
+129	prodigal	AFKMEEHG_01733	Bifunctional protein HldE (hldE_2)	0
+130	prodigal	AFKMEEHG_01734	hypothetical protein	0
+131	prodigal	AFKMEEHG_01735	hypothetical protein	0
+132	prodigal	AFKMEEHG_01736	hypothetical protein	0
+133	prodigal	AFKMEEHG_01737	hypothetical protein	0
+134	prodigal	AFKMEEHG_01738	Thiamine thiazole synthase (thi4)	0
+135	prodigal	AFKMEEHG_01739	Thiamine-phosphate synthase (thiE_1)	0
+136	prodigal	AFKMEEHG_01740	Thiamine-phosphate synthase (thiE_2)	0
+137	prodigal	AFKMEEHG_01741	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (thiD)	0
+138	prodigal	AFKMEEHG_01742	Proton/glutamate-aspartate symporter (gltP)	0
+139	prodigal	AFKMEEHG_01743	hypothetical protein	0
+140	prodigal	AFKMEEHG_01744	hypothetical protein	0
+141	prodigal	AFKMEEHG_01745	Cytosol aminopeptidase (pepA)	0
+142	prodigal	AFKMEEHG_01746	Bifunctional oligoribonuclease and PAP phosphatase NrnA (nrnA)	0
+143	prodigal	AFKMEEHG_01747	Protein translocase subunit SecA (secA)	0
+144	prodigal	AFKMEEHG_01748	Phosphoribosylformylglycinamidine synthase subunit PurL (purL)	0
+145	prodigal	AFKMEEHG_01749	Bifunctional NAD(P)H-hydrate repair enzyme Nnr (nnr)	0
+146	prodigal	AFKMEEHG_01750	Glutamate-pyruvate aminotransferase AlaC (alaC)	0
+147	prodigal	AFKMEEHG_01751	hypothetical protein	0
+148	prodigal	AFKMEEHG_01752	hypothetical protein	0
+149	prodigal	AFKMEEHG_01753	"GalNAc(5)-diNAcBac-PP-undecaprenol beta-1,3-glucosyltransferase (pglI)"	0
+150	prodigal	AFKMEEHG_01754	hypothetical protein	0
+151	prodigal	AFKMEEHG_01755	hypothetical protein	0
+152	prodigal	AFKMEEHG_01756	hypothetical protein	0
+153	prodigal	AFKMEEHG_01757	hypothetical protein	0
+154	prodigal	AFKMEEHG_01758	hypothetical protein	0
+155	prodigal	AFKMEEHG_01045	hypothetical protein	0
+156	prodigal	AFKMEEHG_01046	hypothetical protein	0
+157	prodigal	AFKMEEHG_01047	Phosphate transport system permease protein PstC 1 (pstC1)	0
+158	prodigal	AFKMEEHG_01048	Phosphate-binding protein PstS 1 (pstS1)	0
+159	prodigal	AFKMEEHG_01049	hypothetical protein	0
+160	prodigal	AFKMEEHG_00795	hypothetical protein	0
+161	prodigal	AFKMEEHG_00796	hypothetical protein	0
+162	prodigal	AFKMEEHG_00797	hypothetical protein	0
+163	prodigal	AFKMEEHG_00798	hypothetical protein	0
+164	prodigal	AFKMEEHG_00799	"Ubiquinone biosynthesis O-methyltransferase, mitochondrial (COQ3)"	0
+165	prodigal	AFKMEEHG_00800	N-acetylmuramic acid 6-phosphate phosphatase (mupP)	0
+166	prodigal	AFKMEEHG_00801	hypothetical protein	0
+167	prodigal	AFKMEEHG_00802	hypothetical protein	0
+168	prodigal	AFKMEEHG_00803	hypothetical protein	0
+169	prodigal	AFKMEEHG_00804	hypothetical protein	0
+170	prodigal	AFKMEEHG_00805	hypothetical protein	0
+171	prodigal	AFKMEEHG_00806	hypothetical protein	0
+172	prodigal	AFKMEEHG_00807	hypothetical protein	0
+173	prodigal	AFKMEEHG_00808	tRNA (guanosine(18)-2'-O)-methyltransferase (trmH)	0
+174	prodigal	AFKMEEHG_00809	hypothetical protein	0
+175	prodigal	AFKMEEHG_00810	Thioredoxin reductase (trxB)	0
+176	prodigal	AFKMEEHG_00811	Thioredoxin (trxA_2)	0
+177	prodigal	AFKMEEHG_00812	DNA polymerase III subunit alpha (dnaE)	0
+178	prodigal	AFKMEEHG_00813	D-inositol-3-phosphate glycosyltransferase (mshA_1)	0
+179	prodigal	AFKMEEHG_00814	Kojibiose phosphorylase (kojP)	0
+180	prodigal	AFKMEEHG_00815	hypothetical protein	0
+181	prodigal	AFKMEEHG_00816	hypothetical protein	0
+182	prodigal	AFKMEEHG_00817	hypothetical protein	0
+183	prodigal	AFKMEEHG_00818	Oxaloacetate decarboxylase alpha chain (oadA)	0
+184	prodigal	AFKMEEHG_00819	oxaloacetate decarboxylase gamma chain (oadG)	0
+185	prodigal	AFKMEEHG_00820	Stress response protein NhaX (nhaX)	0
+186	prodigal	AFKMEEHG_00821	hypothetical protein	0
+187	prodigal	AFKMEEHG_00822	hypothetical protein	0
+188	prodigal	AFKMEEHG_00823	Chaperone protein HtpG (htpG)	0
+189	prodigal	AFKMEEHG_00824	2-keto-3-deoxy-D-glycero-D-galacto-9-phosphonono nic acid phosphatase	0
+190	prodigal	AFKMEEHG_00825	putative nicotinate-nucleotide pyrophosphorylase [carboxylating] (nadC_2)	0
+191	prodigal	AFKMEEHG_00826	7-carboxy-7-deazaguanine synthase (queE_1)	0
+192	prodigal	AFKMEEHG_00827	Anaerobic ribonucleoside-triphosphate reductase (nrdD)	0
+193	prodigal	AFKMEEHG_00828	Polyphosphate:ADP phosphotransferase	0
+194	prodigal	AFKMEEHG_00829	Fumarate hydratase class II (fumC)	0
+195	prodigal	AFKMEEHG_00830	Putative efflux system component YknX (yknX)	0
+196	prodigal	AFKMEEHG_00831	hypothetical protein	0
+197	prodigal	AFKMEEHG_00832	Lipoprotein-releasing system ATP-binding protein LolD (lolD_2)	0
+198	prodigal	AFKMEEHG_00833	Sensor histidine kinase RcsC (rcsC_7)	0
+199	prodigal	AFKMEEHG_01082	Phosphoglucomutase (pgm_1)	0
+200	prodigal	AFKMEEHG_01081	hypothetical protein	0
+201	prodigal	AFKMEEHG_01080	hypothetical protein	0
+202	prodigal	AFKMEEHG_01369	Phosphoglucomutase (pgm_2)	0
+203	prodigal	AFKMEEHG_01368	hypothetical protein	0
+204	prodigal	AFKMEEHG_01367	hypothetical protein	0
+205	prodigal	AFKMEEHG_00581	Peptide chain release factor 3 (prfC)	0
+206	prodigal	AFKMEEHG_00580	C4-dicarboxylic acid transporter DauA (dauA)	0
+207	prodigal	AFKMEEHG_00579	hypothetical protein	0
+208	prodigal	AFKMEEHG_00576	15-cis-phytoene desaturase (pds_2)	0
+209	prodigal	AFKMEEHG_00575	Recombination protein RecR (recR)	0
+210	prodigal	AFKMEEHG_00574	Nucleoid-associated protein YbaB (ybaB)	0
+211	prodigal	AFKMEEHG_00573	Apulose-4-phosphate transketolase subunit B (aptB)	0
+212	prodigal	AFKMEEHG_00572	Ribosomal RNA small subunit methyltransferase A (rsmA)	0
+213	prodigal	AFKMEEHG_00571	hypothetical protein	0
+214	prodigal	AFKMEEHG_00570	Universal stress protein F (uspF)	0
+215	prodigal	AFKMEEHG_00569	hypothetical protein	0
+216	prodigal	AFKMEEHG_00568	hypothetical protein	0
+217	prodigal	AFKMEEHG_00567	hypothetical protein	0
+218	prodigal	AFKMEEHG_00566	Sensor kinase CckA (cckA_1)	0
+219	prodigal	AFKMEEHG_00565	Sensor histidine kinase RcsC (rcsC_6)	0
+220	prodigal	AFKMEEHG_00564	hypothetical protein	0
+221	prodigal	AFKMEEHG_00563	hypothetical protein	0
+222	prodigal	AFKMEEHG_00562	hypothetical protein	0
+223	prodigal	AFKMEEHG_00561	hypothetical protein	0
+224	prodigal	AFKMEEHG_00560	Sensor histidine kinase RcsC (rcsC_5)	0
+225	prodigal	AFKMEEHG_00559	hypothetical protein	0
+226	prodigal	AFKMEEHG_00558	hypothetical protein	0
+227	prodigal	AFKMEEHG_00557	Sensor histidine kinase RcsC (rcsC_4)	0
+228	prodigal	AFKMEEHG_00556	hypothetical protein	0
+229	prodigal	AFKMEEHG_00555	hypothetical protein	0
+230	prodigal	AFKMEEHG_00554	hypothetical protein	0
+231	prodigal	AFKMEEHG_00553	hypothetical protein	0
+232	prodigal	AFKMEEHG_00552	Sulfate/thiosulfate import ATP-binding protein CysA (cysA)	0
+233	prodigal	AFKMEEHG_00551	Putative aliphatic sulfonates transport permease protein SsuC (ssuC)	0
+234	prodigal	AFKMEEHG_00550	hypothetical protein	0
+235	prodigal	AFKMEEHG_00549	Vitamin B12 transporter BtuB (btuB_2)	0
+236	prodigal	AFKMEEHG_00548	Sensor histidine kinase RcsC (rcsC_3)	0
+237	prodigal	AFKMEEHG_00547	hypothetical protein	0
+238	prodigal	AFKMEEHG_00546	hypothetical protein	0
+239	prodigal	AFKMEEHG_00545	hypothetical protein	0
+240	prodigal	AFKMEEHG_00544	Multidrug transporter EmrE (emrE)	0
+241	prodigal	AFKMEEHG_00543	hypothetical protein	0
+242	prodigal	AFKMEEHG_00542	hypothetical protein	0
+243	prodigal	AFKMEEHG_00541	Glycine/sarcosine/dimethylglycine N-methyltransferase	0
+244	prodigal	AFKMEEHG_00540	Putative mycofactocin radical SAM maturase MftC (mftC_1)	0
+245	prodigal	AFKMEEHG_00539	Arsenate reductase (arsC_2)	0
+246	prodigal	AFKMEEHG_00538	hypothetical protein	0
+247	prodigal	AFKMEEHG_00537	hypothetical protein	0
+248	prodigal	AFKMEEHG_00536	hypothetical protein	0
+249	prodigal	AFKMEEHG_00535	Arsenate reductase (arsC_1)	0
+250	prodigal	AFKMEEHG_00534	Arsenical-resistance protein Acr3 (acr3)	0
+251	prodigal	AFKMEEHG_00533	Ribosomal protein S6--L-glutamate ligase (rimK)	0
+252	prodigal	AFKMEEHG_00532	hypothetical protein	0
+253	prodigal	AFKMEEHG_00531	hypothetical protein	0
+254	prodigal	AFKMEEHG_00530	hypothetical protein	0
+255	prodigal	AFKMEEHG_00529	"GTP 3',8-cyclase (moaA_2)"	0
+256	prodigal	AFKMEEHG_00528	hypothetical protein	0
+257	prodigal	AFKMEEHG_00527	ECF RNA polymerase sigma factor SigW (sigW)	0
+258	prodigal	AFKMEEHG_00526	hypothetical protein	0
+259	prodigal	AFKMEEHG_00525	hypothetical protein	0
+260	prodigal	AFKMEEHG_00524	hypothetical protein	0
+261	prodigal	AFKMEEHG_00523	hypothetical protein	0
+262	prodigal	AFKMEEHG_00522	hypothetical protein	0
+263	prodigal	AFKMEEHG_00521	hypothetical protein	0
+264	prodigal	AFKMEEHG_00520	hypothetical protein	0
+265	prodigal	AFKMEEHG_00519	Quinone reductase (chrR)	0
+266	prodigal	AFKMEEHG_00518	hypothetical protein	0
+267	prodigal	AFKMEEHG_00517	hypothetical protein	0
+268	prodigal	AFKMEEHG_00516	hypothetical protein	0
+269	prodigal	AFKMEEHG_00515	hypothetical protein	0
+270	prodigal	AFKMEEHG_00514	Type 3 secretion system secretin (sctC_1)	0
+271	prodigal	AFKMEEHG_00513	hypothetical protein	0
+272	prodigal	AFKMEEHG_00512	hypothetical protein	0
+273	prodigal	AFKMEEHG_00511	hypothetical protein	0
+274	prodigal	AFKMEEHG_00510	hypothetical protein	0
+275	prodigal	AFKMEEHG_00509	hypothetical protein	0
+276	prodigal	AFKMEEHG_00508	hypothetical protein	0
+277	prodigal	AFKMEEHG_00507	hypothetical protein	0
+278	prodigal	AFKMEEHG_00506	putative protein/MSMEI_1241	0
+279	prodigal	AFKMEEHG_00505	hypothetical protein	0
+280	prodigal	AFKMEEHG_00504	Chromosome partition protein Smc (smc_2)	0
+281	prodigal	AFKMEEHG_00503	hypothetical protein	0
+282	prodigal	AFKMEEHG_00502	Formylglycine-generating enzyme	0
+283	prodigal	AFKMEEHG_00501	ATP-dependent zinc metalloprotease FtsH (ftsH_1)	0
+284	prodigal	AFKMEEHG_00500	Chaperone protein DnaK (dnaK_1)	0
+285	prodigal	AFKMEEHG_00499	hypothetical protein	0
+286	prodigal	AFKMEEHG_00498	hypothetical protein	0
+287	prodigal	AFKMEEHG_00497	"2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial (COQ5_1)"	0
+288	prodigal	AFKMEEHG_00496	Thiol:disulfide interchange protein DsbD (dsbD_1)	0
+289	prodigal	AFKMEEHG_00495	Thiol-disulfide oxidoreductase ResA (resA_1)	0
+290	prodigal	AFKMEEHG_00494	hypothetical protein	0
+291	prodigal	AFKMEEHG_00493	hypothetical protein	0
+292	prodigal	AFKMEEHG_00492	L-cysteine S-thiosulfotransferase subunit SoxA (soxA)	0
+293	prodigal	AFKMEEHG_00491	hypothetical protein	0
+294	prodigal	AFKMEEHG_00490	hypothetical protein	0
+295	prodigal	AFKMEEHG_00489	hypothetical protein	0
+296	prodigal	AFKMEEHG_00488	Sulfide dehydrogenase [flavocytochrome c] flavoprotein chain (fccB_1)	0
+297	prodigal	AFKMEEHG_00182	hypothetical protein	0
+298	prodigal	AFKMEEHG_00183	hypothetical protein	0
+299	prodigal	AFKMEEHG_00184	hypothetical protein	0
+300	prodigal	AFKMEEHG_01910	hypothetical protein	0
+301	prodigal	AFKMEEHG_01909	hypothetical protein	0
+302	prodigal	AFKMEEHG_01908	Heme/hemopexin transporter protein HuxB (hxuB)	0
+303	prodigal	AFKMEEHG_01907	hypothetical protein	0
+304	prodigal	AFKMEEHG_01906	hypothetical protein	0
+305	prodigal	AFKMEEHG_01905	hypothetical protein	0
+306	prodigal	AFKMEEHG_01904	hypothetical protein	0
+307	prodigal	AFKMEEHG_01317	hypothetical protein	0
+308	prodigal	AFKMEEHG_01316	hypothetical protein	0
+309	prodigal	AFKMEEHG_01315	hypothetical protein	0
+310	prodigal	AFKMEEHG_01314	hypothetical protein	0
+311	prodigal	AFKMEEHG_01313	hypothetical protein	0
+312	prodigal	AFKMEEHG_01312	IS5 family transposase ISCph12	0
+313	prodigal	AFKMEEHG_01311	hypothetical protein	0
+314	prodigal	AFKMEEHG_01310	hypothetical protein	0
+315	prodigal	AFKMEEHG_01309	hypothetical protein	0
+316	prodigal	AFKMEEHG_01308	hypothetical protein	0
+317	prodigal	AFKMEEHG_01307	hypothetical protein	0
+318	prodigal	AFKMEEHG_01306	hypothetical protein	0
+319	prodigal	AFKMEEHG_01305	hypothetical protein	0
+320	prodigal	AFKMEEHG_01289	hypothetical protein	0
+321	prodigal	AFKMEEHG_01288	hypothetical protein	0
+322	prodigal	AFKMEEHG_01287	hypothetical protein	0
+323	prodigal	AFKMEEHG_01286	putative type I restriction enzymeP M protein	0
+324	prodigal	AFKMEEHG_01285	hypothetical protein	0
+325	prodigal	AFKMEEHG_01284	hypothetical protein	0
+326	prodigal	AFKMEEHG_01283	hypothetical protein	0
+327	prodigal	AFKMEEHG_01282	hypothetical protein	0
+328	prodigal	AFKMEEHG_01281	hypothetical protein	0
+329	prodigal	AFKMEEHG_01280	hypothetical protein	0
+330	prodigal	AFKMEEHG_02107	hypothetical protein	0
+331	prodigal	AFKMEEHG_02106	hypothetical protein	0
+332	prodigal	AFKMEEHG_00607	hypothetical protein	0
+333	prodigal	AFKMEEHG_00606	hypothetical protein	0
+334	prodigal	AFKMEEHG_00605	L-galactonate-5-dehydrogenase (lgoD_2)	0
+335	prodigal	AFKMEEHG_00604	Na( )/H( ) antiporter subunit A (mrpA)	0
+336	prodigal	AFKMEEHG_00603	Na( )/H( ) antiporter subunit B (mrpB)	0
+337	prodigal	AFKMEEHG_00602	Na( )/H( ) antiporter subunit C (mrpC)	0
+338	prodigal	AFKMEEHG_00601	Na( )/H( ) antiporter subunit D (mrpD)	0
+339	prodigal	AFKMEEHG_00600	Na( )/H( ) antiporter subunit E (mrpE)	0
+340	prodigal	AFKMEEHG_00599	hypothetical protein	0
+341	prodigal	AFKMEEHG_00598	Na( )/H( ) antiporter subunit G (mrpG)	0
+342	prodigal	AFKMEEHG_00597	Protein UmuC (umuC)	0
+343	prodigal	AFKMEEHG_00596	hypothetical protein	0
+344	prodigal	AFKMEEHG_00595	hypothetical protein	0
+345	prodigal	AFKMEEHG_00594	Cystathionine beta-lyase (metC)	0
+346	prodigal	AFKMEEHG_00593	hypothetical protein	0
+347	prodigal	AFKMEEHG_00592	hypothetical protein	0
+348	prodigal	AFKMEEHG_00591	hypothetical protein	0
+349	prodigal	AFKMEEHG_00590	hypothetical protein	0
+350	prodigal	AFKMEEHG_00589	hypothetical protein	0
+351	prodigal	AFKMEEHG_00588	Thioredoxin 1 (trxA_1)	0
+352	prodigal	AFKMEEHG_00587	"6-carboxy-5,6,7,8-tetrahydropterin synthase (queD)"	0
+353	prodigal	AFKMEEHG_00586	GTP cyclohydrolase 1 (folE)	0
+354	prodigal	AFKMEEHG_00585	hypothetical protein	0
+355	prodigal	AFKMEEHG_00584	NAD(P)H-quinone oxidoreductase subunit 2 (ndhB_2)	0
+356	prodigal	AFKMEEHG_00583	NAD(P)H-quinone oxidoreductase chain 4 1 (ndhD1)	0
+357	prodigal	AFKMEEHG_00582	"NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic (ndhB_1)"	0
+358	prodigal	AFKMEEHG_00633	hypothetical protein	0
+359	prodigal	AFKMEEHG_00634	hypothetical protein	0
+360	prodigal	AFKMEEHG_00635	NADH-quinone oxidoreductase subunit K (nuoK)	0
+361	prodigal	AFKMEEHG_00636	hypothetical protein	0
+362	prodigal	AFKMEEHG_00637	"NAD(P)H-quinone oxidoreductase subunit I, chloroplastic (ndhI_1)"	0
+363	prodigal	AFKMEEHG_00638	NAD(P)H-quinone oxidoreductase subunit 1 (ndhA)	0
+364	prodigal	AFKMEEHG_00639	NAD(P)H-quinone oxidoreductase subunit H (ndhH)	0
+365	prodigal	AFKMEEHG_00640	"NAD(P)H-quinone oxidoreductase subunit J, chloroplastic (ndhJ)"	0
+366	prodigal	AFKMEEHG_00641	NADH-quinone oxidoreductase subunit B (nuoB)	0
+367	prodigal	AFKMEEHG_00642	"NAD(P)H-quinone oxidoreductase subunit 3, chloroplastic (ndhC)"	0
+368	prodigal	AFKMEEHG_00643	putative protein	0
+369	prodigal	AFKMEEHG_00644	hypothetical protein	0
+370	prodigal	AFKMEEHG_00645	putative protein	0
+371	prodigal	AFKMEEHG_00646	hypothetical protein	0
+372	prodigal	AFKMEEHG_00647	Beta-barrel assembly-enhancing protease (bepA_2)	0
+373	prodigal	AFKMEEHG_00648	Ferrochelatase (hemH_1)	0
+374	prodigal	AFKMEEHG_00649	hypothetical protein	0
+375	prodigal	AFKMEEHG_00652	AP-4-A phosphorylase	0
+376	prodigal	AFKMEEHG_00653	hypothetical protein	0
+377	prodigal	AFKMEEHG_00654	Antibiotic efflux pump outer membrane protein ArpC (arpC)	0
+378	prodigal	AFKMEEHG_00655	Replication-associated recombination protein A (rarA)	0
+379	prodigal	AFKMEEHG_00656	Riboflavin synthase (ribE)	0
+380	prodigal	AFKMEEHG_00657	Thiol peroxidase (tpx)	0
+381	prodigal	AFKMEEHG_00658	hypothetical protein	0
+382	prodigal	AFKMEEHG_00659	hypothetical protein	0
+383	prodigal	AFKMEEHG_00660	Riboflavin biosynthesis protein RibD (ribD)	0
+384	prodigal	AFKMEEHG_00661	tRNA-specific adenosine deaminase (tadA_1)	0
+385	prodigal	AFKMEEHG_00662	hypothetical protein	0
+386	prodigal	AFKMEEHG_00663	hypothetical protein	0
+387	prodigal	AFKMEEHG_00664	hypothetical protein	0
+388	prodigal	AFKMEEHG_01583	hypothetical protein	0
+389	prodigal	AFKMEEHG_01584	hypothetical protein	0
+390	prodigal	AFKMEEHG_01585	Histidine biosynthesis bifunctional protein HisB (hisB)	0
+391	prodigal	AFKMEEHG_01586	Ribonuclease Y (rny)	0
+392	prodigal	AFKMEEHG_01587	hypothetical protein	0
+393	prodigal	AFKMEEHG_01588	hypothetical protein	0
+394	prodigal	AFKMEEHG_01589	Phenylalanine--tRNA ligase beta subunit (pheT)	0
+395	prodigal	AFKMEEHG_01594	hypothetical protein	0
+396	prodigal	AFKMEEHG_01595	Multidrug resistance protein MdtB (mdtB)	0
+397	prodigal	AFKMEEHG_01596	hypothetical protein	0
+398	prodigal	AFKMEEHG_01597	hypothetical protein	0
+399	prodigal	AFKMEEHG_01598	Bifunctional protein GlmU (glmU_1)	0
+400	prodigal	AFKMEEHG_01599	S-adenosylmethionine synthase (metK)	0
+401	prodigal	AFKMEEHG_01600	Adenosylhomocysteinase (ahcY)	0
+402	prodigal	AFKMEEHG_01602	N-(5'-phosphoribosyl)anthranilate isomerase (trpF)	0
+403	prodigal	AFKMEEHG_01603	Haloalkane dehalogenase (dhmA)	0
+404	prodigal	AFKMEEHG_01604	hypothetical protein	0
+405	prodigal	AFKMEEHG_01605	"L-lysine 2,3-aminomutase (kamA)"	0
+406	prodigal	AFKMEEHG_01606	Sodium/glucose cotransporter (sglT_3)	0
+407	prodigal	AFKMEEHG_01607	N-acetyltransferase YodP (yodP)	0
+408	prodigal	AFKMEEHG_01608	hypothetical protein	0
+409	prodigal	AFKMEEHG_01609	hypothetical protein	0
+410	prodigal	AFKMEEHG_01610	Small-conductance mechanosensitive channel (mscS_1)	0
+411	prodigal	AFKMEEHG_01611	Multidrug export protein MepA (mepA)	0
+412	prodigal	AFKMEEHG_01612	hypothetical protein	0
+413	prodigal	AFKMEEHG_01613	Multidrug resistance protein MdtA (mdtA_2)	0
+414	prodigal	AFKMEEHG_01614	Nickel and cobalt resistance protein CnrA (cnrA)	0
+415	prodigal	AFKMEEHG_01615	hypothetical protein	0
+416	prodigal	AFKMEEHG_01616	hypothetical protein	0
+417	prodigal	AFKMEEHG_01297	hypothetical protein	0
+418	prodigal	AFKMEEHG_01296	hypothetical protein	0
+419	prodigal	AFKMEEHG_01295	Bacillibactin exporter (ymfD)	0
+420	prodigal	AFKMEEHG_01294	CTP pyrophosphohydrolase (nudG)	0
+421	prodigal	AFKMEEHG_01293	Type I secretion system membrane fusion protein PrsE (prsE_2)	0
+422	prodigal	AFKMEEHG_01292	Toxin RTX-I translocation ATP-binding protein (apxIB_1)	0
+423	prodigal	AFKMEEHG_01291	Outer membrane efflux protein BepC (bepC)	0
+424	prodigal	AFKMEEHG_02272	Toxin RTX-I translocation ATP-binding protein (apxIB_2)	0
+425	prodigal	AFKMEEHG_02271	hypothetical protein	0
+426	prodigal	AFKMEEHG_02270	hypothetical protein	0
+427	prodigal	AFKMEEHG_01903	hypothetical protein	0
+428	prodigal	AFKMEEHG_01050	hypothetical protein	0
+429	prodigal	AFKMEEHG_01051	hypothetical protein	0
+430	prodigal	AFKMEEHG_01052	hypothetical protein	0
+431	prodigal	AFKMEEHG_00181	hypothetical protein	0
+432	prodigal	AFKMEEHG_00180	Sensor histidine kinase RcsC (rcsC_2)	0
+433	prodigal	AFKMEEHG_00179	hypothetical protein	0
+434	prodigal	AFKMEEHG_00178	Nuclease SbcCD subunit C (sbcC)	0
+435	prodigal	AFKMEEHG_00612	hypothetical protein	0
+436	prodigal	AFKMEEHG_00611	ADP-ribosyl-[dinitrogen reductase] glycohydrolase (draG)	0
+437	prodigal	AFKMEEHG_00610	Protein McrC (mcrC)	0
+438	prodigal	AFKMEEHG_00609	hypothetical protein	0
+439	prodigal	AFKMEEHG_00608	hypothetical protein	0
+440	prodigal	AFKMEEHG_01430	hypothetical protein	0
+441	prodigal	AFKMEEHG_01431	hypothetical protein	0
+442	prodigal	AFKMEEHG_01432	hypothetical protein	0
+443	prodigal	AFKMEEHG_01433	hypothetical protein	0
+444	prodigal	AFKMEEHG_01434	Putative nuclease YhcG (yhcG)	0
+445	prodigal	AFKMEEHG_01435	hypothetical protein	0
+446	prodigal	AFKMEEHG_01436	hypothetical protein	0
+447	prodigal	AFKMEEHG_01437	hypothetical protein	0
+448	prodigal	AFKMEEHG_01438	hypothetical protein	0
+449	prodigal	AFKMEEHG_01439	cGAMP-activated phospholipase (capV)	0
+450	prodigal	AFKMEEHG_01440	hypothetical protein	0
+451	prodigal	AFKMEEHG_01441	hypothetical protein	0
+452	prodigal	AFKMEEHG_01442	hypothetical protein	0
+453	prodigal	AFKMEEHG_01443	hypothetical protein	0
+454	prodigal	AFKMEEHG_01444	hypothetical protein	0
+455	prodigal	AFKMEEHG_01445	hypothetical protein	0
+456	prodigal	AFKMEEHG_01446	hypothetical protein	0
+457	prodigal	AFKMEEHG_01447	hypothetical protein	0
+458	prodigal	AFKMEEHG_01448	hypothetical protein	0
+459	prodigal	AFKMEEHG_02083	Putative peroxiredoxin bcp (bcp_3)	0
+460	prodigal	AFKMEEHG_02082	NADH pyrophosphatase (nudC)	0
+461	prodigal	AFKMEEHG_02081	hypothetical protein	0
+462	prodigal	AFKMEEHG_02080	Miniconductance mechanosensitive channel YbdG (ybdG)	0
+463	prodigal	AFKMEEHG_02079	Alkaline phosphatase synthesis sensor protein PhoR (phoR_2)	0
+464	prodigal	AFKMEEHG_02078	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP (phoP_2)	0
+465	prodigal	AFKMEEHG_02077	Oligopeptide transport ATP-binding protein OppD (oppD)	0
+466	prodigal	AFKMEEHG_02076	Transcription-repair-coupling factor (mfd)	0
+467	prodigal	AFKMEEHG_02075	Na( )-translocating NADH-quinone reductase subunit F (nqrF_3)	0
+468	prodigal	AFKMEEHG_02074	Na( )-translocating NADH-quinone reductase subunit F (nqrF_2)	0
+469	prodigal	AFKMEEHG_02073	Succinate dehydrogenase iron-sulfur subunit (sdhB)	0
+470	prodigal	AFKMEEHG_02072	Alanine dehydrogenase (ald)	0
+471	prodigal	AFKMEEHG_02071	Phytoene desaturase (lycopene-forming) (crtI)	0
+472	prodigal	AFKMEEHG_02070	ECF RNA polymerase sigma factor SigR (sigR)	0
+473	prodigal	AFKMEEHG_02069	hypothetical protein	0
+474	prodigal	AFKMEEHG_02068	hypothetical protein	0
+475	prodigal	AFKMEEHG_02067	hypothetical protein	0
+476	prodigal	AFKMEEHG_02066	Chaperone protein DnaK (dnaK_2)	0
+477	prodigal	AFKMEEHG_02065	hypothetical protein	0
+478	prodigal	AFKMEEHG_02064	hypothetical protein	0
+479	prodigal	AFKMEEHG_02063	Cell division coordinator CpoB (cpoB_2)	0
+480	prodigal	AFKMEEHG_02062	Peptidoglycan-associated lipoprotein (pal_2)	0
+481	prodigal	AFKMEEHG_02061	Peptidoglycan-associated lipoprotein (pal_1)	0
+482	prodigal	AFKMEEHG_02060	Tol-Pal system protein TolB (tolB)	0
+483	prodigal	AFKMEEHG_02059	hypothetical protein	0
+484	prodigal	AFKMEEHG_01318	Tol-Pal system protein TolQ (tolQ)	0
+485	prodigal	AFKMEEHG_01319	hypothetical protein	0
+486	prodigal	AFKMEEHG_01320	Dihydroxy-acid dehydratase (ilvD)	0
+487	prodigal	AFKMEEHG_01321	Acetolactate synthase large subunit (ilvB)	0
+488	prodigal	AFKMEEHG_01322	Acetolactate synthase small subunit (ilvH)	0
+489	prodigal	AFKMEEHG_01323	Ketol-acid reductoisomerase (NAD( )) (ilvC)	0
+490	prodigal	AFKMEEHG_01324	3-isopropylmalate dehydrogenase (leuB)	0
+491	prodigal	AFKMEEHG_01325	2-isopropylmalate synthase (leuA_2)	0
+492	prodigal	AFKMEEHG_01326	3-isopropylmalate dehydratase large subunit (leuC)	0
+493	prodigal	AFKMEEHG_01327	"2,3-dimethylmalate dehydratase small subunit (DmdB)"	0
+494	prodigal	AFKMEEHG_01328	(R)-citramalate synthase (cimA)	0
+495	prodigal	AFKMEEHG_01329	Methylglyoxal synthase (mgsA)	0
+496	prodigal	AFKMEEHG_01330	hypothetical protein	0
+497	prodigal	AFKMEEHG_01331	hypothetical protein	0
+498	prodigal	AFKMEEHG_01332	Sepiapterin reductase	0
+499	prodigal	AFKMEEHG_01333	putative protein YqeY (yqeY)	0
+500	prodigal	AFKMEEHG_01334	Serine--tRNA ligase (serS)	0
+501	prodigal	AFKMEEHG_01335	Homoserine O-acetyltransferase (metXA)	0
+502	prodigal	AFKMEEHG_01336	O-acetyl-L-homoserine sulfhydrylase 1 (oah1)	0
+503	prodigal	AFKMEEHG_01337	Ribosomal RNA small subunit methyltransferase B (rsmB)	0
+504	prodigal	AFKMEEHG_01338	Tyrosine recombinase XerD (xerD)	0
+505	prodigal	AFKMEEHG_01339	hypothetical protein	0
+506	prodigal	AFKMEEHG_01340	Ribonuclease	0
+507	prodigal	AFKMEEHG_01341	hypothetical protein	0
+508	prodigal	AFKMEEHG_01342	hypothetical protein	0
+509	prodigal	AFKMEEHG_01343	ATP-dependent RNA helicase DeaD (deaD)	0
+510	prodigal	AFKMEEHG_01344	hypothetical protein	0
+511	prodigal	AFKMEEHG_01345	3-deoxy-D-manno-octulosonic acid transferase (kdtA)	0
+512	prodigal	AFKMEEHG_01346	hypothetical protein	0
+513	prodigal	AFKMEEHG_01347	4-hydroxythreonine-4-phosphate dehydrogenase (pdxA)	0
+514	prodigal	AFKMEEHG_01348	Cell division ATP-binding protein FtsE (ftsE)	0
+515	prodigal	AFKMEEHG_01349	hypothetical protein	0
+516	prodigal	AFKMEEHG_01350	Quinolinate synthase A (nadA)	0
+517	prodigal	AFKMEEHG_01351	10 kDa chaperonin (groS)	0
+518	prodigal	AFKMEEHG_01352	"Cadmium, cobalt and zinc/H( )-K( ) antiporter (czcD_1)"	0
+519	prodigal	AFKMEEHG_01353	hypothetical protein	0
+520	prodigal	AFKMEEHG_01354	hypothetical protein	0
+521	prodigal	AFKMEEHG_01355	"Peptidoglycan D,D-transpeptidase MrdA (mrdA)"	0
+522	prodigal	AFKMEEHG_01356	putative FAD-linked oxidoreductase	0
+523	prodigal	AFKMEEHG_01357	SsrA-binding protein (smpB)	0
+524	prodigal	AFKMEEHG_01358	Tyrosine--tRNA ligase (tyrS)	0
+525	prodigal	AFKMEEHG_01359	Pyruvoyl-dependent arginine decarboxylase (pdaD)	0
+526	prodigal	AFKMEEHG_01360	hypothetical protein	0
+527	prodigal	AFKMEEHG_01361	L-aspartate oxidase (nadB)	0
+528	prodigal	AFKMEEHG_01362	NH(3)-dependent NAD( ) synthetase (nadE_2)	0
+529	prodigal	AFKMEEHG_01363	hypothetical protein	0
+530	prodigal	AFKMEEHG_01364	Murein hydrolase activator EnvC (envC)	0
+531	prodigal	AFKMEEHG_01365	Tyrosine recombinase XerC (xerC_3)	0
+532	prodigal	AFKMEEHG_01366	hypothetical protein	0
+533	prodigal	AFKMEEHG_00169	hypothetical protein	0
+534	prodigal	AFKMEEHG_00168	hypothetical protein	0
+535	prodigal	AFKMEEHG_00167	hypothetical protein	0
+536	prodigal	AFKMEEHG_00166	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (murA)	0
+537	prodigal	AFKMEEHG_00161	hypothetical protein	0
+538	prodigal	AFKMEEHG_00160	hypothetical protein	0
+539	prodigal	AFKMEEHG_00159	hypothetical protein	0
+540	prodigal	AFKMEEHG_00158	hypothetical protein	0
+541	prodigal	AFKMEEHG_00157	Aconitate hydratase B (acnB)	0
+542	prodigal	AFKMEEHG_00156	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (queA_1)	0
+543	prodigal	AFKMEEHG_00155	Histidinol dehydrogenase (hisD)	0
+544	prodigal	AFKMEEHG_00154	Cell shape-determining protein MreB (mreB)	0
+545	prodigal	AFKMEEHG_00153	N-acetyl-alpha-D-glucosaminyl L-malate synthase (bshA)	0
+546	prodigal	AFKMEEHG_00152	hypothetical protein	0
+547	prodigal	AFKMEEHG_00151	hypothetical protein	0
+548	prodigal	AFKMEEHG_00150	hypothetical protein	0
+549	prodigal	AFKMEEHG_00149	hypothetical protein	0
+550	prodigal	AFKMEEHG_00148	UDP-glucose 6-dehydrogenase (ugd_1)	0
+551	prodigal	AFKMEEHG_00147	Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase (arnC_1)	0
+552	prodigal	AFKMEEHG_00146	hypothetical protein	0
+553	prodigal	AFKMEEHG_01279	hypothetical protein	0
+554	prodigal	AFKMEEHG_01278	Polysialic acid transport ATP-binding protein KpsT (kpsT)	0
+555	prodigal	AFKMEEHG_01277	Polysialic acid transport protein KpsM (kpsM)	0
+556	prodigal	AFKMEEHG_01276	hypothetical protein	0
+557	prodigal	AFKMEEHG_01275	hypothetical protein	0
+558	prodigal	AFKMEEHG_01274	hypothetical protein	0
+559	prodigal	AFKMEEHG_01273	hypothetical protein	0
+560	prodigal	AFKMEEHG_01272	Bicyclomycin resistance protein (bcr)	0
+561	prodigal	AFKMEEHG_01271	hypothetical protein	0
+562	prodigal	AFKMEEHG_01270	hypothetical protein	0
+563	prodigal	AFKMEEHG_01269	Tryptophan synthase alpha chain (trpA)	0
+564	prodigal	AFKMEEHG_01268	hypothetical protein	0
+565	prodigal	AFKMEEHG_01267	7-cyano-7-deazaguanine synthase (queC)	0
+566	prodigal	AFKMEEHG_01266	60 kDa chaperonin (groL)	0
+567	prodigal	AFKMEEHG_01265	10 kDa chaperonin 1 (groS1)	0
+568	prodigal	AFKMEEHG_01264	hypothetical protein	0
+569	prodigal	AFKMEEHG_01263	UvrABC system protein A (uvrA_1)	0
+570	prodigal	AFKMEEHG_01262	HTH-type transcriptional repressor NsrR (nsrR_2)	0
+571	prodigal	AFKMEEHG_01261	Haloalkane dehalogenase 2 (dhmA2)	0
+572	prodigal	AFKMEEHG_01260	LPS-assembly protein LptD (lptD)	0
+573	prodigal	AFKMEEHG_01259	Tryptophan synthase beta chain (trpB_1)	0
+574	prodigal	AFKMEEHG_01257	Alkaline phosphatase synthesis sensor protein PhoR (phoR_1)	0
+575	prodigal	AFKMEEHG_01938	Iron transporter MagA (magA)	0
+576	prodigal	AFKMEEHG_01937	Ribonuclease R (rnr)	0
+577	prodigal	AFKMEEHG_01936	hypothetical protein	0
+578	prodigal	AFKMEEHG_01935	Metal cation efflux system protein CzcD (czcD_2)	0
+579	prodigal	AFKMEEHG_01934	ATP-dependent RecD-like DNA helicase (recD2_1)	0
+580	prodigal	AFKMEEHG_01933	hypothetical protein	0
+581	prodigal	AFKMEEHG_01932	hypothetical protein	0
+582	prodigal	AFKMEEHG_01931	hypothetical protein	0
+583	prodigal	AFKMEEHG_01930	hypothetical protein	0
+584	prodigal	AFKMEEHG_01929	Rubrerythrin-2 (rbr2)	0
+585	prodigal	AFKMEEHG_01928	Peroxide-responsive repressor PerR (perR_3)	0
+586	prodigal	AFKMEEHG_01927	Outer membrane protein OprM (oprM_2)	0
+587	prodigal	AFKMEEHG_01926	Efflux pump membrane transporter BepE (bepE)	0
+588	prodigal	AFKMEEHG_01925	Multidrug resistance protein MexA (mexA)	0
+589	prodigal	AFKMEEHG_01924	hypothetical protein	0
+590	prodigal	AFKMEEHG_01923	HTH-type transcriptional activator RhaS (rhaS_1)	0
+591	prodigal	AFKMEEHG_01922	Calcium-transporting ATPase 1	0
+592	prodigal	AFKMEEHG_01921	Transposon Tn3 resolvase (tnpR)	0
+593	prodigal	AFKMEEHG_01053	hypothetical protein	0
+594	prodigal	AFKMEEHG_01054	hypothetical protein	0
+595	prodigal	AFKMEEHG_01055	DNA-invertase hin (hin_1)	0
+596	prodigal	AFKMEEHG_01958	DNA-invertase hin (hin_3)	0
+597	prodigal	AFKMEEHG_01959	hypothetical protein	0
+598	prodigal	AFKMEEHG_01960	hypothetical protein	0
+599	prodigal	AFKMEEHG_01961	ATP-dependent RecD-like DNA helicase (recD2_2)	0
+600	prodigal	AFKMEEHG_01962	hypothetical protein	0
+601	prodigal	AFKMEEHG_01303	hypothetical protein	0
+602	prodigal	AFKMEEHG_01302	hypothetical protein	0
+603	prodigal	AFKMEEHG_01301	putative protein YxeI (yxeI)	0
+604	prodigal	AFKMEEHG_01300	hypothetical protein	0
+605	prodigal	AFKMEEHG_01299	hypothetical protein	0
+606	prodigal	AFKMEEHG_01298	hypothetical protein	0
+607	prodigal	AFKMEEHG_01920	hypothetical protein	0
+608	prodigal	AFKMEEHG_01919	hypothetical protein	0
+609	prodigal	AFKMEEHG_01918	hypothetical protein	0
+610	prodigal	AFKMEEHG_01917	hypothetical protein	0
+611	prodigal	AFKMEEHG_01916	hypothetical protein	0
+612	prodigal	AFKMEEHG_01915	hypothetical protein	0
+613	prodigal	AFKMEEHG_01914	(S)-2-haloacid dehalogenase	0
+614	prodigal	AFKMEEHG_01913	hypothetical protein	0
+615	prodigal	AFKMEEHG_01912	hypothetical protein	0
+616	prodigal	AFKMEEHG_01911	Tyrosine recombinase XerC (xerC_5)	0
+617	prodigal	AFKMEEHG_02021	hypothetical protein	0
+618	prodigal	AFKMEEHG_02022	hypothetical protein	0
+619	prodigal	AFKMEEHG_02023	hypothetical protein	0
+620	prodigal	AFKMEEHG_02024	hypothetical protein	0
+621	prodigal	AFKMEEHG_02025	hypothetical protein	0
+622	prodigal	AFKMEEHG_02026	hypothetical protein	0
+623	prodigal	AFKMEEHG_02027	hypothetical protein	0
+624	prodigal	AFKMEEHG_02028	hypothetical protein	0
+625	prodigal	AFKMEEHG_02029	hypothetical protein	0
+626	prodigal	AFKMEEHG_02030	Copper-exporting P-type ATPase (copA)	0
+627	prodigal	AFKMEEHG_02031	hypothetical protein	0
+628	prodigal	AFKMEEHG_02032	hypothetical protein	0
+629	prodigal	AFKMEEHG_02033	hypothetical protein	0
+630	prodigal	AFKMEEHG_02034	HTH-type transcriptional activator RhaS (rhaS_2)	0
+631	prodigal	AFKMEEHG_02035	Adaptive-response sensory-kinase SasA (sasA_3)	0
+632	prodigal	AFKMEEHG_02036	tRNA (guanine-N(7)-)-methyltransferase (trmB)	0
+633	prodigal	AFKMEEHG_02037	DNA polymerase III PolC-type (polC_3)	0
+634	prodigal	AFKMEEHG_02038	Protease HtpX (htpX_2)	0
+635	prodigal	AFKMEEHG_02039	hypothetical protein	0
+636	prodigal	AFKMEEHG_02040	hypothetical protein	0
+637	prodigal	AFKMEEHG_02041	hypothetical protein	0
+638	prodigal	AFKMEEHG_02042	hypothetical protein	0
+639	prodigal	AFKMEEHG_02043	hypothetical protein	0
+640	prodigal	AFKMEEHG_02044	hypothetical protein	0
+641	prodigal	AFKMEEHG_02019	hypothetical protein	0
+642	prodigal	AFKMEEHG_02018	hypothetical protein	0
+643	prodigal	AFKMEEHG_02016	ATP-dependent Clp protease ATP-binding subunit ClpX (clpX)	0
+644	prodigal	AFKMEEHG_02015	hypothetical protein	0
+645	prodigal	AFKMEEHG_02014	Glutamate synthase [NADPH] small chain (gltB_2)	0
+646	prodigal	AFKMEEHG_02013	Ferredoxin-dependent glutamate synthase 1 (gltB_1)	0
+647	prodigal	AFKMEEHG_02012	"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_2)"	0
+648	prodigal	AFKMEEHG_02011	hypothetical protein	0
+649	prodigal	AFKMEEHG_02010	hypothetical protein	0
+650	prodigal	AFKMEEHG_02009	tRNA-specific adenosine deaminase (tadA_2)	0
+651	prodigal	AFKMEEHG_02008	Succinate--CoA ligase [ADP-forming] subunit beta (sucC)	0
+652	prodigal	AFKMEEHG_02007	putative ABC transporter ATP-binding protein YheS (yheS)	0
+653	prodigal	AFKMEEHG_02006	scyllo-inositol 2-dehydrogenase (NADP( )) IolW (iolW)	0
+654	prodigal	AFKMEEHG_02005	Oxygen-independent coproporphyrinogen III oxidase (hemN)	0
+655	prodigal	AFKMEEHG_02004	N5-carboxyaminoimidazole ribonucleotide mutase (purE)	0
+656	prodigal	AFKMEEHG_02003	hypothetical protein	0
+657	prodigal	AFKMEEHG_02002	NADH dehydrogenase-like protein	0
+658	prodigal	AFKMEEHG_02001	hypothetical protein	0
+659	prodigal	AFKMEEHG_02000	Acetylornithine aminotransferase (argD)	0
+660	prodigal	AFKMEEHG_01999	hypothetical protein	0
+661	prodigal	AFKMEEHG_01998	hypothetical protein	0
+662	prodigal	AFKMEEHG_01997	Tol-Pal system protein TolR (tolR_2)	0
+663	prodigal	AFKMEEHG_01996	Tol-Pal system protein TolR (tolR_1)	0
+664	prodigal	AFKMEEHG_01995	Biopolymer transport protein ExbB (exbB)	0
+665	prodigal	AFKMEEHG_01994	hypothetical protein	0
+666	prodigal	AFKMEEHG_01993	DNA primase (dnaG)	0
+667	prodigal	AFKMEEHG_01992	hypothetical protein	0
+668	prodigal	AFKMEEHG_01991	Sensor histidine kinase RcsC (rcsC_10)	0
+669	prodigal	AFKMEEHG_01990	Transcriptional regulatory protein WalR (walR)	0
+670	prodigal	AFKMEEHG_01989	Small-conductance mechanosensitive channel (mscS_2)	0
+671	prodigal	AFKMEEHG_01988	hypothetical protein	0
+672	prodigal	AFKMEEHG_01987	Cobalt/magnesium transport protein CorA (corA)	0
+673	prodigal	AFKMEEHG_01986	hypothetical protein	0
+674	prodigal	AFKMEEHG_01985	hypothetical protein	0
+675	prodigal	AFKMEEHG_01984	hypothetical protein	0
+676	prodigal	AFKMEEHG_01945	hypothetical protein	0
+677	prodigal	AFKMEEHG_01946	CRISPR pre-crRNA endoribonuclease Cas5d (cas5d)	0
+678	prodigal	AFKMEEHG_01947	hypothetical protein	0
+679	prodigal	AFKMEEHG_01948	hypothetical protein	0
+680	prodigal	AFKMEEHG_01949	hypothetical protein	0
+681	prodigal	AFKMEEHG_01950	CRISPR-associated exonuclease Cas4/endonuclease Cas1 fusion (cas4-cas1)	0
+682	prodigal	AFKMEEHG_00001	hypothetical protein	0
+683	prodigal	AFKMEEHG_00002	hypothetical protein	0
+684	prodigal	AFKMEEHG_00003	hypothetical protein	0
+685	prodigal	AFKMEEHG_00004	Inner membrane protein YrbG (yrbG_1)	0
+686	prodigal	AFKMEEHG_00005	hypothetical protein	0
+687	prodigal	AFKMEEHG_00006	2-phosphonomethylmalate synthase (frbC)	0
+688	prodigal	AFKMEEHG_00007	Nitrogen fixation protein VnfA (vnfA)	0
+689	prodigal	AFKMEEHG_00008	Sulfate transport system permease protein CysW (cysW)	0
+690	prodigal	AFKMEEHG_00009	hypothetical protein	0
+691	prodigal	AFKMEEHG_01016	"Ferredoxin, 2Fe-2S"	0
+692	prodigal	AFKMEEHG_01017	FeMo cofactor biosynthesis protein NifB (nifB)	0
+693	prodigal	AFKMEEHG_01018	Nitrogenase molybdenum-iron protein beta chain (nifK_1)	0
+694	prodigal	AFKMEEHG_01019	Nitrogenase molybdenum-iron protein alpha chain (nifD_1)	0
+695	prodigal	AFKMEEHG_01020	Nitrogenase molybdenum-iron protein beta chain (nifK_2)	0
+696	prodigal	AFKMEEHG_01021	Nitrogenase molybdenum-iron protein alpha chain (nifD_2)	0
+697	prodigal	AFKMEEHG_01022	Nitrogen regulatory protein P-II 1 (glnB_2)	0
+698	prodigal	AFKMEEHG_01023	Nitrogen regulatory protein P-II (glnB_3)	0
+699	prodigal	AFKMEEHG_01024	Nitrogenase iron protein 1 (nifH1)	0
+700	prodigal	AFKMEEHG_01025	Molybdenum-pterin-binding protein MopA (mopA)	0
+701	prodigal	AFKMEEHG_01026	Carbamoyl dehydratase HypE (hypE)	0
+702	prodigal	AFKMEEHG_01027	Hydrogenase maturation factor HypD (hypD)	0
+703	prodigal	AFKMEEHG_01028	hypothetical protein	0
+704	prodigal	AFKMEEHG_01029	Carbamoyltransferase HypF (hypF)	0
+705	prodigal	AFKMEEHG_01030	Hydrogenase maturation factor HypB (hypB)	0
+706	prodigal	AFKMEEHG_01031	Hydrogenase maturation factor HybF (hybF)	0
+707	prodigal	AFKMEEHG_01032	Aspartate carbamoyltransferase (pyrB)	0
+708	prodigal	AFKMEEHG_01033	hypothetical protein	0
+709	prodigal	AFKMEEHG_01034	hypothetical protein	0
+710	prodigal	AFKMEEHG_01035	hypothetical protein	0
+711	prodigal	AFKMEEHG_01036	hypothetical protein	0
+712	prodigal	AFKMEEHG_01037	hypothetical protein	0
+713	prodigal	AFKMEEHG_01038	Cation/acetate symporter ActP (actP)	0
+714	prodigal	AFKMEEHG_01039	UvrABC system protein C (uvrC)	0
+715	prodigal	AFKMEEHG_00838	Beta-barrel assembly-enhancing protease (bepA_3)	0
+716	prodigal	AFKMEEHG_00839	Shikimate dehydrogenase (NADP( )) (aroE)	0
+717	prodigal	AFKMEEHG_00840	Lipoprotein signal peptidase (lspA)	0
+718	prodigal	AFKMEEHG_00841	D-aminoacyl-tRNA deacylase (dtd3)	0
+719	prodigal	AFKMEEHG_00842	hypothetical protein	0
+720	prodigal	AFKMEEHG_00843	putative peptidyl-prolyl cis-trans isomerase (ppiB)	0
+721	prodigal	AFKMEEHG_00844	Pyridoxal phosphate homeostasis protein	0
+722	prodigal	AFKMEEHG_00845	hypothetical protein	0
+723	prodigal	AFKMEEHG_00846	putative aspartate aminotransferase (aspC_1)	0
+724	prodigal	AFKMEEHG_00847	Purine nucleoside phosphorylase 1 (punA_1)	0
+725	prodigal	AFKMEEHG_00848	hypothetical protein	0
+726	prodigal	AFKMEEHG_02138	putative aspartate aminotransferase (aspC_2)	0
+727	prodigal	AFKMEEHG_02139	Purine nucleoside phosphorylase 1 (punA_2)	0
+728	prodigal	AFKMEEHG_02140	hypothetical protein	0
+729	prodigal	AFKMEEHG_01649	Cytochrome bd ubiquinol oxidase subunit 1 (cydA)	0
+730	prodigal	AFKMEEHG_01650	Cytochrome bd-I ubiquinol oxidase subunit 2 (cydB)	0
+731	prodigal	AFKMEEHG_01651	ATP-binding/permease protein CydD (cydD)	0
+732	prodigal	AFKMEEHG_01652	putative ABC transporter ATP-binding/permease protein	0
+733	prodigal	AFKMEEHG_01064	Outer membrane lipoprotein Blc (blc_1)	0
+734	prodigal	AFKMEEHG_01065	Formyltetrahydrofolate deformylase (purU_1)	0
+735	prodigal	AFKMEEHG_01066	Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase (arnT_1)	0
+736	prodigal	AFKMEEHG_01067	hypothetical protein	0
+737	prodigal	AFKMEEHG_01068	Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase (arnT_2)	0
+738	prodigal	AFKMEEHG_01069	Dodecaprenyl-phosphate galacturonate synthase (rgtE_1)	0
+739	prodigal	AFKMEEHG_01070	hypothetical protein	0
+740	prodigal	AFKMEEHG_01071	Single-stranded-DNA-specific exonuclease RecJ (recJ)	0
+741	prodigal	AFKMEEHG_01072	"Fructose-1,6-bisphosphatase class 1 (fbp)"	0
+742	prodigal	AFKMEEHG_01073	Cytochrome b6-f complex iron-sulfur subunit (petC_1)	0
+743	prodigal	AFKMEEHG_01074	Epoxyqueuosine reductase (queG)	0
+744	prodigal	AFKMEEHG_01075	Bifunctional purine biosynthesis protein PurH (purH)	0
+745	prodigal	AFKMEEHG_01076	Phosphoribosylglycinamide formyltransferase (purN)	0
+746	prodigal	AFKMEEHG_01077	7-carboxy-7-deazaguanine synthase (queE_2)	0
+747	prodigal	AFKMEEHG_01078	Dodecaprenyl-phosphate galacturonate synthase (rgtE_2)	0
+748	prodigal	AFKMEEHG_01079	Endonuclease 4 (nfo_1)	0
+749	prodigal	AFKMEEHG_01474	hypothetical protein	0
+750	prodigal	AFKMEEHG_01475	Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase (arnC_2)	0
+751	prodigal	AFKMEEHG_01476	Endonuclease 4 (nfo_2)	0
+752	prodigal	AFKMEEHG_01477	Cell division protein FtsX (ftsX)	0
+753	prodigal	AFKMEEHG_01479	putative riboflavin import permease protein RfuD (rfuD)	0
+754	prodigal	AFKMEEHG_01480	"Pyruvate, phosphate dikinase (ppdK)"	0
+755	prodigal	AFKMEEHG_01481	UvrABC system protein A (uvrA_2)	0
+756	prodigal	AFKMEEHG_01482	Phosphorylated carbohydrates phosphatase	0
+757	prodigal	AFKMEEHG_01483	Transcriptional regulatory protein CusR (cusR_2)	0
+758	prodigal	AFKMEEHG_01484	Adaptive-response sensory-kinase SasA (sasA_1)	0
+759	prodigal	AFKMEEHG_01485	Chlorosome envelope protein B (csmB_2)	0
+760	prodigal	AFKMEEHG_01486	hypothetical protein	0
+761	prodigal	AFKMEEHG_01487	hypothetical protein	0
+762	prodigal	AFKMEEHG_01488	hypothetical protein	0
+763	prodigal	AFKMEEHG_01489	hypothetical protein	0
+764	prodigal	AFKMEEHG_01490	3-phytase (phy)	0
+765	prodigal	AFKMEEHG_01491	Vitamin B12 transporter BtuB (btuB_4)	0
+766	prodigal	AFKMEEHG_01492	hypothetical protein	0
+767	prodigal	AFKMEEHG_01493	hypothetical protein	0
+768	prodigal	AFKMEEHG_01494	hypothetical protein	0
+769	prodigal	AFKMEEHG_01495	hypothetical protein	0
+770	prodigal	AFKMEEHG_01496	hypothetical protein	0
+771	prodigal	AFKMEEHG_01392	Type IV secretion system protein virB4 (virB4)	0
+772	prodigal	AFKMEEHG_01393	hypothetical protein	0
+773	prodigal	AFKMEEHG_01394	hypothetical protein	0
+774	prodigal	AFKMEEHG_01395	Type IV secretion system protein VirB11	0
+775	prodigal	AFKMEEHG_01396	hypothetical protein	0
+776	prodigal	AFKMEEHG_01397	hypothetical protein	0
+777	prodigal	AFKMEEHG_01398	"dTDP-glucose 4,6-dehydratase (rfbB)"	0
+778	prodigal	AFKMEEHG_01204	dTDP-4-dehydrorhamnose reductase (rmlD)	0
+779	prodigal	AFKMEEHG_01203	"dTDP-4-dehydrorhamnose 3,5-epimerase (rfbC_2)"	0
+780	prodigal	AFKMEEHG_01202	Glucose-1-phosphate thymidylyltransferase 1 (rfbA)	0
+781	prodigal	AFKMEEHG_01201	Alginate biosynthesis protein AlgA (algA)	0
+782	prodigal	AFKMEEHG_01200	hypothetical protein	0
+783	prodigal	AFKMEEHG_01199	"3'(2'),5'-bisphosphate nucleotidase CysQ (cysQ)"	0
+784	prodigal	AFKMEEHG_01198	hypothetical protein	0
+785	prodigal	AFKMEEHG_01197	Cytochrome bc complex cytochrome b subunit (petB)	0
+786	prodigal	AFKMEEHG_01196	Cytochrome b6-f complex iron-sulfur subunit (petC_2)	0
+787	prodigal	AFKMEEHG_01195	hypothetical protein	0
+788	prodigal	AFKMEEHG_01193	Glutamate--tRNA ligase (gltX)	0
+789	prodigal	AFKMEEHG_01192	ATP-dependent zinc metalloprotease FtsH (ftsH_3)	0
+790	prodigal	AFKMEEHG_01191	hypothetical protein	0
+791	prodigal	AFKMEEHG_01190	DNA-binding protein HU 1 (hupA)	0
+792	prodigal	AFKMEEHG_01189	hypothetical protein	0
+793	prodigal	AFKMEEHG_01188	hypothetical protein	0
+794	prodigal	AFKMEEHG_01187	Adenine phosphoribosyltransferase (apt)	0
+795	prodigal	AFKMEEHG_01186	Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB (mtaB)	0
+796	prodigal	AFKMEEHG_01185	hypothetical protein	0
+797	prodigal	AFKMEEHG_01184	Peptidoglycan glycosyltransferase MrdB (mrdB)	0
+798	prodigal	AFKMEEHG_01183	GTPase Era (era)	0
+799	prodigal	AFKMEEHG_01182	30S ribosomal protein S1 (rpsA)	0
+800	prodigal	AFKMEEHG_01181	Cytidylate kinase (cmk)	0
+801	prodigal	AFKMEEHG_01180	Ribosome-binding ATPase YchF (ychF)	0
+802	prodigal	AFKMEEHG_01179	Glutamate racemase (murI)	0
+803	prodigal	AFKMEEHG_01178	hypothetical protein	0
+804	prodigal	AFKMEEHG_01177	3-beta-hydroxycholanate 3-dehydrogenase (NAD( )) 2	0
+805	prodigal	AFKMEEHG_01176	Ribulose bisphosphate carboxylase-like protein	0
+806	prodigal	AFKMEEHG_01175	"3-hydroxy-5-phosphonooxypentane-2,4-dione thiolase (lsrF)"	0
+807	prodigal	AFKMEEHG_01174	3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase (hcaB)	0
+808	prodigal	AFKMEEHG_01173	hypothetical protein	0
+809	prodigal	AFKMEEHG_01172	hypothetical protein	0
+810	prodigal	AFKMEEHG_01171	Bacteriochlorophyllide d C-8(2)-methyltransferase (bchQ)	0
+811	prodigal	AFKMEEHG_01170	Regulatory protein RecX (recX)	0
+812	prodigal	AFKMEEHG_01169	Uridylate kinase (pyrH)	0
+813	prodigal	AFKMEEHG_01168	Elongation factor Ts (tsf)	0
+814	prodigal	AFKMEEHG_01167	30S ribosomal protein S2 (rpsB)	0
+815	prodigal	AFKMEEHG_01166	30S ribosomal protein S9 (rpsI)	0
+816	prodigal	AFKMEEHG_01165	50S ribosomal protein L13 (rplM)	0
+817	prodigal	AFKMEEHG_01164	GTPase Der (der_2)	0
+818	prodigal	AFKMEEHG_01163	Iron-sulfur cluster carrier protein (apbC)	0
+819	prodigal	AFKMEEHG_01162	Fe/S biogenesis protein NfuA (nfuA)	0
+820	prodigal	AFKMEEHG_01161	hypothetical protein	0
+821	prodigal	AFKMEEHG_01160	Aminomethyltransferase (gcvT)	0
+822	prodigal	AFKMEEHG_01159	hypothetical protein	0
+823	prodigal	AFKMEEHG_01158	hypothetical protein	0
+824	prodigal	AFKMEEHG_01157	hypothetical protein	0
+825	prodigal	AFKMEEHG_01156	GTP pyrophosphokinase (relA)	0
+826	prodigal	AFKMEEHG_01155	UvrABC system protein B (uvrB)	0
+827	prodigal	AFKMEEHG_01154	hypothetical protein	0
+828	prodigal	AFKMEEHG_01153	hypothetical protein	0
+829	prodigal	AFKMEEHG_01152	hypothetical protein	0
+830	prodigal	AFKMEEHG_01151	Adenosyl-chloride synthase (salL)	0
+831	prodigal	AFKMEEHG_01150	Ktr system potassium uptake protein A (ktrA)	0
+832	prodigal	AFKMEEHG_01149	hypothetical protein	0
+833	prodigal	AFKMEEHG_01148	RNA polymerase sigma factor SigA (sigA)	0
+834	prodigal	AFKMEEHG_01147	Valine--tRNA ligase (valS)	0
+835	prodigal	AFKMEEHG_01146	ATP-dependent Clp protease proteolytic subunit (clpP)	0
+836	prodigal	AFKMEEHG_01145	Flavin-dependent thymidylate synthase (thyX)	0
+837	prodigal	AFKMEEHG_01144	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta (accD)	0
+838	prodigal	AFKMEEHG_01143	Outer membrane protein assembly factor BamA (bamA_2)	0
+839	prodigal	AFKMEEHG_01142	5'-nucleotidase SurE (surE)	0
+840	prodigal	AFKMEEHG_01141	Putative cysteine ligase BshC (bshC)	0
+841	prodigal	AFKMEEHG_01140	Thiol:disulfide interchange protein DsbD (dsbD_2)	0
+842	prodigal	AFKMEEHG_01139	Cytochrome c biogenesis protein CcsA (ccsA)	0
+843	prodigal	AFKMEEHG_01138	hypothetical protein	0
+844	prodigal	AFKMEEHG_01137	hypothetical protein	0
+845	prodigal	AFKMEEHG_01136	putative adenylyltransferase/sulfurtransferase MoeZ (moeZ)	0
+846	prodigal	AFKMEEHG_01135	hypothetical protein	0
+847	prodigal	AFKMEEHG_01134	Anthranilate synthase component 2 (trpG)	0
+848	prodigal	AFKMEEHG_01133	hypothetical protein	0
+849	prodigal	AFKMEEHG_01132	hypothetical protein	0
+850	prodigal	AFKMEEHG_01131	hypothetical protein	0
+851	prodigal	AFKMEEHG_01130	hypothetical protein	0
+852	prodigal	AFKMEEHG_01129	hypothetical protein	0
+853	prodigal	AFKMEEHG_01128	Succinate semialdehyde dehydrogenase [NAD(P) ] Sad (sad)	0
+854	prodigal	AFKMEEHG_01127	Small ribosomal subunit biogenesis GTPase RsgA (rsgA)	0
+855	prodigal	AFKMEEHG_01126	ATP-dependent DNA helicase RecG (recG)	0
+856	prodigal	AFKMEEHG_01125	50S ribosomal protein L31 (rpmE)	0
+857	prodigal	AFKMEEHG_01124	Ribosome-recycling factor (frr)	0
+858	prodigal	AFKMEEHG_01123	Chlorophyllide reductase 52.5 kDa chain (bchY)	0
+859	prodigal	AFKMEEHG_01122	hypothetical protein	0
+860	prodigal	AFKMEEHG_00010	"8-amino-3,8-dideoxy-manno-octulosonate cytidylyltransferase (kdsB_1)"	0
+861	prodigal	AFKMEEHG_00011	hypothetical protein	0
+862	prodigal	AFKMEEHG_00012	Glutamyl-tRNA(Gln) amidotransferase subunit C (gatC)	0
+863	prodigal	AFKMEEHG_00013	Citrate synthase (aarA)	0
+864	prodigal	AFKMEEHG_00014	Amino-acid carrier protein AlsT (alsT)	0
+865	prodigal	AFKMEEHG_00016	hypothetical protein	0
+866	prodigal	AFKMEEHG_00017	hypothetical protein	0
+867	prodigal	AFKMEEHG_00018	hypothetical protein	0
+868	prodigal	AFKMEEHG_00019	Cell division coordinator CpoB (cpoB_1)	0
+869	prodigal	AFKMEEHG_00020	Isochorismate synthase MenF (menF_1)	0
+870	prodigal	AFKMEEHG_00021	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene -1-carboxylate synthase (menD)	0
+871	prodigal	AFKMEEHG_00022	"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox ylate synthase (menH)"	0
+872	prodigal	AFKMEEHG_00023	"1,4-dihydroxy-2-naphthoyl-CoA synthase (menB)"	0
+873	prodigal	AFKMEEHG_00024	o-succinylbenzoate synthase (menC)	0
+874	prodigal	AFKMEEHG_00025	2-succinylbenzoate--CoA ligase (menE)	0
+875	prodigal	AFKMEEHG_00026	hypothetical protein	0
+876	prodigal	AFKMEEHG_00027	4-hydroxy-tetrahydrodipicolinate reductase (dapB)	0
+877	prodigal	AFKMEEHG_00028	Stage 0 sporulation protein J (spo0J)	0
+878	prodigal	AFKMEEHG_00029	Sporulation initiation inhibitor protein Soj (soj_1)	0
+879	prodigal	AFKMEEHG_00030	Putative 3-methyladenine DNA glycosylase	0
+880	prodigal	AFKMEEHG_00031	Magnesium transporter MgtE	0
+881	prodigal	AFKMEEHG_00032	Electron transfer flavoprotein-ubiquinone oxidoreductase	0
+882	prodigal	AFKMEEHG_00033	tRNA-specific 2-thiouridylase MnmA (mnmA)	0
+883	prodigal	AFKMEEHG_00034	Carboxylesterase 2 (estB)	0
+884	prodigal	AFKMEEHG_00035	Methionine synthase (metH)	0
+885	prodigal	AFKMEEHG_00036	"putative L,D-transpeptidase YcbB (ycbB)"	0
+886	prodigal	AFKMEEHG_00037	hypothetical protein	0
+887	prodigal	AFKMEEHG_00038	hypothetical protein	0
+888	prodigal	AFKMEEHG_00039	hypothetical protein	0
+889	prodigal	AFKMEEHG_00040	Transketolase (tkt)	0
+890	prodigal	AFKMEEHG_00041	6-phosphogluconolactonase (pgl)	0
+891	prodigal	AFKMEEHG_00042	Glucose-6-phosphate 1-dehydrogenase (zwf)	0
+892	prodigal	AFKMEEHG_00043	"6-phosphogluconate dehydrogenase, NAD( )-dependent, decarboxylating"	0
+893	prodigal	AFKMEEHG_00044	Sensor histidine kinase RcsC (rcsC_1)	0
+894	prodigal	AFKMEEHG_00045	GDP-mannose-dependent alpha-mannosyltransferase (mgtA)	0
+895	prodigal	AFKMEEHG_00046	hypothetical protein	0
+896	prodigal	AFKMEEHG_00047	hypothetical protein	0
+897	prodigal	AFKMEEHG_00048	"4,4'-diaponeurosporen-aldehyde dehydrogenase (aldH1)"	0
+898	prodigal	AFKMEEHG_00049	hypothetical protein	0
+899	prodigal	AFKMEEHG_00050	23S rRNA (guanosine-2'-O-)-methyltransferase RlmB (rlmB_1)	0
+900	prodigal	AFKMEEHG_00051	hypothetical protein	0
+901	prodigal	AFKMEEHG_00052	hypothetical protein	0
+902	prodigal	AFKMEEHG_00053	hypothetical protein	0
+903	prodigal	AFKMEEHG_00054	CAI-1 autoinducer sensor kinase/phosphatase CqsS (cqsS)	0
+904	prodigal	AFKMEEHG_00055	hypothetical protein	0
+905	prodigal	AFKMEEHG_00056	hypothetical protein	0
+906	prodigal	AFKMEEHG_00057	Putative cation/proton antiporter YbaL (ybaL)	0
+907	prodigal	AFKMEEHG_00058	putative cation-transporting ATPase F (ctpF)	0
+908	prodigal	AFKMEEHG_00059	hypothetical protein	0
+909	prodigal	AFKMEEHG_00060	Anaerobic sulfite reductase subunit A (asrA)	0
+910	prodigal	AFKMEEHG_00061	"Dihydroorotate dehydrogenase B (NAD( )), electron transfer subunit (pyrK_1)"	0
+911	prodigal	AFKMEEHG_00062	hypothetical protein	0
+912	prodigal	AFKMEEHG_00063	NAD-reducing hydrogenase HoxS subunit beta (hoxH)	0
+913	prodigal	AFKMEEHG_00064	FKBP-type peptidyl-prolyl cis-trans isomerase SlyD (slyD)	0
+914	prodigal	AFKMEEHG_00065	hypothetical protein	0
+915	prodigal	AFKMEEHG_00066	hypothetical protein	0
+916	prodigal	AFKMEEHG_00067	Protein YrdA (yrdA)	0
+917	prodigal	AFKMEEHG_00068	Lipopolysaccharide export system ATP-binding protein LptB (lptB)	0
+918	prodigal	AFKMEEHG_00069	hypothetical protein	0
+919	prodigal	AFKMEEHG_00070	hypothetical protein	0
+920	prodigal	AFKMEEHG_00071	Putative aminoacrylate hydrolase RutD (rutD_1)	0
+921	prodigal	AFKMEEHG_00072	3-phosphoshikimate 1-carboxyvinyltransferase 1 (aroA1)	0
+922	prodigal	AFKMEEHG_00073	hypothetical protein	0
+923	prodigal	AFKMEEHG_00074	Putative cystathionine beta-synthase (cbs)	0
+924	prodigal	AFKMEEHG_00075	Alanine racemase 1 (alr1)	0
+925	prodigal	AFKMEEHG_00076	hypothetical protein	0
+926	prodigal	AFKMEEHG_00077	hypothetical protein	0
+927	prodigal	AFKMEEHG_00078	Aspartate-semialdehyde dehydrogenase 2 (asd2)	0
+928	prodigal	AFKMEEHG_00079	tRNA-dihydrouridine synthase B (dusB)	0
+929	prodigal	AFKMEEHG_00080	Protein RecA (recA)	0
+930	prodigal	AFKMEEHG_00081	hypothetical protein	0
+931	prodigal	AFKMEEHG_00082	putative zinc protease	0
+932	prodigal	AFKMEEHG_00083	Trigger factor (tig)	0
+933	prodigal	AFKMEEHG_00084	hypothetical protein	0
+934	prodigal	AFKMEEHG_00085	putative nicotinate-nucleotide pyrophosphorylase [carboxylating] (nadC_1)	0
+935	prodigal	AFKMEEHG_00086	hypothetical protein	0
+936	prodigal	AFKMEEHG_00087	hypothetical protein	0
+937	prodigal	AFKMEEHG_00088	hypothetical protein	0
+938	prodigal	AFKMEEHG_00089	hypothetical protein	0
+939	prodigal	AFKMEEHG_00090	Bacteriochlorophyll c-binding protein (csmA_1)	0
+940	prodigal	AFKMEEHG_00091	hypothetical protein	0
+941	prodigal	AFKMEEHG_00092	hypothetical protein	0
+942	prodigal	AFKMEEHG_00093	"Dihydroorotate dehydrogenase B (NAD( )), electron transfer subunit (pyrK_2)"	0
+943	prodigal	AFKMEEHG_00094	Single-stranded DNA-binding protein (ssb)	0
+944	prodigal	AFKMEEHG_00095	putative protein YqeN (yqeN)	0
+945	prodigal	AFKMEEHG_00096	3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase	0
+946	prodigal	AFKMEEHG_00097	8-amino-7-oxononanoate synthase (bioF_1)	0
+947	prodigal	AFKMEEHG_00098	Vitamin B12 transporter BtuB (btuB_1)	0
+948	prodigal	AFKMEEHG_01621	Aerobic cobaltochelatase subunit CobN (cobN_2)	0
+949	prodigal	AFKMEEHG_01620	hypothetical protein	0
+950	prodigal	AFKMEEHG_01619	hypothetical protein	0
+951	prodigal	AFKMEEHG_01250	Aerobic cobaltochelatase subunit CobN (cobN_1)	0
+952	prodigal	AFKMEEHG_01251	Magnesium-protoporphyrin O-methyltransferase (chlM_1)	0
+953	prodigal	AFKMEEHG_01252	hypothetical protein	0
+954	prodigal	AFKMEEHG_02264	Aerobic cobaltochelatase subunit CobN (cobN_3)	0
+955	prodigal	AFKMEEHG_02265	Magnesium-protoporphyrin O-methyltransferase (chlM_2)	0
+956	prodigal	AFKMEEHG_02266	hypothetical protein	0
+957	prodigal	AFKMEEHG_00107	Murein DD-endopeptidase MepM (mepM)	0
+958	prodigal	AFKMEEHG_00108	putative serine/threonine-protein kinase PkwA (pkwA)	0
+959	prodigal	AFKMEEHG_00109	"4,4'-diaponeurosporenoate glycosyltransferase (crtQ_1)"	0
+960	prodigal	AFKMEEHG_00110	ATP phosphoribosyltransferase (hisG_1)	0
+961	prodigal	AFKMEEHG_00111	"UDP-2,3-diacylglucosamine hydrolase (lpxH_1)"	0
+962	prodigal	AFKMEEHG_00112	hypothetical protein	0
+963	prodigal	AFKMEEHG_00113	"1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_1)"	0
+964	prodigal	AFKMEEHG_00114	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase (miaB_1)	0
+965	prodigal	AFKMEEHG_00465	"4,4'-diaponeurosporenoate glycosyltransferase (crtQ_2)"	0
+966	prodigal	AFKMEEHG_00466	ATP phosphoribosyltransferase (hisG_2)	0
+967	prodigal	AFKMEEHG_00467	"UDP-2,3-diacylglucosamine hydrolase (lpxH_2)"	0
+968	prodigal	AFKMEEHG_00468	hypothetical protein	0
+969	prodigal	AFKMEEHG_00469	"1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_4)"	0
+970	prodigal	AFKMEEHG_00470	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase (miaB_2)	0
+971	prodigal	AFKMEEHG_00849	Multidrug resistance protein MdtC (mdtC)	0
+972	prodigal	AFKMEEHG_00850	hypothetical protein	0
+973	prodigal	AFKMEEHG_00851	Cysteine desulfurase NifS (nifS)	0
+974	prodigal	AFKMEEHG_00852	O-acetylserine sulfhydrylase (cysK1)	0
+975	prodigal	AFKMEEHG_00853	hypothetical protein	0
+976	prodigal	AFKMEEHG_00854	hypothetical protein	0
+977	prodigal	AFKMEEHG_00855	hypothetical protein	0
+978	prodigal	AFKMEEHG_00856	Nucleoside diphosphate kinase (ndk)	0
+979	prodigal	AFKMEEHG_00857	hypothetical protein	0
+980	prodigal	AFKMEEHG_00858	Putative transport protein	0
+981	prodigal	AFKMEEHG_00859	Ribosomal RNA small subunit methyltransferase E (rsmE)	0
+982	prodigal	AFKMEEHG_00860	Amidophosphoribosyltransferase (purF_2)	0
+983	prodigal	AFKMEEHG_00861	Glucokinase (glcK)	0
+984	prodigal	AFKMEEHG_00862	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosa mine O-acyltransferase (lpxA)	0
+985	prodigal	AFKMEEHG_00863	hypothetical protein	0
+986	prodigal	AFKMEEHG_00864	Heme chaperone HemW (hemW)	0
+987	prodigal	AFKMEEHG_00865	"D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase (gmhB)"	0
+988	prodigal	AFKMEEHG_00866	Glycogen synthase (glgA)	0
+989	prodigal	AFKMEEHG_00867	hypothetical protein	0
+990	prodigal	AFKMEEHG_00868	hypothetical protein	0
+991	prodigal	AFKMEEHG_00869	hypothetical protein	0
+992	prodigal	AFKMEEHG_00870	Light-independent protochlorophyllide reductase iron-sulfur ATP-binding protein (bchL)	0
+993	prodigal	AFKMEEHG_00871	Light-independent protochlorophyllide reductase subunit B (bchB_2)	0
+994	prodigal	AFKMEEHG_00872	Light-independent protochlorophyllide reductase subunit N (chlN)	0
+995	prodigal	AFKMEEHG_00873	hypothetical protein	0
+996	prodigal	AFKMEEHG_00874	Adenylosuccinate synthetase (purA)	0
+997	prodigal	AFKMEEHG_00875	putative GTP-binding protein EngB (engB)	0
+998	prodigal	AFKMEEHG_00876	Cysteine--tRNA ligase (cysS)	0
+999	prodigal	AFKMEEHG_00877	Mannose-1-phosphate guanylyltransferase RfbM (rfbM)	0
+1000	prodigal	AFKMEEHG_00878	Ribosomal RNA small subunit methyltransferase G (rsmG)	0
+1001	prodigal	AFKMEEHG_00879	hypothetical protein	0
+1002	prodigal	AFKMEEHG_00880	DNA-directed RNA polymerase subunit alpha (rpoA)	0
+1003	prodigal	AFKMEEHG_00881	30S ribosomal protein S4 (rpsD)	0
+1004	prodigal	AFKMEEHG_00882	30S ribosomal protein S11 (rpsK)	0
+1005	prodigal	AFKMEEHG_00883	30S ribosomal protein S13 (rpsM)	0
+1006	prodigal	AFKMEEHG_00884	Translation initiation factor IF-1 (infA)	0
+1007	prodigal	AFKMEEHG_00885	Methionine aminopeptidase 1 (map)	0
+1008	prodigal	AFKMEEHG_00886	Protein translocase subunit SecY (secY)	0
+1009	prodigal	AFKMEEHG_00887	50S ribosomal protein L15 (rplO)	0
+1010	prodigal	AFKMEEHG_00888	50S ribosomal protein L30 (rpmD)	0
+1011	prodigal	AFKMEEHG_00889	30S ribosomal protein S5 (rpsE)	0
+1012	prodigal	AFKMEEHG_00890	50S ribosomal protein L18 (rplR)	0
+1013	prodigal	AFKMEEHG_00891	50S ribosomal protein L6 (rplF)	0
+1014	prodigal	AFKMEEHG_00892	30S ribosomal protein S8 (rpsH)	0
+1015	prodigal	AFKMEEHG_00893	Alternate 30S ribosomal protein S14 (rpsN2)	0
+1016	prodigal	AFKMEEHG_00894	50S ribosomal protein L5 (rplE)	0
+1017	prodigal	AFKMEEHG_00895	50S ribosomal protein L24 (rplX)	0
+1018	prodigal	AFKMEEHG_00897	50S ribosomal protein L14 (rplN)	0
+1019	prodigal	AFKMEEHG_00898	30S ribosomal protein S17 (rpsQ)	0
+1020	prodigal	AFKMEEHG_00899	hypothetical protein	0
+1021	prodigal	AFKMEEHG_00900	50S ribosomal protein L16 (rplP)	0
+1022	prodigal	AFKMEEHG_00901	30S ribosomal protein S3 (rpsC)	0
+1023	prodigal	AFKMEEHG_00902	50S ribosomal protein L22 (rplV)	0
+1024	prodigal	AFKMEEHG_00903	30S ribosomal protein S19 (rpsS)	0
+1025	prodigal	AFKMEEHG_00904	50S ribosomal protein L2 (rplB)	0
+1026	prodigal	AFKMEEHG_00905	50S ribosomal protein L23 (rplW)	0
+1027	prodigal	AFKMEEHG_00906	50S ribosomal protein L4 (rplD)	0
+1028	prodigal	AFKMEEHG_00907	50S ribosomal protein L3 (rplC)	0
+1029	prodigal	AFKMEEHG_00908	30S ribosomal protein S10 (rpsJ)	0
+1030	prodigal	AFKMEEHG_00909	Elongation factor Tu (tuf)	0
+1031	prodigal	AFKMEEHG_00910	Elongation factor G (fusA)	0
+1032	prodigal	AFKMEEHG_00911	30S ribosomal protein S7 (rpsG)	0
+1033	prodigal	AFKMEEHG_00912	30S ribosomal protein S12 (rpsL)	0
+1034	prodigal	AFKMEEHG_00913	hypothetical protein	0
+1035	prodigal	AFKMEEHG_00914	hypothetical protein	0
+1036	prodigal	AFKMEEHG_00915	hypothetical protein	0
+1037	prodigal	AFKMEEHG_00916	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase (wbbL)	0
+1038	prodigal	AFKMEEHG_00917	D-inositol-3-phosphate glycosyltransferase (mshA_2)	0
+1039	prodigal	AFKMEEHG_00918	HPr-like protein Crh (crh)	0
+1040	prodigal	AFKMEEHG_00919	Amino-acid acetyltransferase (argA)	0
+1041	prodigal	AFKMEEHG_00920	GTPase Obg (obg)	0
+1042	prodigal	AFKMEEHG_00921	Exodeoxyribonuclease 7 small subunit (xseB)	0
+1043	prodigal	AFKMEEHG_00922	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (gatB)	0
+1044	prodigal	AFKMEEHG_00923	hypothetical protein	0
+1045	prodigal	AFKMEEHG_00924	Chaperone protein ClpB (clpB)	0
+1046	prodigal	AFKMEEHG_00925	hypothetical protein	0
+1047	prodigal	AFKMEEHG_00926	hypothetical protein	0
+1048	prodigal	AFKMEEHG_00927	hypothetical protein	0
+1049	prodigal	AFKMEEHG_00928	ATP-dependent DNA helicase Rep (rep)	0
+1050	prodigal	AFKMEEHG_00929	hypothetical protein	0
+1051	prodigal	AFKMEEHG_00930	putative protein	0
+1052	prodigal	AFKMEEHG_00931	hypothetical protein	0
+1053	prodigal	AFKMEEHG_00932	hypothetical protein	0
+1054	prodigal	AFKMEEHG_00933	tRNA N6-adenosine threonylcarbamoyltransferase (tsaD)	0
+1055	prodigal	AFKMEEHG_00934	hypothetical protein	0
+1056	prodigal	AFKMEEHG_00935	Carbamoyl-phosphate synthase small chain (carA)	0
+1057	prodigal	AFKMEEHG_00936	Serine-pyruvate aminotransferase	0
+1058	prodigal	AFKMEEHG_00937	hypothetical protein	0
+1059	prodigal	AFKMEEHG_00938	hypothetical protein	0
+1060	prodigal	AFKMEEHG_00939	Cytochrome c-555	0
+1061	prodigal	AFKMEEHG_00940	Pantothenate precursors transporter PanS (panS)	0
+1062	prodigal	AFKMEEHG_00941	Sugar transporter SemiSWEET	0
+1063	prodigal	AFKMEEHG_00942	Pyrroline-5-carboxylate reductase (proC)	0
+1064	prodigal	AFKMEEHG_00943	hypothetical protein	0
+1065	prodigal	AFKMEEHG_00944	hypothetical protein	0
+1066	prodigal	AFKMEEHG_00945	hypothetical protein	0
+1067	prodigal	AFKMEEHG_00946	Molybdopterin molybdenumtransferase (moeA)	0
+1068	prodigal	AFKMEEHG_00947	Cyclic pyranopterin monophosphate synthase (moaC)	0
+1069	prodigal	AFKMEEHG_00948	"GTP 3',8-cyclase (moaA_4)"	0
+1070	prodigal	AFKMEEHG_00949	hypothetical protein	0
+1071	prodigal	AFKMEEHG_00950	hypothetical protein	0
+1072	prodigal	AFKMEEHG_00951	hypothetical protein	0
+1073	prodigal	AFKMEEHG_00952	Molybdenum cofactor guanylyltransferase (mobA)	0
+1074	prodigal	AFKMEEHG_00953	hypothetical protein	0
+1075	prodigal	AFKMEEHG_00954	Na( )-translocating NADH-quinone reductase subunit F (nqrF_1)	0
+1076	prodigal	AFKMEEHG_00955	Na( )-translocating NADH-quinone reductase subunit E (nqrE)	0
+1077	prodigal	AFKMEEHG_00956	Na( )-translocating NADH-quinone reductase subunit D (nqrD)	0
+1078	prodigal	AFKMEEHG_00957	Na( )-translocating NADH-quinone reductase subunit C (nqrC)	0
+1079	prodigal	AFKMEEHG_00958	Na( )-translocating NADH-quinone reductase subunit B (nqrB)	0
+1080	prodigal	AFKMEEHG_00959	Na( )-translocating NADH-quinone reductase subunit A (nqrA)	0
+1081	prodigal	AFKMEEHG_00960	Polysulfide reductase chain A (psrA)	0
+1082	prodigal	AFKMEEHG_00961	Thiosulfate reductase electron transfer subunit PhsB (phsB)	0
+1083	prodigal	AFKMEEHG_00962	hypothetical protein	0
+1084	prodigal	AFKMEEHG_00963	hypothetical protein	0
+1085	prodigal	AFKMEEHG_00964	Thiosulfate reductase cytochrome B subunit PhsC (phsC)	0
+1086	prodigal	AFKMEEHG_00965	hypothetical protein	0
+1087	prodigal	AFKMEEHG_00966	Sulfide-quinone reductase (sqr)	0
+1088	prodigal	AFKMEEHG_00967	Putative pre-16S rRNA nuclease (yrrK)	0
+1089	prodigal	AFKMEEHG_00968	Orotate phosphoribosyltransferase (pyrE)	0
+1090	prodigal	AFKMEEHG_00969	Cyclohexadienyl dehydrogenase (tyrC)	0
+1091	prodigal	AFKMEEHG_00970	NAD kinase (nadK)	0
+1092	prodigal	AFKMEEHG_00971	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC (kdsC)	0
+1093	prodigal	AFKMEEHG_00972	2-dehydro-3-deoxyphosphooctonate aldolase (kdsA)	0
+1094	prodigal	AFKMEEHG_00973	Chaperone protein ClpB 1 (clpB1)	0
+1095	prodigal	AFKMEEHG_00974	hypothetical protein	0
+1096	prodigal	AFKMEEHG_00975	Beta-hexosaminidase (nagZ_2)	0
+1097	prodigal	AFKMEEHG_00976	"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_1)"	0
+1098	prodigal	AFKMEEHG_00977	Glycerol-3-phosphate dehydrogenase [NAD(P) ] (gpsA)	0
+1099	prodigal	AFKMEEHG_00978	Glycerol-3-phosphate acyltransferase (plsY)	0
+1100	prodigal	AFKMEEHG_00979	Phosphoribosylformylglycinamidine cyclo-ligase (purM)	0
+1101	prodigal	AFKMEEHG_00980	Lysine-sensitive aspartokinase 3 (lysC)	0
+1102	prodigal	AFKMEEHG_00981	Release factor glutamine methyltransferase (prmC_2)	0
+1103	prodigal	AFKMEEHG_00982	Exopolyphosphatase 2 (ppx2)	0
+1104	prodigal	AFKMEEHG_00983	hypothetical protein	0
+1105	prodigal	AFKMEEHG_00984	hypothetical protein	0
+1106	prodigal	AFKMEEHG_00985	Uridine kinase (udk)	0
+1107	prodigal	AFKMEEHG_00986	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (bioA)	0
+1108	prodigal	AFKMEEHG_00987	ATP-dependent dethiobiotin synthetase BioD (bioD)	0
+1109	prodigal	AFKMEEHG_00988	Trans-aconitate 2-methyltransferase (tam)	0
+1110	prodigal	AFKMEEHG_00989	putative protein	0
+1111	prodigal	AFKMEEHG_00990	8-amino-7-oxononanoate synthase (bioF_2)	0
+1112	prodigal	AFKMEEHG_00991	Biotin synthase (bioB)	0
+1113	prodigal	AFKMEEHG_00992	Bifunctional ligase/repressor BirA (birA)	0
+1114	prodigal	AFKMEEHG_00993	hypothetical protein	0
+1115	prodigal	AFKMEEHG_00994	DNA topoisomerase 1 (topA)	0
+1116	prodigal	AFKMEEHG_00995	GTPase Der (der_1)	0
+1117	prodigal	AFKMEEHG_00996	hypothetical protein	0
+1118	prodigal	AFKMEEHG_00997	Purine nucleoside phosphoramidase	0
+1119	prodigal	AFKMEEHG_00998	"Dihydroorotate dehydrogenase B (NAD( )), catalytic subunit (pyrD_2)"	0
+1120	prodigal	AFKMEEHG_00999	hypothetical protein	0
+1121	prodigal	AFKMEEHG_01000	Thermostable monoacylglycerol lipase	0
+1122	prodigal	AFKMEEHG_01001	Endolytic peptidoglycan transglycosylase RlpA (rlpA_1)	0
+1123	prodigal	AFKMEEHG_01002	DNA base-flipping protein (atl)	0
+1124	prodigal	AFKMEEHG_01003	Deoxyhypusine synthase-like protein	0
+1125	prodigal	AFKMEEHG_01004	Tryptophan--tRNA ligase (trpS)	0
+1126	prodigal	AFKMEEHG_01005	Fructose-1-phosphate phosphatase YqaB (yqaB)	0
+1127	prodigal	AFKMEEHG_01006	Arginine--tRNA ligase (argS_1)	0
+1128	prodigal	AFKMEEHG_01007	putative nicotinate-nucleotide adenylyltransferase (nadD_1)	0
+1129	prodigal	AFKMEEHG_01008	Outer membrane protein assembly factor BamD (bamD_1)	0
+1130	prodigal	AFKMEEHG_01009	hypothetical protein	0
+1131	prodigal	AFKMEEHG_01010	hypothetical protein	0
+1132	prodigal	AFKMEEHG_01012	ATP synthase subunit delta (atpH_1)	0
+1133	prodigal	AFKMEEHG_01013	ATP synthase subunit b (atpF_1)	0
+1134	prodigal	AFKMEEHG_01014	ATP synthase subunit c (atpE_1)	0
+1135	prodigal	AFKMEEHG_01015	ATP synthase subunit a (atpB_1)	0
+1136	prodigal	AFKMEEHG_01902	hypothetical protein	0
+1137	prodigal	AFKMEEHG_01901	Arginine--tRNA ligase (argS_2)	0
+1138	prodigal	AFKMEEHG_01900	putative nicotinate-nucleotide adenylyltransferase (nadD_2)	0
+1139	prodigal	AFKMEEHG_01899	Outer membrane protein assembly factor BamD (bamD_2)	0
+1140	prodigal	AFKMEEHG_01898	hypothetical protein	0
+1141	prodigal	AFKMEEHG_01897	hypothetical protein	0
+1142	prodigal	AFKMEEHG_01895	ATP synthase subunit delta (atpH_2)	0
+1143	prodigal	AFKMEEHG_01894	ATP synthase subunit b (atpF_2)	0
+1144	prodigal	AFKMEEHG_01893	ATP synthase subunit c (atpE_2)	0
+1145	prodigal	AFKMEEHG_01892	ATP synthase subunit a (atpB_2)	0
+1146	prodigal	AFKMEEHG_01891	hypothetical protein	0
+1147	prodigal	AFKMEEHG_01890	hypothetical protein	0
+1148	prodigal	AFKMEEHG_01889	UDP-glucose 4-epimerase (galE)	0
+1149	prodigal	AFKMEEHG_01888	Polyphenol oxidase	0
+1150	prodigal	AFKMEEHG_01887	hypothetical protein	0
+1151	prodigal	AFKMEEHG_01886	Bacteriochlorophyllide d C-20 methyltransferase (bchU)	0
+1152	prodigal	AFKMEEHG_01885	Butyryl-CoA:acetate CoA-transferase	0
+1153	prodigal	AFKMEEHG_01884	Succinate dehydrogenase flavoprotein subunit (sdhA_2)	0
+1154	prodigal	AFKMEEHG_01883	hypothetical protein	0
+1155	prodigal	AFKMEEHG_01882	hypothetical protein	0
+1156	prodigal	AFKMEEHG_01881	Cell division protein FtsZ (ftsZ)	0
+1157	prodigal	AFKMEEHG_01880	Cell division protein FtsA (ftsA)	0
+1158	prodigal	AFKMEEHG_01879	Cell division protein FtsQ (ftsQ)	0
+1159	prodigal	AFKMEEHG_01878	UDP-N-acetylenolpyruvoylglucosamine reductase (murB)	0
+1160	prodigal	AFKMEEHG_01877	UDP-N-acetylmuramate--L-alanine ligase (murC)	0
+1161	prodigal	AFKMEEHG_01876	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentap eptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (murG)	0
+1162	prodigal	AFKMEEHG_01875	putative peptidoglycan glycosyltransferase FtsW (ftsW)	0
+1163	prodigal	AFKMEEHG_01874	UDP-N-acetylmuramoylalanine--D-glutamate ligase (murD)	0
+1164	prodigal	AFKMEEHG_01873	Phospho-N-acetylmuramoyl-pentapeptide-transferas e (mraY)	0
+1165	prodigal	AFKMEEHG_01872	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alan ine ligase (murF)	0
+1166	prodigal	AFKMEEHG_01871	"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-d iaminopimelate ligase (murE)"	0
+1167	prodigal	AFKMEEHG_01870	"putative peptidoglycan D,D-transpeptidase PenA (penA)"	0
+1168	prodigal	AFKMEEHG_01869	hypothetical protein	0
+1169	prodigal	AFKMEEHG_01868	Ribosomal RNA small subunit methyltransferase H (rsmH)	0
+1170	prodigal	AFKMEEHG_01867	Transcriptional regulator MraZ (mraZ)	0
+1171	prodigal	AFKMEEHG_01866	hypothetical protein	0
+1172	prodigal	AFKMEEHG_01865	hypothetical protein	0
+1173	prodigal	AFKMEEHG_01864	Endolytic murein transglycosylase (mltG)	0
+1174	prodigal	AFKMEEHG_01863	Phosphoglycerate kinase (pgk)	0
+1175	prodigal	AFKMEEHG_01862	Rhomboid protease GlpG (glpG)	0
+1176	prodigal	AFKMEEHG_01861	hypothetical protein	0
+1177	prodigal	AFKMEEHG_01860	23S rRNA (uracil-C(5))-methyltransferase RlmCD (rlmCD)	0
+1178	prodigal	AFKMEEHG_01859	hypothetical protein	0
+1179	prodigal	AFKMEEHG_01858	Membrane protein insertase YidC (yidC)	0
+1180	prodigal	AFKMEEHG_01857	Putative membrane protein insertion efficiency factor (yidD)	0
+1181	prodigal	AFKMEEHG_01856	Ribonuclease P protein component (rnpA)	0
+1182	prodigal	AFKMEEHG_01855	50S ribosomal protein L34 (rpmH)	0
+1183	prodigal	AFKMEEHG_01854	Chromosomal replication initiator protein DnaA (dnaA)	0
+1184	prodigal	AFKMEEHG_01853	Beta sliding clamp (dnaN)	0
+1185	prodigal	AFKMEEHG_01852	DNA replication and repair protein RecF (recF_3)	0
+1186	prodigal	AFKMEEHG_01851	hypothetical protein	0
+1187	prodigal	AFKMEEHG_01850	Flavo-diiron protein FprA1 (fprA1)	0
+1188	prodigal	AFKMEEHG_01849	hypothetical protein	0
+1189	prodigal	AFKMEEHG_01848	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (mnmG)	0
+1190	prodigal	AFKMEEHG_01847	hypothetical protein	0
+1191	prodigal	AFKMEEHG_01846	hypothetical protein	0
+1192	prodigal	AFKMEEHG_01845	hypothetical protein	0
+1193	prodigal	AFKMEEHG_01844	Sulfide dehydrogenase [flavocytochrome c] flavoprotein chain (fccB_2)	0
+1194	prodigal	AFKMEEHG_01843	Protein translocase subunit SecD (secD)	0
+1195	prodigal	AFKMEEHG_01842	Protein translocase subunit SecF (secF)	0
+1196	prodigal	AFKMEEHG_01841	Chaperone SurA (surA_2)	0
+1197	prodigal	AFKMEEHG_01840	DNA gyrase subunit B (gyrB)	0
+1198	prodigal	AFKMEEHG_01839	hypothetical protein	0
+1199	prodigal	AFKMEEHG_01838	Ribonuclease HII (rnhB)	0
+1200	prodigal	AFKMEEHG_01837	Ribonuclease E (rne)	0
+1201	prodigal	AFKMEEHG_01836	"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (dapD)"	0
+1202	prodigal	AFKMEEHG_01835	hypothetical protein	0
+1203	prodigal	AFKMEEHG_01834	hypothetical protein	0
+1204	prodigal	AFKMEEHG_01833	hypothetical protein	0
+1205	prodigal	AFKMEEHG_01832	Glycine--tRNA ligase (glyQS)	0
+1206	prodigal	AFKMEEHG_01831	Thiosulfate sulfurtransferase GlpE (glpE)	0
+1207	prodigal	AFKMEEHG_01830	Sulfur carrier protein TusA (tusA_2)	0
+1208	prodigal	AFKMEEHG_01829	"Cobyrinate a,c-diamide synthase (cbiA_2)"	0
+1209	prodigal	AFKMEEHG_01828	Sulfurtransferase TusE (tusE)	0
+1210	prodigal	AFKMEEHG_01827	"Sulfite reductase, dissimilatory-type subunit alpha (dsvA)"	0
+1211	prodigal	AFKMEEHG_01826	"Sulfite reductase, dissimilatory-type subunit beta (dsvB)"	0
+1212	prodigal	AFKMEEHG_01825	NADPH-Fe(3 ) oxidoreductase subunit beta (sfrB)	0
+1213	prodigal	AFKMEEHG_01824	hypothetical protein	0
+1214	prodigal	AFKMEEHG_01823	Putative sulfurtransferase DsrE (dsrE)	0
+1215	prodigal	AFKMEEHG_01822	Intracellular sulfur oxidation protein DsrF (dsrF)	0
+1216	prodigal	AFKMEEHG_01821	Protein TusB (tusB)	0
+1217	prodigal	AFKMEEHG_01820	hypothetical protein	0
+1218	prodigal	AFKMEEHG_01819	hypothetical protein	0
+1219	prodigal	AFKMEEHG_01818	hypothetical protein	0
+1220	prodigal	AFKMEEHG_01817	hypothetical protein	0
+1221	prodigal	AFKMEEHG_01816	Tetrathionate reductase subunit B (ttrB)	0
+1222	prodigal	AFKMEEHG_01815	hypothetical protein	0
+1223	prodigal	AFKMEEHG_01814	Precorrin-2 dehydrogenase (sirC)	0
+1224	prodigal	AFKMEEHG_01813	Siroheme synthase (cysG_3)	0
+1225	prodigal	AFKMEEHG_01812	hypothetical protein	0
+1226	prodigal	AFKMEEHG_01811	ATP-dependent Clp protease adapter protein ClpS (clpS)	0
+1227	prodigal	AFKMEEHG_01810	putative murein peptide carboxypeptidase (ykfA)	0
+1228	prodigal	AFKMEEHG_01809	"ATP synthase epsilon chain, sodium ion specific (atpC)"	0
+1229	prodigal	AFKMEEHG_01808	ATP synthase subunit beta (atpD)	0
+1230	prodigal	AFKMEEHG_01806	Thiol-disulfide oxidoreductase ResA (resA_2)	0
+1231	prodigal	AFKMEEHG_01805	Phosphoenolpyruvate carboxykinase [GTP] (pckG)	0
+1232	prodigal	AFKMEEHG_01804	hypothetical protein	0
+1233	prodigal	AFKMEEHG_01803	Dodecin	0
+1234	prodigal	AFKMEEHG_01802	"NAD(P)H-quinone oxidoreductase subunit I, chloroplastic (ndhI_2)"	0
+1235	prodigal	AFKMEEHG_01801	Putative dimethyl sulfoxide reductase chain YnfE (ynfE)	0
+1236	prodigal	AFKMEEHG_01800	hypothetical protein	0
+1237	prodigal	AFKMEEHG_01799	hypothetical protein	0
+1238	prodigal	AFKMEEHG_01798	Sulfur carrier protein TusA (tusA_1)	0
+1239	prodigal	AFKMEEHG_01797	Sulfur carrier protein DsrE2 (dsrE2)	0
+1240	prodigal	AFKMEEHG_01796	ATP-dependent DNA helicase RecQ (recQ)	0
+1241	prodigal	AFKMEEHG_01795	Trk system potassium uptake protein TrkH (trkH)	0
+1242	prodigal	AFKMEEHG_01794	Trk system potassium uptake protein TrkA (trkA)	0
+1243	prodigal	AFKMEEHG_01793	Glutathione-regulated potassium-efflux system ancillary protein KefG (kefG)	0
+1244	prodigal	AFKMEEHG_01792	Glutathione-regulated potassium-efflux system protein KefC (kefC)	0
+1245	prodigal	AFKMEEHG_01791	hypothetical protein	0
+1246	prodigal	AFKMEEHG_01790	hypothetical protein	0
+1247	prodigal	AFKMEEHG_01789	Glycine betaine transport system permease protein OpuAB (opuAB)	0
+1248	prodigal	AFKMEEHG_01788	Glycine betaine/carnitine transport ATP-binding protein GbuA (gbuA)	0
+1249	prodigal	AFKMEEHG_01787	hypothetical protein	0
+1250	prodigal	AFKMEEHG_01786	hypothetical protein	0
+1251	prodigal	AFKMEEHG_01785	Glutathione biosynthesis bifunctional protein GshAB (gshAB)	0
+1252	prodigal	AFKMEEHG_01784	Asparagine synthetase [glutamine-hydrolyzing] 1 (asnB_2)	0
+1253	prodigal	AFKMEEHG_01783	hypothetical protein	0
+1254	prodigal	AFKMEEHG_01782	hypothetical protein	0
+1255	prodigal	AFKMEEHG_01781	Glutathione-regulated potassium-efflux system protein KefB (kefB)	0
+1256	prodigal	AFKMEEHG_01780	hypothetical protein	0
+1257	prodigal	AFKMEEHG_01779	Peptide chain release factor 1 (prfA)	0
+1258	prodigal	AFKMEEHG_01778	Putative zinc metalloprotease	0
+1259	prodigal	AFKMEEHG_01777	1-deoxy-D-xylulose 5-phosphate reductoisomerase (dxr)	0
+1260	prodigal	AFKMEEHG_01775	Acylphosphatase (yccX)	0
+1261	prodigal	AFKMEEHG_01774	ATP-dependent zinc metalloprotease FtsH 4 (ftsH4)	0
+1262	prodigal	AFKMEEHG_01773	Orotidine 5'-phosphate decarboxylase (pyrF)	0
+1263	prodigal	AFKMEEHG_01772	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] (glmS_2)	0
+1264	prodigal	AFKMEEHG_01771	Epimerase family protein	0
+1265	prodigal	AFKMEEHG_01770	hypothetical protein	0
+1266	prodigal	AFKMEEHG_01769	Ammonia channel (amt)	0
+1267	prodigal	AFKMEEHG_01768	Nitrogen regulatory protein P-II (glnB_4)	0
+1268	prodigal	AFKMEEHG_01767	hypothetical protein	0
+1269	prodigal	AFKMEEHG_01766	Segregation and condensation protein A (scpA)	0
+1270	prodigal	AFKMEEHG_01765	hypothetical protein	0
+1271	prodigal	AFKMEEHG_01764	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE (tsaE)	0
+1272	prodigal	AFKMEEHG_01763	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB (tsaB)	0
+1273	prodigal	AFKMEEHG_01762	Ribosomal silencing factor RsfS (rsfS)	0
+1274	prodigal	AFKMEEHG_01761	DNA gyrase subunit A (gyrA)	0
+1275	prodigal	AFKMEEHG_01760	hypothetical protein	0
+1276	prodigal	AFKMEEHG_01759	CTP synthase (pyrG)	0
+1277	prodigal	AFKMEEHG_01101	hypothetical protein	0
+1278	prodigal	AFKMEEHG_01100	hypothetical protein	0
+1279	prodigal	AFKMEEHG_01099	hypothetical protein	0
+1280	prodigal	AFKMEEHG_01098	ATP-dependent zinc metalloprotease FtsH (ftsH_2)	0
+1281	prodigal	AFKMEEHG_01097	hypothetical protein	0
+1282	prodigal	AFKMEEHG_01096	hypothetical protein	0
+1283	prodigal	AFKMEEHG_01092	hypothetical protein	0
+1284	prodigal	AFKMEEHG_01091	hypothetical protein	0
+1285	prodigal	AFKMEEHG_01090	hypothetical protein	0
+1286	prodigal	AFKMEEHG_01089	hypothetical protein	0
+1287	prodigal	AFKMEEHG_01088	hypothetical protein	0
+1288	prodigal	AFKMEEHG_01087	hypothetical protein	0
+1289	prodigal	AFKMEEHG_01290	hypothetical protein	0
+1290	prodigal	AFKMEEHG_00665	hypothetical protein	0
+1291	prodigal	AFKMEEHG_00666	hypothetical protein	0
+1292	prodigal	AFKMEEHG_00667	Putative esterase	0
+1293	prodigal	AFKMEEHG_00668	hypothetical protein	0
+1294	prodigal	AFKMEEHG_00669	ADP-heptose--LPS heptosyltransferase 2 (rfaF)	0
+1295	prodigal	AFKMEEHG_00670	30S ribosomal protein S6 (rpsF)	0
+1296	prodigal	AFKMEEHG_00671	Single-stranded DNA-binding protein	0
+1297	prodigal	AFKMEEHG_00672	hypothetical protein	0
+1298	prodigal	AFKMEEHG_00673	50S ribosomal protein L9 (rplI)	0
+1299	prodigal	AFKMEEHG_00674	hypothetical protein	0
+1300	prodigal	AFKMEEHG_00675	Phenylalanine--tRNA ligase alpha subunit (pheS)	0
+1301	prodigal	AFKMEEHG_00676	50S ribosomal protein L20 (rplT)	0
+1302	prodigal	AFKMEEHG_00677	50S ribosomal protein L35 (rpmI)	0
+1303	prodigal	AFKMEEHG_00678	Translation initiation factor IF-3 (infC)	0
+1304	prodigal	AFKMEEHG_00679	Threonine--tRNA ligase (thrS)	0
+1305	prodigal	AFKMEEHG_00680	Chlorophyllide reductase subunit Z (bchZ)	0
+1306	prodigal	AFKMEEHG_00681	Beta-hexosaminidase (nagZ_1)	0
+1307	prodigal	AFKMEEHG_00682	hypothetical protein	0
+1308	prodigal	AFKMEEHG_00683	putative glycine dehydrogenase (decarboxylating) subunit 2 (gcvPB)	0
+1309	prodigal	AFKMEEHG_00684	Ribonuclease 3 (rnc)	0
+1310	prodigal	AFKMEEHG_00685	3-oxoacyl-[acyl-carrier-protein] synthase 2 (fabF)	0
+1311	prodigal	AFKMEEHG_00686	Acyl carrier protein (acpP)	0
+1312	prodigal	AFKMEEHG_00687	3-oxoacyl-[acyl-carrier-protein] reductase FabG (fabG_1)	0
+1313	prodigal	AFKMEEHG_00688	Malonyl CoA-acyl carrier protein transacylase (fabD)	0
+1314	prodigal	AFKMEEHG_00689	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 1 (fabHA)	0
+1315	prodigal	AFKMEEHG_00690	Phosphate acyltransferase (plsX)	0
+1316	prodigal	AFKMEEHG_00691	hypothetical protein	0
+1317	prodigal	AFKMEEHG_00693	hypothetical protein	0
+1318	prodigal	AFKMEEHG_00694	2-isopropylmalate synthase (leuA_1)	0
+1319	prodigal	AFKMEEHG_00695	High-affinity zinc uptake system binding-protein ZnuA (znuA)	0
+1320	prodigal	AFKMEEHG_00696	Manganese transport system ATP-binding protein MntB (mntB)	0
+1321	prodigal	AFKMEEHG_00697	High-affinity zinc uptake system membrane protein ZnuB (znuB)	0
+1322	prodigal	AFKMEEHG_00698	hypothetical protein	0
+1323	prodigal	AFKMEEHG_00699	Inner membrane protein YrbG (yrbG_2)	0
+1324	prodigal	AFKMEEHG_00700	hypothetical protein	0
+1325	prodigal	AFKMEEHG_00701	Putative fluoride ion transporter CrcB (crcB)	0
+1326	prodigal	AFKMEEHG_00702	"Glutamate-1-semialdehyde 2,1-aminomutase (hemL)"	0
+1327	prodigal	AFKMEEHG_00703	DNA repair protein RecO (recO)	0
+1328	prodigal	AFKMEEHG_00704	hypothetical protein	0
+1329	prodigal	AFKMEEHG_00705	hypothetical protein	0
+1330	prodigal	AFKMEEHG_00706	UDP-N-acetylglucosamine 2-epimerase (wecB)	0
+1331	prodigal	AFKMEEHG_00707	hypothetical protein	0
+1332	prodigal	AFKMEEHG_00708	"3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA (cpdA_2)"	0
+1333	prodigal	AFKMEEHG_00709	Peptide chain release factor RF2 (prfB)	0
+1334	prodigal	AFKMEEHG_00710	"Alpha-1,4-glucan:maltose-1-phosphate maltosyltransferase 1 (glgE1)"	0
+1335	prodigal	AFKMEEHG_00711	Glucosamine kinase	0
+1336	prodigal	AFKMEEHG_00712	Calcium-transporting ATPase 1	0
+1337	prodigal	AFKMEEHG_00713	hypothetical protein	0
+1338	prodigal	AFKMEEHG_00714	Nucleoside triphosphate pyrophosphohydrolase (mazG)	0
+1339	prodigal	AFKMEEHG_00715	Ribitol 2-dehydrogenase (rbtD)	0
+1340	prodigal	AFKMEEHG_00716	tRNA modification GTPase MnmE (mnmE)	0
+1341	prodigal	AFKMEEHG_00717	hypothetical protein	0
+1342	prodigal	AFKMEEHG_00718	hypothetical protein	0
+1343	prodigal	AFKMEEHG_00719	hypothetical protein	0
+1344	prodigal	AFKMEEHG_00720	hypothetical protein	0
+1345	prodigal	AFKMEEHG_00721	Protein adenylyltransferase SoFic (fic)	0
+1346	prodigal	AFKMEEHG_00722	hypothetical protein	0
+1347	prodigal	AFKMEEHG_00723	DNA polymerase/3'-5' exonuclease PolX (polX)	0
+1348	prodigal	AFKMEEHG_00724	hypothetical protein	0
+1349	prodigal	AFKMEEHG_00725	hypothetical protein	0
+1350	prodigal	AFKMEEHG_00726	hypothetical protein	0
+1351	prodigal	AFKMEEHG_00727	hypothetical protein	0
+1352	prodigal	AFKMEEHG_00728	hypothetical protein	0
+1353	prodigal	AFKMEEHG_00729	hypothetical protein	0
+1354	prodigal	AFKMEEHG_00730	Aminopeptidase N (pepN)	0
+1355	prodigal	AFKMEEHG_00731	hypothetical protein	0
+1356	prodigal	AFKMEEHG_00732	hypothetical protein	0
+1357	prodigal	AFKMEEHG_01205	Hypoxanthine phosphoribosyltransferase (hpt)	0
+1358	prodigal	AFKMEEHG_01206	Holo-[acyl-carrier-protein] synthase (acpS)	0
+1359	prodigal	AFKMEEHG_01207	Endolytic peptidoglycan transglycosylase RlpA (rlpA_2)	0
+1360	prodigal	AFKMEEHG_01208	hypothetical protein	0
+1361	prodigal	AFKMEEHG_01209	hypothetical protein	0
+1362	prodigal	AFKMEEHG_01210	Pseudopaline exporter CntI (cntI)	0
+1363	prodigal	AFKMEEHG_01211	putative sugar epimerase YhfK (yhfK)	0
+1364	prodigal	AFKMEEHG_01212	hypothetical protein	0
+1365	prodigal	AFKMEEHG_01213	Bacteriochlorophyll c-binding protein (csmA_2)	0
+1366	prodigal	AFKMEEHG_01214	Sodium/glucose cotransporter (sglT_2)	0
+1367	prodigal	AFKMEEHG_01215	hypothetical protein	0
+1368	prodigal	AFKMEEHG_01216	UTP--glucose-1-phosphate uridylyltransferase (cugP_1)	0
+1369	prodigal	AFKMEEHG_01217	N-acetylmuramate/N-acetylglucosamine kinase (amgK)	0
+1370	prodigal	AFKMEEHG_01218	Chlorosome envelope protein B (csmB_1)	0
+1371	prodigal	AFKMEEHG_01219	hypothetical protein	0
+1372	prodigal	AFKMEEHG_01220	hypothetical protein	0
+1373	prodigal	AFKMEEHG_01221	hypothetical protein	0
+1374	prodigal	AFKMEEHG_01222	hypothetical protein	0
+1375	prodigal	AFKMEEHG_01223	hypothetical protein	0
+1376	prodigal	AFKMEEHG_01224	hypothetical protein	0
+1377	prodigal	AFKMEEHG_01225	Swarming motility protein SwrC (swrC)	0
+1378	prodigal	AFKMEEHG_01226	hypothetical protein	0
+1379	prodigal	AFKMEEHG_01227	putative protein	0
+1380	prodigal	AFKMEEHG_01228	hypothetical protein	0
+1381	prodigal	AFKMEEHG_01229	Succinate dehydrogenase flavoprotein subunit (sdhA_1)	0
+1382	prodigal	AFKMEEHG_01230	hypothetical protein	0
+1383	prodigal	AFKMEEHG_01231	8-methylmenaquinol:fumarate reductase membrane anchor subunit (sdhE)	0
+1384	prodigal	AFKMEEHG_01232	Uroporphyrinogen decarboxylase (hemE)	0
+1385	prodigal	AFKMEEHG_01233	hypothetical protein	0
+1386	prodigal	AFKMEEHG_01234	hypothetical protein	0
+1387	prodigal	AFKMEEHG_01235	Phosphoheptose isomerase (gmhA)	0
+1388	prodigal	AFKMEEHG_01236	"6,7-dimethyl-8-ribityllumazine synthase (ribH)"	0
+1389	prodigal	AFKMEEHG_01237	1-acyl-sn-glycerol-3-phosphate acyltransferase (plsC)	0
+1390	prodigal	AFKMEEHG_01238	Threonine synthase (thrC)	0
+1391	prodigal	AFKMEEHG_01239	Homoserine kinase (thrB)	0
+1392	prodigal	AFKMEEHG_01240	ATP synthase subunit alpha (atpA)	0
+1393	prodigal	AFKMEEHG_01241	ATP synthase gamma chain (atpG)	0
+1394	prodigal	AFKMEEHG_01242	Bifunctional aspartokinase/homoserine dehydrogenase 1 (thrA)	0
+1395	prodigal	AFKMEEHG_01243	Nicotinamide-nucleotide amidohydrolase PncC (pncC)	0
+1396	prodigal	AFKMEEHG_01244	hypothetical protein	0
+1397	prodigal	AFKMEEHG_01245	DNA mismatch repair protein MutL (mutL)	0
+1398	prodigal	AFKMEEHG_02234	hypothetical protein	0
+1399	prodigal	AFKMEEHG_02235	hypothetical protein	0
+1400	prodigal	AFKMEEHG_02236	Diaminopimelate epimerase (dapF)	0
+1401	prodigal	AFKMEEHG_02237	hypothetical protein	0
+1402	prodigal	AFKMEEHG_02238	hypothetical protein	0
+1403	prodigal	AFKMEEHG_02239	Undecaprenyl-phosphate mannosyltransferase	0
+1404	prodigal	AFKMEEHG_02240	Elongation factor G (fus)	0
+1405	prodigal	AFKMEEHG_02241	Enolase (eno)	0
+1406	prodigal	AFKMEEHG_02242	hypothetical protein	0
+1407	prodigal	AFKMEEHG_02243	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin) (ispG)	0
+1408	prodigal	AFKMEEHG_02248	Protein translocase subunit SecE (secE)	0
+1409	prodigal	AFKMEEHG_02249	Transcription termination/antitermination protein NusG (nusG)	0
+1410	prodigal	AFKMEEHG_02250	50S ribosomal protein L11 (rplK)	0
+1411	prodigal	AFKMEEHG_02251	50S ribosomal protein L1 (rplA)	0
+1412	prodigal	AFKMEEHG_02252	50S ribosomal protein L10 (rplJ)	0
+1413	prodigal	AFKMEEHG_02253	50S ribosomal protein L7/L12 (rplL)	0
+1414	prodigal	AFKMEEHG_02254	DNA-directed RNA polymerase subunit beta (rpoB)	0
+1415	prodigal	AFKMEEHG_02255	DNA-directed RNA polymerase subunit beta' (rpoC)	0
+1416	prodigal	AFKMEEHG_02256	Biotin carboxylase (accC)	0
+1417	prodigal	AFKMEEHG_02257	Biotin carboxyl carrier protein of acetyl-CoA carboxylase (accB)	0
+1418	prodigal	AFKMEEHG_02258	Elongation factor P (efp)	0
+1419	prodigal	AFKMEEHG_02259	DNA-binding protein HU-beta (hupB)	0
+1420	prodigal	AFKMEEHG_02260	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (accA)	0
+1421	prodigal	AFKMEEHG_01399	2-oxoglutarate oxidoreductase subunit KorA (korA)	0
+1422	prodigal	AFKMEEHG_01400	hypothetical protein	0
+1423	prodigal	AFKMEEHG_01401	hypothetical protein	0
+1424	prodigal	AFKMEEHG_01402	Response regulator receiver protein CpdR (cpdR_2)	0
+1425	prodigal	AFKMEEHG_01403	Sensor histidine kinase RcsC (rcsC_9)	0
+1426	prodigal	AFKMEEHG_01404	hypothetical protein	0
+1427	prodigal	AFKMEEHG_01405	Alanine--tRNA ligase (alaS)	0
+1428	prodigal	AFKMEEHG_01406	NADH peroxidase (npr)	0
+1429	prodigal	AFKMEEHG_01407	Phosphoserine phosphatase	0
+1430	prodigal	AFKMEEHG_01408	GMP synthase [glutamine-hydrolyzing] (guaA)	0
+1431	prodigal	AFKMEEHG_01409	Penicillin-binding protein 1A (mrcA)	0
+1432	prodigal	AFKMEEHG_01410	Putative aminoacrylate hydrolase RutD (rutD_2)	0
+1433	prodigal	AFKMEEHG_01411	"4,4'-diapophytoene desaturase (4,4'-diapolycopene-forming) (crtN)"	0
+1434	prodigal	AFKMEEHG_01413	Protein YeeZ (yeeZ)	0
+1435	prodigal	AFKMEEHG_01414	Corrinoid adenosyltransferase (yvqK)	0
+1436	prodigal	AFKMEEHG_01415	"Cobyrinate a,c-diamide synthase (cbiA_1)"	0
+1437	prodigal	AFKMEEHG_01416	hypothetical protein	0
+1438	prodigal	AFKMEEHG_01417	hypothetical protein	0
+1439	prodigal	AFKMEEHG_01418	Negative regulator of genetic competence ClpC/MecB (clpC)	0
+1440	prodigal	AFKMEEHG_01419	Tryptophan synthase beta chain (trpB_2)	0
+1441	prodigal	AFKMEEHG_01421	Thiamine-monophosphate kinase (thiL)	0
+1442	prodigal	AFKMEEHG_01422	hypothetical protein	0
+1443	prodigal	AFKMEEHG_01423	Signal recognition particle receptor FtsY (ftsY)	0
+1444	prodigal	AFKMEEHG_01424	hypothetical protein	0
+1445	prodigal	AFKMEEHG_01425	Protein-L-isoaspartate O-methyltransferase (pcm)	0
+1446	prodigal	AFKMEEHG_01426	Chaperone SurA (surA_1)	0
+1447	prodigal	AFKMEEHG_01427	hypothetical protein	0
+1448	prodigal	AFKMEEHG_01428	hypothetical protein	0
+1449	prodigal	AFKMEEHG_01429	hypothetical protein	0
+1450	prodigal	AFKMEEHG_01632	Phosphoenolpyruvate-protein phosphotransferase (ptsI)	0
+1451	prodigal	AFKMEEHG_01633	Replicative DNA helicase (dnaC)	0
+1452	prodigal	AFKMEEHG_01634	Type-4 uracil-DNA glycosylase (udg)	0
+1453	prodigal	AFKMEEHG_01635	Coenzyme A biosynthesis bifunctional protein CoaBC (coaBC)	0
+1454	prodigal	AFKMEEHG_01636	hypothetical protein	0
+1455	prodigal	AFKMEEHG_01637	hypothetical protein	0
+1456	prodigal	AFKMEEHG_01638	D-inositol-3-phosphate glycosyltransferase (mshA_7)	0
+1457	prodigal	AFKMEEHG_01639	hypothetical protein	0
+1458	prodigal	AFKMEEHG_01640	hypothetical protein	0
+1459	prodigal	AFKMEEHG_01247	hypothetical protein	0
+1460	prodigal	AFKMEEHG_01248	hypothetical protein	0
+1461	prodigal	AFKMEEHG_01249	hypothetical protein	0
+1462	prodigal	AFKMEEHG_01304	hypothetical protein	0
+1463	prodigal	AFKMEEHG_01653	hypothetical protein	0
+1464	prodigal	AFKMEEHG_01654	hypothetical protein	0
+1465	prodigal	AFKMEEHG_01655	hypothetical protein	0
+1466	prodigal	AFKMEEHG_00099	hypothetical protein	0
+1467	prodigal	AFKMEEHG_00100	Type I secretion system ATP-binding protein PrsD (prsD_1)	0
+1468	prodigal	AFKMEEHG_00101	Type I secretion system ATP-binding protein PrsD (prsD_2)	0
+1469	prodigal	AFKMEEHG_00102	Type I secretion system membrane fusion protein PrsE (prsE_1)	0
+1470	prodigal	AFKMEEHG_00103	Outer membrane protein TolC (tolC)	0
+1471	prodigal	AFKMEEHG_00613	hypothetical protein	0
+1472	prodigal	AFKMEEHG_00614	hypothetical protein	0
+1473	prodigal	AFKMEEHG_01121	hypothetical protein	0
+1474	prodigal	AFKMEEHG_01120	hypothetical protein	0
+1475	prodigal	AFKMEEHG_01119	hypothetical protein	0
+1476	prodigal	AFKMEEHG_01118	Bifunctional protein HldE (hldE_1)	0
+1477	prodigal	AFKMEEHG_01117	Lipid A biosynthesis lauroyltransferase (lpxL)	0
+1478	prodigal	AFKMEEHG_01116	"dTDP-4-dehydrorhamnose 3,5-epimerase (rfbC_1)"	0
+1479	prodigal	AFKMEEHG_01558	hypothetical protein	0
+1480	prodigal	AFKMEEHG_01559	hypothetical protein	0
+1481	prodigal	AFKMEEHG_01560	UTP--glucose-1-phosphate uridylyltransferase (galU)	0
+1482	prodigal	AFKMEEHG_01561	hypothetical protein	0
+1483	prodigal	AFKMEEHG_01562	"N,N'-diacetylbacillosaminyl-diphospho-undecapren ol alpha-1,3-N-acetylgalactosaminyltransferase (pglA_1)"	0
+1484	prodigal	AFKMEEHG_01563	UDP-galactopyranose mutase (rfbD)	0
+1485	prodigal	AFKMEEHG_01564	hypothetical protein	0
+1486	prodigal	AFKMEEHG_02105	IS3 family transposase ISAfe17	0
+1487	prodigal	AFKMEEHG_02104	IS3 family transposase ISAfe17	0
+1488	prodigal	AFKMEEHG_02103	hypothetical protein	0
+1489	prodigal	AFKMEEHG_02102	Teichoic acids export ATP-binding protein TagH (tagH)	0
+1490	prodigal	AFKMEEHG_02101	"N-acetyl-alpha-D-glucosaminyl-diphospho-ditrans, octacis-undecaprenol 4-epimerase (gnu)"	0
+1491	prodigal	AFKMEEHG_02100	"Undecaprenyl phosphate N,N'-diacetylbacillosamine 1-phosphate transferase (pglC)"	0
+1492	prodigal	AFKMEEHG_02099	UDP-N-acetyl-alpha-D-glucosamine C6 dehydratase (pglF)	0
+1493	prodigal	AFKMEEHG_02098	Vitamin B12 import ATP-binding protein BtuD (btuD_2)	0
+1494	prodigal	AFKMEEHG_02097	hypothetical protein	0
+1495	prodigal	AFKMEEHG_02096	D-inositol-3-phosphate glycosyltransferase (mshA_16)	0
+1496	prodigal	AFKMEEHG_02095	hypothetical protein	0
+1497	prodigal	AFKMEEHG_02094	hypothetical protein	0
+1498	prodigal	AFKMEEHG_02093	hypothetical protein	0
+1499	prodigal	AFKMEEHG_02092	D-inositol-3-phosphate glycosyltransferase (mshA_15)	0
+1500	prodigal	AFKMEEHG_02091	"Phosphoglycolate phosphatase, chromosomal (cbbZC)"	0
+1501	prodigal	AFKMEEHG_02090	"8-amino-3,8-dideoxy-manno-octulosonate cytidylyltransferase (kdsB_2)"	0
+1502	prodigal	AFKMEEHG_02089	hypothetical protein	0
+1503	prodigal	AFKMEEHG_02088	D-inositol-3-phosphate glycosyltransferase (mshA_14)	0
+1504	prodigal	AFKMEEHG_02087	D-inositol-3-phosphate glycosyltransferase (mshA_13)	0
+1505	prodigal	AFKMEEHG_02086	D-inositol-3-phosphate glycosyltransferase (mshA_12)	0
+1506	prodigal	AFKMEEHG_02085	D-inositol 3-phosphate glycosyltransferase (mshA_11)	0
+1507	prodigal	AFKMEEHG_02148	hypothetical protein	0
+1508	prodigal	AFKMEEHG_02149	hypothetical protein	0
+1509	prodigal	AFKMEEHG_02150	PTS system fructose-specific EIIABC component (fruA)	0
+1510	prodigal	AFKMEEHG_02151	Histidine--tRNA ligase (hisS)	0
+1511	prodigal	AFKMEEHG_02152	hypothetical protein	0
+1512	prodigal	AFKMEEHG_02153	hypothetical protein	0
+1513	prodigal	AFKMEEHG_02154	hypothetical protein	0
+1514	prodigal	AFKMEEHG_02155	hypothetical protein	0
+1515	prodigal	AFKMEEHG_02156	Ribosome maturation factor RimP (rimP)	0
+1516	prodigal	AFKMEEHG_02157	Transcription termination/antitermination protein NusA (nusA)	0
+1517	prodigal	AFKMEEHG_02158	Translation initiation factor IF-2 (infB)	0
+1518	prodigal	AFKMEEHG_02159	Ribosome-binding factor A (rbfA)	0
+1519	prodigal	AFKMEEHG_02160	tRNA pseudouridine synthase B (truB)	0
+1520	prodigal	AFKMEEHG_02161	Bifunctional riboflavin kinase/FMN adenylyltransferase (ribF)	0
+1521	prodigal	AFKMEEHG_02162	30S ribosomal protein S15 (rpsO)	0
+1522	prodigal	AFKMEEHG_02163	hypothetical protein	0
+1523	prodigal	AFKMEEHG_02164	Guanylate kinase (gmk)	0
+1524	prodigal	AFKMEEHG_02165	hypothetical protein	0
+1525	prodigal	AFKMEEHG_02166	hypothetical protein	0
+1526	prodigal	AFKMEEHG_02167	hypothetical protein	0
+1527	prodigal	AFKMEEHG_02168	Bifunctional protein GlmU (glmU_2)	0
+1528	prodigal	AFKMEEHG_02169	Aspartate 1-decarboxylase (panD)	0
+1529	prodigal	AFKMEEHG_02170	hypothetical protein	0
+1530	prodigal	AFKMEEHG_02171	Chaperone protein Skp (skp)	0
+1531	prodigal	AFKMEEHG_02172	Lipopolysaccharide core heptosyltransferase RfaQ (rfaQ)	0
+1532	prodigal	AFKMEEHG_02173	hypothetical protein	0
+1533	prodigal	AFKMEEHG_02174	Octaprenyl diphosphate synthase (ispB_2)	0
+1534	prodigal	AFKMEEHG_02175	Isopentenyl-diphosphate delta-isomerase (fni)	0
+1535	prodigal	AFKMEEHG_02176	hypothetical protein	0
+1536	prodigal	AFKMEEHG_02177	hypothetical protein	0
+1537	prodigal	AFKMEEHG_02178	Phosphomannomutase/phosphoglucomutase (algC)	0
+1538	prodigal	AFKMEEHG_02179	putative ABC transporter ATP-binding protein	0
+1539	prodigal	AFKMEEHG_02180	30S ribosomal protein S20 (rpsT)	0
+1540	prodigal	AFKMEEHG_02181	Holliday junction ATP-dependent DNA helicase RuvA (ruvA)	0
+1541	prodigal	AFKMEEHG_02182	Folylpolyglutamate synthase (fpgS)	0
+1542	prodigal	AFKMEEHG_02183	Transcription termination factor Rho (rho)	0
+1543	prodigal	AFKMEEHG_02184	hypothetical protein	0
+1544	prodigal	AFKMEEHG_02187	hypothetical protein	0
+1545	prodigal	AFKMEEHG_02188	C4-dicarboxylate TRAP transporter large permease protein DctM (dctM)	0
+1546	prodigal	AFKMEEHG_02189	Monocarboxylate 2-oxoacid-binding periplasmic protein	0
+1547	prodigal	AFKMEEHG_02190	Protein FixA (fixA)	0
+1548	prodigal	AFKMEEHG_02191	Electron transfer flavoprotein subunit alpha (etfA)	0
+1549	prodigal	AFKMEEHG_02192	hypothetical protein	0
+1550	prodigal	AFKMEEHG_02193	hypothetical protein	0
+1551	prodigal	AFKMEEHG_02194	Outer membrane protein assembly factor BamA (bamA_3)	0
+1552	prodigal	AFKMEEHG_02195	"Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) (ispU)"	0
+1553	prodigal	AFKMEEHG_02196	Glutamyl-tRNA(Gln) amidotransferase subunit A (gatA)	0
+1554	prodigal	AFKMEEHG_02197	Succinate--CoA ligase [ADP-forming] subunit alpha (sucD)	0
+1555	prodigal	AFKMEEHG_02198	Arabinose 5-phosphate isomerase KdsD (kdsD)	0
+1556	prodigal	AFKMEEHG_02199	hypothetical protein	0
+1557	prodigal	AFKMEEHG_02200	hypothetical protein	0
+1558	prodigal	AFKMEEHG_02201	hypothetical protein	0
+1559	prodigal	AFKMEEHG_02202	hypothetical protein	0
+1560	prodigal	AFKMEEHG_02203	hypothetical protein	0
+1561	prodigal	AFKMEEHG_02204	hypothetical protein	0
+1562	prodigal	AFKMEEHG_02205	RNA polymerase sigma-H factor (algU)	0
+1563	prodigal	AFKMEEHG_02206	Phosphoglucomutase (pgcA)	0
+1564	prodigal	AFKMEEHG_02207	Lipid-A-disaccharide synthase (lpxB)	0
+1565	prodigal	AFKMEEHG_02208	hypothetical protein	0
+1566	prodigal	AFKMEEHG_02209	hypothetical protein	0
+1567	prodigal	AFKMEEHG_02210	hypothetical protein	0
+1568	prodigal	AFKMEEHG_02211	Sulfate transport system permease protein CysT (cysT)	0
+1569	prodigal	AFKMEEHG_02212	Vitamin B12 import ATP-binding protein BtuD (btuD_3)	0
+1570	prodigal	AFKMEEHG_02213	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (ispH)	0
+1571	prodigal	AFKMEEHG_02214	hypothetical protein	0
+1572	prodigal	AFKMEEHG_02215	hypothetical protein	0
+1573	prodigal	AFKMEEHG_02216	hypothetical protein	0
+1574	prodigal	AFKMEEHG_02217	3-oxoacyl-[acyl-carrier-protein] reductase FabG (fabG_2)	0
+1575	prodigal	AFKMEEHG_02218	Lipoprotein-releasing system ATP-binding protein LolD (lolD_4)	0
+1576	prodigal	AFKMEEHG_02219	hypothetical protein	0
+1577	prodigal	AFKMEEHG_02220	DNA ligase (ligA)	0
+1578	prodigal	AFKMEEHG_02221	hypothetical protein	0
+1579	prodigal	AFKMEEHG_02222	"2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial (COQ5_3)"	0
+1580	prodigal	AFKMEEHG_02130	Phosphoribosyl-AMP cyclohydrolase (hisI)	0
+1581	prodigal	AFKMEEHG_02129	Macrolide export protein MacA (macA_2)	0
+1582	prodigal	AFKMEEHG_02128	Ferrochelatase (hemH_2)	0
+1583	prodigal	AFKMEEHG_02127	hypothetical protein	0
+1584	prodigal	AFKMEEHG_02126	hypothetical protein	0
+1585	prodigal	AFKMEEHG_02125	Glutamate synthase [NADPH] small chain (gltD)	0
+1586	prodigal	AFKMEEHG_02124	"Dihydroorotate dehydrogenase B (NAD( )), electron transfer subunit"	0
+1587	prodigal	AFKMEEHG_02123	Imidazole glycerol phosphate synthase subunit HisH (hisH)	0
+1588	prodigal	AFKMEEHG_02122	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)m ethylideneamino] imidazole-4-carboxamide isomerase (hisA)	0
+1589	prodigal	AFKMEEHG_02121	Segregation and condensation protein B (scpB)	0
+1590	prodigal	AFKMEEHG_02120	Ribosomal large subunit pseudouridine synthase B (rluB)	0
+1591	prodigal	AFKMEEHG_02119	hypothetical protein	0
+1592	prodigal	AFKMEEHG_02118	hypothetical protein	0
+1593	prodigal	AFKMEEHG_00464	hypothetical protein	0
+1594	prodigal	AFKMEEHG_00463	Exopolyphosphatase (ppx)	0
+1595	prodigal	AFKMEEHG_00462	Isochorismate synthase MenF (menF_2)	0
+1596	prodigal	AFKMEEHG_00461	hypothetical protein	0
+1597	prodigal	AFKMEEHG_00460	Endonuclease III (nth)	0
+1598	prodigal	AFKMEEHG_00459	"Bis(5'-nucleosyl)-tetraphosphatase, symmetrical (apaH)"	0
+1599	prodigal	AFKMEEHG_00458	Transcription antitermination protein NusB (nusB)	0
+1600	prodigal	AFKMEEHG_00457	Phosphoglycolate phosphatase (gph)	0
+1601	prodigal	AFKMEEHG_00456	Chromosome partition protein Smc (smc_1)	0
+1602	prodigal	AFKMEEHG_00455	Dihydropteroate synthase (folP)	0
+1603	prodigal	AFKMEEHG_00454	hypothetical protein	0
+1604	prodigal	AFKMEEHG_00453	hypothetical protein	0
+1605	prodigal	AFKMEEHG_00452	hypothetical protein	0
+1606	prodigal	AFKMEEHG_00451	Ion-translocating oxidoreductase complex subunit B (rsxB)	0
+1607	prodigal	AFKMEEHG_00450	hypothetical protein	0
+1608	prodigal	AFKMEEHG_00449	Putative D-alanyl-D-alanine carboxypeptidase (yfeW)	0
+1609	prodigal	AFKMEEHG_00448	hypothetical protein	0
+1610	prodigal	AFKMEEHG_00447	putative ribonucleotide transport ATP-binding protein mkl (mkl)	0
+1611	prodigal	AFKMEEHG_00446	Intermembrane phospholipid transport system permease protein MlaE (mlaE)	0
+1612	prodigal	AFKMEEHG_00445	5'-3' exoribonuclease (yciV)	0
+1613	prodigal	AFKMEEHG_00444	Undecaprenyl-diphosphatase (uppP)	0
+1614	prodigal	AFKMEEHG_00443	dITP/XTP pyrophosphatase	0
+1615	prodigal	AFKMEEHG_00442	Pyridoxine 5'-phosphate synthase (pdxJ)	0
+1616	prodigal	AFKMEEHG_00441	Endonuclease MutS2 (mutS2)	0
+1617	prodigal	AFKMEEHG_00440	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (pgsA_2)	0
+1618	prodigal	AFKMEEHG_00439	hypothetical protein	0
+1619	prodigal	AFKMEEHG_00438	1-deoxy-D-xylulose-5-phosphate synthase (dxs)	0
+1620	prodigal	AFKMEEHG_00437	hypothetical protein	0
+1621	prodigal	AFKMEEHG_00436	hypothetical protein	0
+1622	prodigal	AFKMEEHG_00435	ATP-dependent DNA helicase PcrA (pcrA)	0
+1623	prodigal	AFKMEEHG_00434	hypothetical protein	0
+1624	prodigal	AFKMEEHG_00433	Leucyl/phenylalanyl-tRNA--protein transferase (aat)	0
+1625	prodigal	AFKMEEHG_00432	Iron-sulfur cluster carrier protein	0
+1626	prodigal	AFKMEEHG_00431	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI (fabI)	0
+1627	prodigal	AFKMEEHG_00430	Isocitrate dehydrogenase [NADP] 2 (icd2)	0
+1628	prodigal	AFKMEEHG_00429	"2',3'-cyclic-nucleotide 2'-phosphodiesterase (ymdB)"	0
+1629	prodigal	AFKMEEHG_00428	hypothetical protein	0
+1630	prodigal	AFKMEEHG_00427	Isoleucine--tRNA ligase (ileS)	0
+1631	prodigal	AFKMEEHG_00426	RNA polymerase-binding transcription factor DksA (dksA)	0
+1632	prodigal	AFKMEEHG_00425	Amidophosphoribosyltransferase (purF_1)	0
+1633	prodigal	AFKMEEHG_00424	hypothetical protein	0
+1634	prodigal	AFKMEEHG_00423	Glyoxalase ElbB (elbB)	0
+1635	prodigal	AFKMEEHG_00422	hypothetical protein	0
+1636	prodigal	AFKMEEHG_00421	putative hydrolase YcaC (ycaC)	0
+1637	prodigal	AFKMEEHG_00420	Tetraacyldisaccharide 4'-kinase (lpxK)	0
+1638	prodigal	AFKMEEHG_00419	hypothetical protein	0
+1639	prodigal	AFKMEEHG_00418	Phosphoribosylamine--glycine ligase (purD)	0
+1640	prodigal	AFKMEEHG_00417	hypothetical protein	0
+1641	prodigal	AFKMEEHG_00416	Carbamoyl-phosphate synthase large chain (carB_2)	0
+1642	prodigal	AFKMEEHG_00415	Indole-3-glycerol phosphate synthase (trpC)	0
+1643	prodigal	AFKMEEHG_00414	Ribulose-phosphate 3-epimerase (rpe)	0
+1644	prodigal	AFKMEEHG_00413	Outer membrane protein assembly factor BamA (bamA_1)	0
+1645	prodigal	AFKMEEHG_00412	hypothetical protein	0
+1646	prodigal	AFKMEEHG_00411	DNA polymerase I (polA)	0
+1647	prodigal	AFKMEEHG_00410	Bifunctional chorismate mutase/prephenate dehydratase (pheA)	0
+1648	prodigal	AFKMEEHG_00409	putative transcriptional regulatory protein	0
+1649	prodigal	AFKMEEHG_00408	Crossover junction endodeoxyribonuclease RuvC (ruvC)	0
+1650	prodigal	AFKMEEHG_00407	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (pgsA_1)	0
+1651	prodigal	AFKMEEHG_00406	UDP-3-O-acyl-N-acetylglucosamine deacetylase (lpxC)	0
+1652	prodigal	AFKMEEHG_00405	Inositol-1-monophosphatase (suhB)	0
+1653	prodigal	AFKMEEHG_00404	Tryptophan-rich protein TspO (crtK-2)	0
+1654	prodigal	AFKMEEHG_00403	Acetyl-coenzyme A synthetase (acsA)	0
+1655	prodigal	AFKMEEHG_00402	Leucine--tRNA ligase (leuS)	0
+1656	prodigal	AFKMEEHG_00401	Polyribonucleotide nucleotidyltransferase (pnp)	0
+1657	prodigal	AFKMEEHG_00400	Pantothenate synthetase (panC)	0
+1658	prodigal	AFKMEEHG_00399	Ribosomal RNA small subunit methyltransferase I (rsmI)	0
+1659	prodigal	AFKMEEHG_00398	Oligopeptide transport ATP-binding protein OppF (oppF)	0
+1660	prodigal	AFKMEEHG_00397	Protease 4 (sppA)	0
+1661	prodigal	AFKMEEHG_00396	Competence protein ComM (comM)	0
+1662	prodigal	AFKMEEHG_00395	Cytochrome c (pscC)	0
+1663	prodigal	AFKMEEHG_00394	NADPH-dependent 7-cyano-7-deazaguanine reductase (queF)	0
+1664	prodigal	AFKMEEHG_00393	hypothetical protein	0
+1665	prodigal	AFKMEEHG_00392	hypothetical protein	0
+1666	prodigal	AFKMEEHG_00391	Tyrosine recombinase XerC (xerC_2)	0
+1667	prodigal	AFKMEEHG_00390	Ribosome hibernation promoting factor (hpf)	0
+1668	prodigal	AFKMEEHG_00389	HPr kinase/phosphorylase (hprK)	0
+1669	prodigal	AFKMEEHG_00388	Oligopeptide-binding protein AppA (appA_2)	0
+1670	prodigal	AFKMEEHG_00387	Dipeptide transport system permease protein DppB (dppB)	0
+1671	prodigal	AFKMEEHG_00386	Holliday junction ATP-dependent DNA helicase RuvB (ruvB)	0
+1672	prodigal	AFKMEEHG_00385	Beta-barrel assembly-enhancing protease (bepA_1)	0
+1673	prodigal	AFKMEEHG_00384	Pyruvate-flavodoxin oxidoreductase (nifJ)	0
+1674	prodigal	AFKMEEHG_00383	Putative TrmH family tRNA/rRNA methyltransferase	0
+1675	prodigal	AFKMEEHG_00382	Glycine cleavage system H protein (gcvH)	0
+1676	prodigal	AFKMEEHG_00381	putative glycine dehydrogenase (decarboxylating) subunit 1 (gcvPA)	0
+1677	prodigal	AFKMEEHG_00380	4-hydroxy-tetrahydrodipicolinate synthase (dapA)	0
+1678	prodigal	AFKMEEHG_00379	DNA repair protein RecN (recN)	0
+1679	prodigal	AFKMEEHG_00378	hypothetical protein	0
+1680	prodigal	AFKMEEHG_00377	Sec-independent protein translocase protein TatA (tatA)	0
+1681	prodigal	AFKMEEHG_00376	Phosphatidylserine decarboxylase proenzyme (psd)	0
+1682	prodigal	AFKMEEHG_00375	tRNA(Ile)-lysidine synthase (tilS)	0
+1683	prodigal	AFKMEEHG_00374	hypothetical protein	0
+1684	prodigal	AFKMEEHG_00373	Ribonuclease H (rnhA)	0
+1685	prodigal	AFKMEEHG_00372	50S ribosomal protein L28 (rpmB)	0
+1686	prodigal	AFKMEEHG_00371	"1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_3)"	0
+1687	prodigal	AFKMEEHG_00370	Anthranilate phosphoribosyltransferase 2 (trpD2)	0
+1688	prodigal	AFKMEEHG_00369	"Methionine aminopeptidase 1, mitochondrial"	0
+1689	prodigal	AFKMEEHG_00368	hypothetical protein	0
+1690	prodigal	AFKMEEHG_00367	Branched-chain-amino-acid aminotransferase (ilvE)	0
+1691	prodigal	AFKMEEHG_00366	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase (pfp)	0
+1692	prodigal	AFKMEEHG_00365	Lipoprotein-releasing system transmembrane protein LolE (lolE_1)	0
+1693	prodigal	AFKMEEHG_00364	"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (ispF)"	0
+1694	prodigal	AFKMEEHG_00363	"Dihydroorotate dehydrogenase B (NAD( )), catalytic subunit (pyrD_1)"	0
+1695	prodigal	AFKMEEHG_00362	Glycogen phosphorylase (glgP)	0
+1696	prodigal	AFKMEEHG_00361	"3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA (cpdA_1)"	0
+1697	prodigal	AFKMEEHG_00360	Bacterial non-heme ferritin (ftnA_2)	0
+1698	prodigal	AFKMEEHG_00359	hypothetical protein	0
+1699	prodigal	AFKMEEHG_00358	putative bacterial non-heme ferritin (ftnA_1)	0
+1700	prodigal	AFKMEEHG_00357	Flavodoxin 1 (fldA)	0
+1701	prodigal	AFKMEEHG_00356	hypothetical protein	0
+1702	prodigal	AFKMEEHG_00355	hypothetical protein	0
+1703	prodigal	AFKMEEHG_00354	Iron-dependent repressor IdeR (ideR)	0
+1704	prodigal	AFKMEEHG_00353	Ferredoxin-1	0
+1705	prodigal	AFKMEEHG_00352	hypothetical protein	0
+1706	prodigal	AFKMEEHG_00351	Fe(2 ) transporter FeoB (feoB)	0
+1707	prodigal	AFKMEEHG_00350	hypothetical protein	0
+1708	prodigal	AFKMEEHG_00349	hypothetical protein	0
+1709	prodigal	AFKMEEHG_00348	hypothetical protein	0
+1710	prodigal	AFKMEEHG_00347	hypothetical protein	0
+1711	prodigal	AFKMEEHG_00346	hypothetical protein	0
+1712	prodigal	AFKMEEHG_00345	Carbamoyl-phosphate synthase large chain (carB_1)	0
+1713	prodigal	AFKMEEHG_00344	Riboflavin biosynthesis protein RibBA (ribBA)	0
+1714	prodigal	AFKMEEHG_00343	Serine hydroxymethyltransferase (glyA)	0
+1715	prodigal	AFKMEEHG_00342	hypothetical protein	0
+1716	prodigal	AFKMEEHG_00341	Imidazole glycerol phosphate synthase subunit HisF (hisF)	0
+1717	prodigal	AFKMEEHG_00340	hypothetical protein	0
+1718	prodigal	AFKMEEHG_00339	Ferredoxin--NADP reductase	0
+1719	prodigal	AFKMEEHG_00338	"1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_2)"	0
+1720	prodigal	AFKMEEHG_00337	N-carbamoyl-D-amino acid hydrolase	0
+1721	prodigal	AFKMEEHG_00336	hypothetical protein	0
+1722	prodigal	AFKMEEHG_00335	hypothetical protein	0
+1723	prodigal	AFKMEEHG_00334	Protease HtpX (htpX_1)	0
+1724	prodigal	AFKMEEHG_00333	Agmatine deiminase (aguA)	0
+1725	prodigal	AFKMEEHG_00332	Malate dehydrogenase (mdh)	0
+1726	prodigal	AFKMEEHG_00331	50S ribosomal protein L27 (rpmA)	0
+1727	prodigal	AFKMEEHG_00330	50S ribosomal protein L21 (rplU)	0
+1728	prodigal	AFKMEEHG_00329	hypothetical protein	0
+1729	prodigal	AFKMEEHG_00328	DNA mismatch repair protein MutS (mutS)	0
+1730	prodigal	AFKMEEHG_00327	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI (yheI)	0
+1731	prodigal	AFKMEEHG_00326	hypothetical protein	0
+1732	prodigal	AFKMEEHG_00325	Bacteriochlorophyll a protein	0
+1733	prodigal	AFKMEEHG_00324	Apolipoprotein N-acyltransferase (lnt)	0
+1734	prodigal	AFKMEEHG_00323	Regulatory protein AtoC (atoC)	0
+1735	prodigal	AFKMEEHG_00322	hypothetical protein	0
+1736	prodigal	AFKMEEHG_00321	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (ispE)	0
+1737	prodigal	AFKMEEHG_00320	Glutamine-dependent NAD( ) synthetase (nadE_1)	0
+1738	prodigal	AFKMEEHG_00319	Adenine permease AdeQ (adeQ)	0
+1739	prodigal	AFKMEEHG_00318	Alkyl hydroperoxide reductase C (ahpC)	0
+1740	prodigal	AFKMEEHG_00317	Proline--tRNA ligase (proS)	0
+1741	prodigal	AFKMEEHG_00316	hypothetical protein	0
+1742	prodigal	AFKMEEHG_00315	Release factor glutamine methyltransferase (prmC_1)	0
+1743	prodigal	AFKMEEHG_00314	Heat-inducible transcription repressor HrcA (hrcA)	0
+1744	prodigal	AFKMEEHG_00313	Protein GrpE (grpE)	0
+1745	prodigal	AFKMEEHG_00312	Chaperone protein DnaJ (dnaJ)	0
+1746	prodigal	AFKMEEHG_00311	Light-independent protochlorophyllide reductase subunit B (bchB_1)	0
+1747	prodigal	AFKMEEHG_00310	Glyceraldehyde-3-phosphate dehydrogenase (gap)	0
+1748	prodigal	AFKMEEHG_00309	"UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl- meso-2,6-diaminoheptandioate ligase (mpl)"	0
+1749	prodigal	AFKMEEHG_00308	Magnetosome protein MamZ (mamZ)	0
+1750	prodigal	AFKMEEHG_00307	Lipoprotein-releasing system ATP-binding protein LolD (lolD_1)	0
+1751	prodigal	AFKMEEHG_00306	Gamma-glutamyl phosphate reductase (proA)	0
+1752	prodigal	AFKMEEHG_00305	Glutamate 5-kinase (proB)	0
+1753	prodigal	AFKMEEHG_00304	hypothetical protein	0
+1754	prodigal	AFKMEEHG_00303	Peroxide-responsive repressor PerR (perR_2)	0
+1755	prodigal	AFKMEEHG_00302	hypothetical protein	0
+1756	prodigal	AFKMEEHG_00301	Peptide deformylase 1 (def1)	0
+1757	prodigal	AFKMEEHG_00300	Methionyl-tRNA formyltransferase (fmt_2)	0
+1758	prodigal	AFKMEEHG_00299	Elongation factor 4 (lepA)	0
+1759	prodigal	AFKMEEHG_00298	Signal peptidase I (lepB)	0
+1760	prodigal	AFKMEEHG_00297	hypothetical protein	0
+1761	prodigal	AFKMEEHG_00296	Anthranilate synthase component 1 (trpE)	0
+1762	prodigal	AFKMEEHG_00295	hypothetical protein	0
+1763	prodigal	AFKMEEHG_00294	Transcription elongation factor GreA (greA)	0
+1764	prodigal	AFKMEEHG_00293	hypothetical protein	0
+1765	prodigal	AFKMEEHG_00292	Triosephosphate isomerase (tpiA)	0
+1766	prodigal	AFKMEEHG_00291	hypothetical protein	0
+1767	prodigal	AFKMEEHG_00290	Phosphomethylpyrimidine synthase (thiC)	0
+1768	prodigal	AFKMEEHG_00289	Protein PucC (pucC)	0
+1769	prodigal	AFKMEEHG_00288	hypothetical protein	0
+1770	prodigal	AFKMEEHG_00287	ATP-dependent RNA helicase RhlE (rhlE)	0
+1771	prodigal	AFKMEEHG_00286	hypothetical protein	0
+1772	prodigal	AFKMEEHG_00285	hypothetical protein	0
+1773	prodigal	AFKMEEHG_00284	hypothetical protein	0
+1774	prodigal	AFKMEEHG_00283	Serine acetyltransferase (cysE_1)	0
+1775	prodigal	AFKMEEHG_00282	Chorismate synthase (aroC)	0
+1776	prodigal	AFKMEEHG_00281	Delta-aminolevulinic acid dehydratase (hemB)	0
+1777	prodigal	AFKMEEHG_00280	Histidinol-phosphatase (hisN)	0
+1778	prodigal	AFKMEEHG_00279	hypothetical protein	0
+1779	prodigal	AFKMEEHG_00278	hypothetical protein	0
+1780	prodigal	AFKMEEHG_00277	Porphobilinogen deaminase (hemC)	0
+1781	prodigal	AFKMEEHG_00276	Glutamyl-tRNA reductase (hemA)	0
+1782	prodigal	AFKMEEHG_00275	hypothetical protein	0
+1783	prodigal	AFKMEEHG_00274	GTP-binding protein TypA/BipA (typA)	0
+1784	prodigal	AFKMEEHG_00273	Nitrogenase iron protein (nifH)	0
+1785	prodigal	AFKMEEHG_00272	L-galactonate-5-dehydrogenase (lgoD_1)	0
+1786	prodigal	AFKMEEHG_00271	hypothetical protein	0
+1787	prodigal	AFKMEEHG_00270	Oligopeptide-binding protein AppA (appA_1)	0
+1788	prodigal	AFKMEEHG_00269	N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 1 (bshB1)	0
+1789	prodigal	AFKMEEHG_00268	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dut)	0
+1790	prodigal	AFKMEEHG_00267	Transcriptional regulatory protein ZraR (zraR_1)	0
+1791	prodigal	AFKMEEHG_00266	hypothetical protein	0
+1792	prodigal	AFKMEEHG_00265	15-cis-phytoene desaturase (pds_1)	0
+1793	prodigal	AFKMEEHG_00264	hypothetical protein	0
+1794	prodigal	AFKMEEHG_00263	HTH-type transcriptional regulator LrpC (lrpC)	0
+1795	prodigal	AFKMEEHG_00262	Glutamine synthetase (glnA)	0
+1796	prodigal	AFKMEEHG_00261	hypothetical protein	0
+1797	prodigal	AFKMEEHG_00260	hypothetical protein	0
+1798	prodigal	AFKMEEHG_00259	Type III pantothenate kinase (coaX)	0
+1799	prodigal	AFKMEEHG_00258	3-dehydroquinate synthase (aroB)	0
+1800	prodigal	AFKMEEHG_00257	Shikimate kinase (aroK)	0
+1801	prodigal	AFKMEEHG_00256	hypothetical protein	0
+1802	prodigal	AFKMEEHG_00255	Glycerol kinase (glpK_1)	0
+1803	prodigal	AFKMEEHG_00254	Ribosomal protein S12 methylthiotransferase RimO (rimO)	0
+1804	prodigal	AFKMEEHG_00253	Queuine tRNA-ribosyltransferase (tgt)	0
+1805	prodigal	AFKMEEHG_00252	Transcription antitermination protein RfaH (rfaH)	0
+1806	prodigal	AFKMEEHG_00251	UDP-glucose 4-epimerase	0
+1807	prodigal	AFKMEEHG_00250	hypothetical protein	0
+1808	prodigal	AFKMEEHG_00249	Lysine--tRNA ligase (lysS)	0
+1809	prodigal	AFKMEEHG_00248	15-cis-phytoene synthase (crtB)	0
+1810	prodigal	AFKMEEHG_00247	GTPase HflX (hflX)	0
+1811	prodigal	AFKMEEHG_00246	Endoribonuclease YbeY (ybeY)	0
+1812	prodigal	AFKMEEHG_00245	Peroxide-responsive repressor PerR (perR_1)	0
+1813	prodigal	AFKMEEHG_00244	Peroxiredoxin	0
+1814	prodigal	AFKMEEHG_00243	hypothetical protein	0
+1815	prodigal	AFKMEEHG_00242	hypothetical protein	0
+1816	prodigal	AFKMEEHG_00241	hypothetical protein	0
+1817	prodigal	AFKMEEHG_00239	50S ribosomal protein L33 (rpmG)	0
+1818	prodigal	AFKMEEHG_00238	Diaminopimelate decarboxylase (lysA)	0
+1819	prodigal	AFKMEEHG_00237	"5,10-methylenetetrahydrofolate reductase (metF)"	0
+1820	prodigal	AFKMEEHG_00236	hypothetical protein	0
+1821	prodigal	AFKMEEHG_00235	hypothetical protein	0
+1822	prodigal	AFKMEEHG_00234	hypothetical protein	0
+1823	prodigal	AFKMEEHG_00233	hypothetical protein	0
+1824	prodigal	AFKMEEHG_00232	General stress protein CTC (ctc)	0
+1825	prodigal	AFKMEEHG_00231	Ribose-phosphate pyrophosphokinase (prs)	0
+1826	prodigal	AFKMEEHG_00230	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase (lpxD)	0
+1827	prodigal	AFKMEEHG_00229	putative lipoprotein YiaD (yiaD)	0
+1828	prodigal	AFKMEEHG_00228	Macrolide export ATP-binding/permease protein MacB (macB_2)	0
+1829	prodigal	AFKMEEHG_00227	Macrolide export ATP-binding/permease protein MacB (macB_1)	0
+1830	prodigal	AFKMEEHG_00226	putative ABC transporter ATP-binding protein YknY (yknY)	0
+1831	prodigal	AFKMEEHG_00225	Macrolide export protein MacA (macA_1)	0
+1832	prodigal	AFKMEEHG_00224	hypothetical protein	0
+1833	prodigal	AFKMEEHG_00223	hypothetical protein	0
+1834	prodigal	AFKMEEHG_00222	D-alanine--D-alanine ligase (ddl)	0
+1835	prodigal	AFKMEEHG_00221	putative protein YccU (yccU)	0
+1836	prodigal	AFKMEEHG_00220	hypothetical protein	0
+1837	prodigal	AFKMEEHG_00219	Octanoyltransferase LipM (lipM)	0
+1838	prodigal	AFKMEEHG_00218	3-methyl-2-oxobutanoate hydroxymethyltransferase (panB)	0
+1839	prodigal	AFKMEEHG_00217	hypothetical protein	0
+1840	prodigal	AFKMEEHG_00216	Phosphoribosylformylglycinamidine synthase subunit PurS (purS)	0
+1841	prodigal	AFKMEEHG_00215	Phosphoribosylformylglycinamidine synthase subunit PurQ (purQ)	0
+1842	prodigal	AFKMEEHG_00214	hypothetical protein	0
+1843	prodigal	AFKMEEHG_00213	hypothetical protein	0
+1844	prodigal	AFKMEEHG_00212	hypothetical protein	0
+1845	prodigal	AFKMEEHG_00211	Aspartate--tRNA ligase (aspS)	0
+1846	prodigal	AFKMEEHG_00210	hypothetical protein	0
+1847	prodigal	AFKMEEHG_00209	Bacteriochlorophyllide d C-12(1)-methyltransferase (bchR)	0
+1848	prodigal	AFKMEEHG_00208	Putative esterase	0
+1849	prodigal	AFKMEEHG_00205	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (ispD)	0
+1850	prodigal	AFKMEEHG_00204	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (queA_2)	0
+1851	prodigal	AFKMEEHG_00203	hypothetical protein	0
+1852	prodigal	AFKMEEHG_00202	hypothetical protein	0
+1853	prodigal	AFKMEEHG_00201	Thymidylate kinase (tmk)	0
+1854	prodigal	AFKMEEHG_00200	putative protein	0
+1855	prodigal	AFKMEEHG_00199	putative oxidoreductase	0
+1856	prodigal	AFKMEEHG_00198	NAD(P)-specific glutamate dehydrogenase (gdhA)	0
+1857	prodigal	AFKMEEHG_00197	ABC transporter ATP-binding protein uup (uup)	0
+1858	prodigal	AFKMEEHG_00196	Prolyl endopeptidase (f1pep1)	0
+1859	prodigal	AFKMEEHG_00195	Ribosomal large subunit pseudouridine synthase D (rluD)	0
+1860	prodigal	AFKMEEHG_00194	Dihydrolipoyl dehydrogenase (lpdC)	0
+1861	prodigal	AFKMEEHG_00193	Magnesium-chelatase 38 kDa subunit (bchI)	0
+1862	prodigal	AFKMEEHG_00192	Magnesium-chelatase 60 kDa subunit (bchD)	0
+1863	prodigal	AFKMEEHG_00191	hypothetical protein	0
+1864	prodigal	AFKMEEHG_00190	hypothetical protein	0
+1865	prodigal	AFKMEEHG_00189	hypothetical protein	0
+1866	prodigal	AFKMEEHG_00188	hypothetical protein	0
+1867	prodigal	AFKMEEHG_00187	hypothetical protein	0
+1868	prodigal	AFKMEEHG_00186	hypothetical protein	0
+1869	prodigal	AFKMEEHG_00185	Secretory immunoglobulin A-binding protein EsiB (esiB)	0
+1870	prodigal	AFKMEEHG_01497	hypothetical protein	0
+1871	prodigal	AFKMEEHG_01498	putative type I restriction enzymeP M protein	0
+1872	prodigal	AFKMEEHG_01499	hypothetical protein	0
+1873	prodigal	AFKMEEHG_01500	hypothetical protein	0
+1874	prodigal	AFKMEEHG_01501	hypothetical protein	0
+1875	prodigal	AFKMEEHG_01502	hypothetical protein	0
+1876	prodigal	AFKMEEHG_01503	hypothetical protein	0
+1877	prodigal	AFKMEEHG_01504	hypothetical protein	0
+1878	prodigal	AFKMEEHG_01505	hypothetical protein	0
+1879	prodigal	AFKMEEHG_01506	hypothetical protein	0
+1880	prodigal	AFKMEEHG_01507	hypothetical protein	0
+1881	prodigal	AFKMEEHG_01508	hypothetical protein	0
+1882	prodigal	AFKMEEHG_01509	hypothetical protein	0
+1883	prodigal	AFKMEEHG_01510	Prophage integrase IntA (intA)	0
+1884	prodigal	AFKMEEHG_01514	Inosine-5'-monophosphate dehydrogenase (guaB)	0
+1885	prodigal	AFKMEEHG_01515	hypothetical protein	0
+1886	prodigal	AFKMEEHG_01516	Peptide methionine sulfoxide reductase MsrA (msrA)	0
+1887	prodigal	AFKMEEHG_01517	hypothetical protein	0
+1888	prodigal	AFKMEEHG_01518	hypothetical protein	0
+1889	prodigal	AFKMEEHG_01519	Zinc transporter ZupT (zupT)	0
+1890	prodigal	AFKMEEHG_01520	Putative cytokinin riboside 5'-monophosphate phosphoribohydrolase	0
+1891	prodigal	AFKMEEHG_01521	hypothetical protein	0
+1892	prodigal	AFKMEEHG_01522	hypothetical protein	0
+1893	prodigal	AFKMEEHG_01523	hypothetical protein	0
+1894	prodigal	AFKMEEHG_01524	"1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_5)"	0
+1895	prodigal	AFKMEEHG_01525	Ferredoxin-1	0
+1896	prodigal	AFKMEEHG_01526	Ferredoxin-2	0
+1897	prodigal	AFKMEEHG_01527	PhoH-like protein	0
+1898	prodigal	AFKMEEHG_01528	ADP-L-glycero-D-manno-heptose-6-epimerase (hldD)	0
+1899	prodigal	AFKMEEHG_01529	hypothetical protein	0
+1900	prodigal	AFKMEEHG_01530	Histidinol-phosphate aminotransferase (hisC)	0
+1901	prodigal	AFKMEEHG_01531	23S rRNA (guanosine-2'-O-)-methyltransferase RlmB (rlmB_2)	0
+1902	prodigal	AFKMEEHG_01532	putative carboxylesterase nap (nap)	0
+1903	prodigal	AFKMEEHG_01533	hypothetical protein	0
+1904	prodigal	AFKMEEHG_01534	hypothetical protein	0
+1905	prodigal	AFKMEEHG_01535	Peptidyl-tRNA hydrolase (pth)	0
+1906	prodigal	AFKMEEHG_01536	hypothetical protein	0
+1907	prodigal	AFKMEEHG_01537	hypothetical protein	0
+1908	prodigal	AFKMEEHG_01538	Putative K( )-stimulated pyrophosphate-energized sodium pump (hppA1)	0
+1909	prodigal	AFKMEEHG_01539	hypothetical protein	0
+1910	prodigal	AFKMEEHG_01540	Tyrosine recombinase XerC (xerC_4)	0
+1911	prodigal	AFKMEEHG_01541	hypothetical protein	0
+1912	prodigal	AFKMEEHG_01542	hypothetical protein	0
+1913	prodigal	AFKMEEHG_01543	hypothetical protein	0
+1914	prodigal	AFKMEEHG_00486	hypothetical protein	0
+1915	prodigal	AFKMEEHG_00487	hypothetical protein	0
+1916	prodigal	AFKMEEHG_01044	hypothetical protein	0
+1917	prodigal	AFKMEEHG_01043	hypothetical protein	0
+1918	prodigal	AFKMEEHG_01042	hypothetical protein	0
+1919	prodigal	AFKMEEHG_01041	hypothetical protein	0
+1920	prodigal	AFKMEEHG_01040	hypothetical protein	0
+1921	prodigal	AFKMEEHG_00145	Apulose-4-phosphate transketolase subunit A (aptA)	0
+1922	prodigal	AFKMEEHG_00144	hypothetical protein	0
+1923	prodigal	AFKMEEHG_00143	Phosphopantetheine adenylyltransferase (coaD)	0
+1924	prodigal	AFKMEEHG_00142	Aspartate/prephenate aminotransferase	0
+1925	prodigal	AFKMEEHG_00141	hypothetical protein	0
+1926	prodigal	AFKMEEHG_00140	hypothetical protein	0
+1927	prodigal	AFKMEEHG_00139	Methionine--tRNA ligase (metG)	0
+1928	prodigal	AFKMEEHG_00137	hypothetical protein	0
+1929	prodigal	AFKMEEHG_00136	Tyrosine-protein kinase ptk (ptk)	0
+1930	prodigal	AFKMEEHG_00135	Undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase (wecA)	0
+1931	prodigal	AFKMEEHG_00134	Tyrosine recombinase XerC (xerC_1)	0
+1932	prodigal	AFKMEEHG_00133	hypothetical protein	0
+1933	prodigal	AFKMEEHG_00132	hypothetical protein	0
+1934	prodigal	AFKMEEHG_00131	hypothetical protein	0
+1935	prodigal	AFKMEEHG_00130	hypothetical protein	0
+1936	prodigal	AFKMEEHG_00129	hypothetical protein	0
+1937	prodigal	AFKMEEHG_00128	hypothetical protein	0
+1938	prodigal	AFKMEEHG_00127	Protein glycosylation K (pglK_1)	0
+1939	prodigal	AFKMEEHG_00126	"UDP-N-acetylglucosamine 4,6-dehydratase (inverting) (pseB)"	0
+1940	prodigal	AFKMEEHG_00125	UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase (arnB)	0
+1941	prodigal	AFKMEEHG_00124	"CMP-N,N'-diacetyllegionaminic acid synthase (neuA)"	0
+1942	prodigal	AFKMEEHG_00123	hypothetical protein	0
+1943	prodigal	AFKMEEHG_00122	hypothetical protein	0
+1944	prodigal	AFKMEEHG_00121	Methionyl-tRNA formyltransferase (fmt_1)	0
+1945	prodigal	AFKMEEHG_00120	Pseudaminic acid synthase (pseI_2)	0
+1946	prodigal	AFKMEEHG_00119	Pseudaminic acid synthase (pseI_1)	0
+1947	prodigal	AFKMEEHG_00118	hypothetical protein	0
+1948	prodigal	AFKMEEHG_00117	hypothetical protein	0
+1949	prodigal	AFKMEEHG_00116	hypothetical protein	0
+1950	prodigal	AFKMEEHG_00115	hypothetical protein	0
+1951	prodigal	AFKMEEHG_01641	hypothetical protein	0
+1952	prodigal	AFKMEEHG_01642	hypothetical protein	0
+1953	prodigal	AFKMEEHG_01643	Asparagine synthetase [glutamine-hydrolyzing] 1 (asnB_1)	0
+1954	prodigal	AFKMEEHG_01644	D-inositol-3-phosphate glycosyltransferase (mshA_8)	0
+1955	prodigal	AFKMEEHG_01645	hypothetical protein	0
+1956	prodigal	AFKMEEHG_01646	"N,N'-diacetylbacillosaminyl-diphospho-undecapren ol alpha-1,3-N-acetylgalactosaminyltransferase (pglA_2)"	0
+1957	prodigal	AFKMEEHG_01647	UDP-N-acetylglucosamine 4-epimerase (wbgU)	0
+1958	prodigal	AFKMEEHG_01648	UDP-N-acetyl-D-glucosamine 6-dehydrogenase (wbpA_3)	0
+1959	prodigal	AFKMEEHG_00177	hypothetical protein	0
+1960	prodigal	AFKMEEHG_00176	hypothetical protein	0
+1961	prodigal	AFKMEEHG_00175	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] (glmS_1)	0
+1962	prodigal	AFKMEEHG_00174	hypothetical protein	0
+1963	prodigal	AFKMEEHG_00173	DNA replication and repair protein RecF (recF_1)	0
+1964	prodigal	AFKMEEHG_00172	hypothetical protein	0
+1965	prodigal	AFKMEEHG_00171	hypothetical protein	0
+1966	prodigal	AFKMEEHG_00170	hypothetical protein	0
+1967	prodigal	AFKMEEHG_02279	Putative transposase InsK for insertion sequence element IS150 (insK)	0
+1968	prodigal	AFKMEEHG_02278	hypothetical protein	0
+1969	prodigal	AFKMEEHG_02277	hypothetical protein	0
+1970	prodigal	AFKMEEHG_00733	hypothetical protein	0
+1971	prodigal	AFKMEEHG_00734	Toxin FitB (fitB)	0
+1972	prodigal	AFKMEEHG_00735	hypothetical protein	0
+1973	prodigal	AFKMEEHG_00736	hypothetical protein	0
+1974	prodigal	AFKMEEHG_00737	hypothetical protein	0
+1975	prodigal	AFKMEEHG_00738	2-aminoadipate transaminase (lysN)	0
+1976	prodigal	AFKMEEHG_00739	hypothetical protein	0
+1977	prodigal	AFKMEEHG_00740	Phenylacetate-coenzyme A ligase	0
+1978	prodigal	AFKMEEHG_00741	hypothetical protein	0
+1979	prodigal	AFKMEEHG_00742	hypothetical protein	0
+1980	prodigal	AFKMEEHG_00615	UDP-glucose 6-dehydrogenase (ugd_2)	0
+1981	prodigal	AFKMEEHG_00616	hypothetical protein	0
+1982	prodigal	AFKMEEHG_00617	Lipid A export ATP-binding/permease protein MsbA (msbA)	0
+1983	prodigal	AFKMEEHG_00618	hypothetical protein	0
+1984	prodigal	AFKMEEHG_00619	hypothetical protein	0
+1985	prodigal	AFKMEEHG_00620	hypothetical protein	0
+1986	prodigal	AFKMEEHG_00621	hypothetical protein	0
+1987	prodigal	AFKMEEHG_00622	Putative mycofactocin radical SAM maturase MftC (mftC_2)	0
+1988	prodigal	AFKMEEHG_00623	Putative mycofactocin radical SAM maturase MftC (mftC_3)	0
+1989	prodigal	AFKMEEHG_00624	hypothetical protein	0
+1990	prodigal	AFKMEEHG_00625	hypothetical protein	0
+1991	prodigal	AFKMEEHG_00626	"GTP 3',8-cyclase (moaA_3)"	0
+1992	prodigal	AFKMEEHG_00627	hypothetical protein	0
+1993	prodigal	AFKMEEHG_00628	hypothetical protein	0
+1994	prodigal	AFKMEEHG_00629	hypothetical protein	0
+1995	prodigal	AFKMEEHG_00630	hypothetical protein	0
+1996	prodigal	AFKMEEHG_00631	hypothetical protein	0
+1997	prodigal	AFKMEEHG_01975	hypothetical protein	0
+1998	prodigal	AFKMEEHG_01974	Catalase-peroxidase (katG)	0
+1999	prodigal	AFKMEEHG_01973	hypothetical protein	0
+2000	prodigal	AFKMEEHG_01972	hypothetical protein	0
+2001	prodigal	AFKMEEHG_01971	hypothetical protein	0
+2002	prodigal	AFKMEEHG_01970	hypothetical protein	0
+2003	prodigal	AFKMEEHG_01969	hypothetical protein	0
+2004	prodigal	AFKMEEHG_01968	hypothetical protein	0
+2005	prodigal	AFKMEEHG_01967	hypothetical protein	0
+2006	prodigal	AFKMEEHG_01966	hypothetical protein	0
+2007	prodigal	AFKMEEHG_01965	hypothetical protein	0
+2008	prodigal	AFKMEEHG_00794	tRNA dimethylallyltransferase (miaA)	0
+2009	prodigal	AFKMEEHG_00793	dTTP/UTP pyrophosphatase (yhdE)	0
+2010	prodigal	AFKMEEHG_00792	Sodium/glucose cotransporter (sglT_1)	0
+2011	prodigal	AFKMEEHG_00791	Ribokinase (RBKS)	0
+2012	prodigal	AFKMEEHG_00790	"Alpha-1,4-glucan:maltose-1-phosphate maltosyltransferase (glgE)"	0
+2013	prodigal	AFKMEEHG_00789	hypothetical protein	0
+2014	prodigal	AFKMEEHG_00788	tRNA pseudouridine synthase A (truA)	0
+2015	prodigal	AFKMEEHG_00787	hypothetical protein	0
+2016	prodigal	AFKMEEHG_00786	hypothetical protein	0
+2017	prodigal	AFKMEEHG_00785	"Phospho-2-dehydro-3-deoxyheptonate aldolase, Tyr-sensitive (aroF)"	0
+2018	prodigal	AFKMEEHG_00784	hypothetical protein	0
+2019	prodigal	AFKMEEHG_00783	hypothetical protein	0
+2020	prodigal	AFKMEEHG_00782	Protein YghO (yghO)	0
+2021	prodigal	AFKMEEHG_00781	Cobalt import ATP-binding protein CbiO (cbiO)	0
+2022	prodigal	AFKMEEHG_00780	hypothetical protein	0
+2023	prodigal	AFKMEEHG_00779	hypothetical protein	0
+2024	prodigal	AFKMEEHG_00778	Cobalt transport protein CbiM (cbiM)	0
+2025	prodigal	AFKMEEHG_00777	hypothetical protein	0
+2026	prodigal	AFKMEEHG_00776	Nitrogen regulatory protein P-II (glnB_1)	0
+2027	prodigal	AFKMEEHG_00775	Ammonia channel (amtB)	0
+2028	prodigal	AFKMEEHG_00774	hypothetical protein	0
+2029	prodigal	AFKMEEHG_00773	Glucose-6-phosphate isomerase (pgi)	0
+2030	prodigal	AFKMEEHG_00772	FAD:protein FMN transferase (apbE)	0
+2031	prodigal	AFKMEEHG_00771	hypothetical protein	0
+2032	prodigal	AFKMEEHG_00770	Na( )-translocating ferredoxin:NAD( ) oxidoreductase complex subunit A (rnfA)	0
+2033	prodigal	AFKMEEHG_00769	Na( )-translocating ferredoxin:NAD( ) oxidoreductase complex subunit E (rnfE)	0
+2034	prodigal	AFKMEEHG_00768	Ion-translocating oxidoreductase complex subunit G (rnfG)	0
+2035	prodigal	AFKMEEHG_00767	Proton-translocating ferredoxin:NAD( ) oxidoreductase complex subunit D (rnfD)	0
+2036	prodigal	AFKMEEHG_00766	Proton-translocating ferredoxin:NAD( ) oxidoreductase complex subunit C (rnfC)	0
+2037	prodigal	AFKMEEHG_00765	Na( )-translocating ferredoxin:NAD( ) oxidoreductase complex subunit B (rnfB)	0
+2038	prodigal	AFKMEEHG_00764	hypothetical protein	0
+2039	prodigal	AFKMEEHG_00763	Adenylosuccinate lyase (purB)	0
+2040	prodigal	AFKMEEHG_00762	CC-adding tRNA nucleotidyltransferase	0
+2041	prodigal	AFKMEEHG_00761	"Tetracycline resistance protein, class C (tetA)"	0
+2042	prodigal	AFKMEEHG_00760	Vitamin B12-binding protein (btuF_2)	0
+2043	prodigal	AFKMEEHG_00759	hypothetical protein	0
+2044	prodigal	AFKMEEHG_00758	Uroporphyrinogen-III C-methyltransferase (sumT)	0
+2045	prodigal	AFKMEEHG_00757	Sirohydrochlorin cobaltochelatase CbiKP (cbiKp)	0
+2046	prodigal	AFKMEEHG_00756	Cobalt-precorrin-2 C(20)-methyltransferase (cbiL)	0
+2047	prodigal	AFKMEEHG_00755	Siroheme synthase (cysG_2)	0
+2048	prodigal	AFKMEEHG_00754	Cobalamin biosynthesis bifunctional protein CbiET (cbiET)	0
+2049	prodigal	AFKMEEHG_00753	Siroheme synthase (cysG_1)	0
+2050	prodigal	AFKMEEHG_00752	Cobalt-precorrin-6A reductase (cbiJ)	0
+2051	prodigal	AFKMEEHG_00751	Cobalt-precorrin-5B C(1)-methyltransferase (cbiD)	0
+2052	prodigal	AFKMEEHG_00750	hypothetical protein	0
+2053	prodigal	AFKMEEHG_00749	Vitamin B12-binding protein (btuF_1)	0
+2054	prodigal	AFKMEEHG_00748	putative ABC transporter ATP-binding protein	0
+2055	prodigal	AFKMEEHG_00747	putative ABC transporter permease protein	0
+2056	prodigal	AFKMEEHG_00746	Vitamin B12 transporter BtuB (btuB_3)	0
+2057	prodigal	AFKMEEHG_00745	hypothetical protein	0
+2058	prodigal	AFKMEEHG_00744	Ferric enterobactin receptor (pfeA)	0
+2059	prodigal	AFKMEEHG_00743	Cobyric acid synthase (cobQ)	0
+2060	prodigal	AFKMEEHG_01976	Hemin transport system permease protein HmuU (hmuU)	0
+2061	prodigal	AFKMEEHG_01977	Vitamin B12 import ATP-binding protein BtuD (btuD_1)	0
+2062	prodigal	AFKMEEHG_01978	hypothetical protein	0
+2063	prodigal	AFKMEEHG_01979	hypothetical protein	0
+2064	prodigal	AFKMEEHG_01980	hypothetical protein	0
+2065	prodigal	AFKMEEHG_01981	hypothetical protein	0
+2066	prodigal	AFKMEEHG_01982	Bifunctional adenosylcobalamin biosynthesis protein CobP (cobP)	0
+2067	prodigal	AFKMEEHG_01983	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (cobT)	0
+2068	prodigal	AFKMEEHG_01102	hypothetical protein	0
+2069	prodigal	AFKMEEHG_01103	Tellurite resistance protein TehA (tehA)	0
+2070	prodigal	AFKMEEHG_01104	hypothetical protein	0
+2071	prodigal	AFKMEEHG_01105	hypothetical protein	0
+2072	prodigal	AFKMEEHG_01106	hypothetical protein	0
+2073	prodigal	AFKMEEHG_01107	hypothetical protein	0
+2074	prodigal	AFKMEEHG_01108	hypothetical protein	0
+2075	prodigal	AFKMEEHG_01109	hypothetical protein	0
+2076	prodigal	AFKMEEHG_01110	hypothetical protein	0
+2077	prodigal	AFKMEEHG_01111	hypothetical protein	0
+2078	prodigal	AFKMEEHG_01112	hypothetical protein	0
+2079	prodigal	AFKMEEHG_01113	Deoxyribodipyrimidine photo-lyase (phrA)	0
+2080	prodigal	AFKMEEHG_01114	Response regulator receiver protein CpdR (cpdR_1)	0
+2081	prodigal	AFKMEEHG_01115	Sensor kinase CckA (cckA_3)	0
+2082	prodigal	AFKMEEHG_01577	hypothetical protein	0
+2083	prodigal	AFKMEEHG_01576	hypothetical protein	0
+2084	prodigal	AFKMEEHG_01575	"3-dehydro-bile acid delta(4,6)-reductase (baiN_1)"	0
+2085	prodigal	AFKMEEHG_01574	hypothetical protein	0
+2086	prodigal	AFKMEEHG_01573	hypothetical protein	0
+2087	prodigal	AFKMEEHG_01578	hypothetical protein	0
+2088	prodigal	AFKMEEHG_01579	hypothetical protein	0
+2089	prodigal	AFKMEEHG_01580	"3-dehydro-bile acid delta(4,6)-reductase (baiN_2)"	0
+2090	prodigal	AFKMEEHG_01581	hypothetical protein	0
+2091	prodigal	AFKMEEHG_01473	hypothetical protein	0
+2092	prodigal	AFKMEEHG_01472	hypothetical protein	0
+2093	prodigal	AFKMEEHG_01471	hypothetical protein	0
+2094	prodigal	AFKMEEHG_01470	putative ABC transporter ATP-binding protein	0
+2095	prodigal	AFKMEEHG_01469	hypothetical protein	0
+2096	prodigal	AFKMEEHG_01468	hypothetical protein	0
+2097	prodigal	AFKMEEHG_01467	Ribosomal RNA large subunit methyltransferase I (rlmI)	0
+2098	prodigal	AFKMEEHG_01466	hypothetical protein	0
+2099	prodigal	AFKMEEHG_01465	Superoxide dismutase [Fe] (sodB)	0
+2100	prodigal	AFKMEEHG_01464	hypothetical protein	0
+2101	prodigal	AFKMEEHG_01463	Dephospho-CoA kinase (coaE)	0
+2102	prodigal	AFKMEEHG_01462	hypothetical protein	0
+2103	prodigal	AFKMEEHG_01461	Sec-independent protein translocase protein TatC (tatC)	0
+2104	prodigal	AFKMEEHG_01460	hypothetical protein	0
+2105	prodigal	AFKMEEHG_01459	Octaprenyl diphosphate synthase (ispB_1)	0
+2106	prodigal	AFKMEEHG_01458	Serine/threonine-protein kinase PK-1 (spk1)	0
+2107	prodigal	AFKMEEHG_01457	hypothetical protein	0
+2108	prodigal	AFKMEEHG_01456	hypothetical protein	0
+2109	prodigal	AFKMEEHG_01455	Voltage-gated ClC-type chloride channel ClcB (clcB)	0
+2110	prodigal	AFKMEEHG_01454	hypothetical protein	0
+2111	prodigal	AFKMEEHG_01453	Ribose import ATP-binding protein RbsA (rbsA)	0
+2112	prodigal	AFKMEEHG_01452	L-threonine 3-dehydrogenase (tdh)	0
+2113	prodigal	AFKMEEHG_01451	hypothetical protein	0
+2114	prodigal	AFKMEEHG_01450	DNA repair protein RadA (radA)	0
+2115	prodigal	AFKMEEHG_01622	Bifunctional protein FolD protein (folD_1)	0
+2116	prodigal	AFKMEEHG_01623	hypothetical protein	0
+2117	prodigal	AFKMEEHG_01624	hypothetical protein	0
+2118	prodigal	AFKMEEHG_01625	hypothetical protein	0
+2119	prodigal	AFKMEEHG_01626	hypothetical protein	0
+2120	prodigal	AFKMEEHG_01627	Bifunctional protein FolD protein (folD_2)	0
+2121	prodigal	AFKMEEHG_01628	hypothetical protein	0
+2122	prodigal	AFKMEEHG_01629	hypothetical protein	0
+2123	prodigal	AFKMEEHG_01630	hypothetical protein	0
+2124	prodigal	AFKMEEHG_01631	hypothetical protein	0
+2125	prodigal	AFKMEEHG_02114	ATP-dependent protease subunit ClpQ (clpQ)	0
+2126	prodigal	AFKMEEHG_02113	ATP-dependent protease ATPase subunit ClpY (clpY_1)	0
+2127	prodigal	AFKMEEHG_02112	Inner membrane protein YbhL (ybhL)	0
+2128	prodigal	AFKMEEHG_02111	3-dehydroquinate dehydratase (yqhS)	0
+2129	prodigal	AFKMEEHG_02110	hypothetical protein	0
+2130	prodigal	AFKMEEHG_02109	hypothetical protein	0
+2131	prodigal	AFKMEEHG_02108	Primosomal protein N' (priA)	0
+2132	prodigal	AFKMEEHG_01557	hypothetical protein	0
+2133	prodigal	AFKMEEHG_01556	Adenylate kinase (adk)	0
+2134	prodigal	AFKMEEHG_01555	hypothetical protein	0
+2135	prodigal	AFKMEEHG_02137	hypothetical protein	0
+2136	prodigal	AFKMEEHG_02136	Adaptive-response sensory-kinase SasA (sasA_6)	0
+2137	prodigal	AFKMEEHG_02135	Beta-barrel assembly-enhancing protease (bepA_4)	0
+2138	prodigal	AFKMEEHG_02134	hypothetical protein	0
+2139	prodigal	AFKMEEHG_02133	hypothetical protein	0
+2140	prodigal	AFKMEEHG_02132	Protein UmuD (umuD)	0
+2141	prodigal	AFKMEEHG_02131	hypothetical protein	0
+2142	prodigal	AFKMEEHG_01256	hypothetical protein	0
+2143	prodigal	AFKMEEHG_01255	ATP-dependent helicase/nuclease subunit A (addA_1)	0
+2144	prodigal	AFKMEEHG_01254	hypothetical protein	0
+2145	prodigal	AFKMEEHG_01253	hypothetical protein	0
+2146	prodigal	AFKMEEHG_02276	hypothetical protein	0
+2147	prodigal	AFKMEEHG_02275	ATP-dependent helicase/nuclease subunit A (addA_2)	0
+2148	prodigal	AFKMEEHG_02274	hypothetical protein	0
+2149	prodigal	AFKMEEHG_02273	hypothetical protein	0
+2150	prodigal	AFKMEEHG_01944	hypothetical protein	0
+2151	prodigal	AFKMEEHG_01943	hypothetical protein	0
+2152	prodigal	AFKMEEHG_01942	hypothetical protein	0
+2153	prodigal	AFKMEEHG_01941	Ferredoxin-2	0
+2154	prodigal	AFKMEEHG_00104	Chlorosome protein I (csmI)	0
+2155	prodigal	AFKMEEHG_00105	hypothetical protein	0
+2156	prodigal	AFKMEEHG_00106	Cyclopropane-fatty-acyl-phospholipid synthase (cfa)	0
+2157	prodigal	AFKMEEHG_01951	hypothetical protein	0
+2158	prodigal	AFKMEEHG_01952	hypothetical protein	0
+2159	prodigal	AFKMEEHG_01953	hypothetical protein	0
+2160	prodigal	AFKMEEHG_01954	hypothetical protein	0
+2161	prodigal	AFKMEEHG_01955	hypothetical protein	0
+2162	prodigal	AFKMEEHG_01956	putative endoribonuclease MazF (mazF)	0
+2163	prodigal	AFKMEEHG_01957	hypothetical protein	0
+2164	prodigal	AFKMEEHG_01565	hypothetical protein	0
+2165	prodigal	AFKMEEHG_01566	hypothetical protein	0
+2166	prodigal	AFKMEEHG_01567	hypothetical protein	0
+2167	prodigal	AFKMEEHG_01568	hypothetical protein	0
+2168	prodigal	AFKMEEHG_01569	hypothetical protein	0
+2169	prodigal	AFKMEEHG_01570	hypothetical protein	0
+2170	prodigal	AFKMEEHG_01571	hypothetical protein	0
+2171	prodigal	AFKMEEHG_02223	hypothetical protein	0
+2172	prodigal	AFKMEEHG_02224	hypothetical protein	0
+2173	prodigal	AFKMEEHG_02225	hypothetical protein	0
+2174	prodigal	AFKMEEHG_00837	Protein YgiW (ygiW)	0
+2175	prodigal	AFKMEEHG_00836	hypothetical protein	0
+2176	prodigal	AFKMEEHG_00835	Transcriptional regulatory protein CusR (cusR_1)	0
+2177	prodigal	AFKMEEHG_00834	Sensor histidine kinase RcsC (rcsC_8)	0
+2178	prodigal	AFKMEEHG_00632	hypothetical protein	0
+2179	prodigal	AFKMEEHG_01093	Outer membrane lipoprotein Blc (blc_2)	0
+2180	prodigal	AFKMEEHG_01094	Formyltetrahydrofolate deformylase (purU_2)	0
+2181	prodigal	AFKMEEHG_01095	hypothetical protein	0
+2182	prodigal	AFKMEEHG_01370	hypothetical protein	0
+2183	prodigal	AFKMEEHG_01371	hypothetical protein	0
+2184	prodigal	AFKMEEHG_01372	D-inositol-3-phosphate glycosyltransferase (mshA_3)	0
+2185	prodigal	AFKMEEHG_01373	putative protein YrbL (yrbL_1)	0
+2186	prodigal	AFKMEEHG_01374	"N-acetylgalactosamine-N,N'-diacetylbacillosaminy l-diphospho-undecaprenol 4-alpha-N-acetylgalactosaminyltransferase (pglJ_1)"	0
+2187	prodigal	AFKMEEHG_01375	D-inositol-3-phosphate glycosyltransferase (mshA_4)	0
+2188	prodigal	AFKMEEHG_01376	hypothetical protein	0
+2189	prodigal	AFKMEEHG_01377	hypothetical protein	0
+2190	prodigal	AFKMEEHG_01378	UDP-N-acetyl-D-glucosamine 6-dehydrogenase (wbpA_1)	0
+2191	prodigal	AFKMEEHG_01379	hypothetical protein	0
+2192	prodigal	AFKMEEHG_01380	hypothetical protein	0
+2193	prodigal	AFKMEEHG_01381	hypothetical protein	0
+2194	prodigal	AFKMEEHG_01382	hypothetical protein	0
+2195	prodigal	AFKMEEHG_01383	UDP-N-acetyl-D-glucosamine 6-dehydrogenase (wbpA_2)	0
+2196	prodigal	AFKMEEHG_01384	hypothetical protein	0
+2197	prodigal	AFKMEEHG_01385	hypothetical protein	0
+2198	prodigal	AFKMEEHG_01386	D-inositol-3-phosphate glycosyltransferase (mshA_5)	0
+2199	prodigal	AFKMEEHG_01387	"N-acetylgalactosamine-N,N'-diacetylbacillosaminy l-diphospho-undecaprenol 4-alpha-N-acetylgalactosaminyltransferase (pglJ_2)"	0
+2200	prodigal	AFKMEEHG_01388	putative protein YrbL (yrbL_2)	0
+2201	prodigal	AFKMEEHG_01389	D-inositol-3-phosphate glycosyltransferase (mshA_6)	0
+2202	prodigal	AFKMEEHG_01390	hypothetical protein	0
+2203	prodigal	AFKMEEHG_01391	hypothetical protein	0
+2204	prodigal	AFKMEEHG_01546	hypothetical protein	0
+2205	prodigal	AFKMEEHG_01547	hypothetical protein	0
+2206	prodigal	AFKMEEHG_01548	hypothetical protein	0
+2207	prodigal	AFKMEEHG_01549	hypothetical protein	0
+2208	prodigal	AFKMEEHG_01550	hypothetical protein	0
+2209	prodigal	AFKMEEHG_01551	hypothetical protein	0
+2210	prodigal	AFKMEEHG_01552	Type 3 secretion system secretin (sctC_2)	0
+2211	prodigal	AFKMEEHG_01553	hypothetical protein	0
+2212	prodigal	AFKMEEHG_01554	hypothetical protein	0
+2213	prodigal	AFKMEEHG_01617	hypothetical protein	0
+2214	prodigal	AFKMEEHG_01618	hypothetical protein	0
+2215	prodigal	AFKMEEHG_01939	Ferredoxin-2	0
+2216	prodigal	AFKMEEHG_01940	hypothetical protein	0
+2217	prodigal	AFKMEEHG_01963	Glycerol kinase (glpK_2)	0
+2218	prodigal	AFKMEEHG_01964	Adaptive-response sensory-kinase SasA (sasA_2)	0
+2219	prodigal	AFKMEEHG_02020	hypothetical protein	0
+2220	prodigal	AFKMEEHG_02084	hypothetical protein	0
+2221	prodigal	AFKMEEHG_02226	hypothetical protein	0
+2222	prodigal	AFKMEEHG_02227	hypothetical protein	0
+2223	prodigal	AFKMEEHG_02228	hypothetical protein	0
+2224	prodigal	AFKMEEHG_02229	hypothetical protein	0
+2225	prodigal	AFKMEEHG_02230	hypothetical protein	0
+2226	prodigal	AFKMEEHG_02231	hypothetical protein	0
+2227	prodigal	AFKMEEHG_02232	hypothetical protein	0
+2228	prodigal	AFKMEEHG_02261	hypothetical protein	0
+2229	prodigal	AFKMEEHG_02262	ATP-dependent protease ATPase subunit ClpY (clpY_2)	0
+2230	prodigal	AFKMEEHG_02263	ATP-dependent protease subunit HslV (hslV)	0
+2231	prodigal	AFKMEEHG_02267	hypothetical protein	0
+2232	prodigal	AFKMEEHG_02268	hypothetical protein	0
+2233	prodigal	AFKMEEHG_02269	hypothetical protein	0
