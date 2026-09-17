@@ -33,5 +33,5 @@ Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins,
 * bloomer_and_rand_subset_defense_id.sh
 
 #### additional files
-nanopore_sequence_processing.sh contains the workflow for processing the Nanopore data.
-read_mapping.sh contains code for mapping reads to MAGs and vMAGs for relative abundance estimations using CoverM.
+[nanopore_sequence_processing](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al/nanopore_sequence_processing.sh): contains the workflow for processing the Nanopore data.
+[read_mapping](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al/read_mapping.sh): contains code for mapping reads to MAGs and vMAGs for relative abundance estimations using CoverM.
