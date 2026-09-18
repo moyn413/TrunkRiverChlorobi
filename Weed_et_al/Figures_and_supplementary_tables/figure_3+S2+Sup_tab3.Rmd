@@ -1,0 +1,453 @@
+---
+title: "Trunk River Phage Figure 3"
+output: html_notebook
+---
+This script contains code used to generate Weed et al. figure 3, supplementary figure S2, and supplementary tables 3ab
+
+# Install packages
+```{r}
+library(dplyr)
+library(phyloseq)
+library(microViz)
+library(tidyverse)
+library(ggplot2)
+library(export)
+```
+
+# Load data
+```{r}
+#set working directory:
+setwd("/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2")
+
+#load MAG coverage data
+rel_abund_S3<-read.csv("Original_files/coverm_MAGs_only_derep_S3_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+rel_abund_S4<-read.csv("Original_files/coverm_MAGs_only_derep_S4_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+rel_abund_S5<-read.csv("Original_files/coverm_MAGs_only_derep_S5_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+rel_abund_new<-read.csv("Original_files/coverm_MAGs_only_derep_new_samples_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+mags_list <- list(rel_abund_S3, rel_abund_S4, rel_abund_S5, rel_abund_new)
+all_rel_abund <- mags_list %>% reduce(full_join, by = "Genome")
+rownames(all_rel_abund)<- all_rel_abund$Genome
+
+#load vMAG coverage data
+rel_abund_vMAGs_S3<-read.csv("Original_files/coverm_vMAGs_only_derep_S3_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+rel_abund_vMAGs_S4<-read.csv("Original_files/coverm_vMAGs_only_derep_S4_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+rel_abund_vMAGs_S5<-read.csv("Original_files/coverm_vMAGs_only_derep_S5_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+rel_abund_vMAGs_new<-read.csv("Original_files/coverm_vMAGs_only_derep_newreads_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+vmags_list <- list(rel_abund_vMAGs_S3, rel_abund_vMAGs_S4, rel_abund_vMAGs_S5, rel_abund_vMAGs_new)
+all_vMAGs_rel_abund <- vmags_list %>% reduce(full_join, by = "Genome")
+rownames(all_vMAGs_rel_abund)<- all_vMAGs_rel_abund$Genome
+
+#load taxonomy for hosts
+bac_tax <- read.csv("Original_files/gtdbtk.bac120.decorated.tree-taxonomy.tsv", header=FALSE, check.names = FALSE, sep = "\t")
+arc_tax <- read.csv("Original_files/gtdbtk.ar53.decorated.tree-taxonomy.tsv", header=FALSE, check.names = FALSE, sep = "\t")
+all_tax <- rbind(bac_tax, arc_tax)
+all_tax <- all_tax %>% separate_wider_delim(cols = V2, delim = "; ", names = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), too_few = "align_start", too_many = "merge")
+all_tax <- as.data.frame(all_tax)
+rownames(all_tax)<- all_tax$V1
+
+#load host matching data
+host_prediction<-read.csv("Original_files/Host_prediction_to_genome_best_match.txt", header=TRUE, check.names = FALSE, sep = "\t")
+host_prediction <- host_prediction %>% separate_wider_delim(cols = `Host taxonomy`, delim = ";", names = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), too_few = "align_start", too_many = "merge") %>% as.data.frame()
+rownames(host_prediction) <- host_prediction$Virus
+
+
+#load contextual data
+meta<-read.csv("Original_files/sample_metadata_metag.tsv", header=TRUE, sep = "\t")
+meta$Sample <- gsub("_", "-", meta$Sample)
+#set sample names to be row names
+rownames(meta)<- meta$Sample
+meta<- meta %>% select(-Sample) %>% mutate_if(is.character, as.factor)
+```
+
+# Make phyloseq objects for bar plots for figure 3
+## Hosts
+```{r}
+#extract rel abund
+rel_abund <- all_rel_abund %>% dplyr::select(contains("Relative Abundance", ignore.case = TRUE))
+
+#Standardize column sample names
+names(rel_abund) <- sub("-QUALITY_PASSED_trimmed_1.fastq.gz Relative Abundance", "", names(rel_abund))
+names(rel_abund) <- sub("-QUALITY_PASSED_R1.fastq Relative Abundance", "", names(rel_abund))
+names(rel_abund) <- sub("-QUALITY_PASSED_R1.fastq.gz Relative Abundance", "", names(rel_abund))
+names(rel_abund) <- sub("-paired_QC_trimmed_R_1.fastq Relative Abundance", "", names(rel_abund))
+#remove % symbol
+names(rel_abund) <- substring(names(rel_abund),1,nchar(names(rel_abund))-4)
+
+#extract taxa only matrix
+#all_tax <- all_tax %>% select(2:8) %>%  mutate_if(is.character, as.factor)
+#get rid of beginnings of names
+all_tax[] <- lapply(all_tax, gsub, pattern='.__', replacement='')
+all_tax[] <- lapply(all_tax, gsub, pattern=' ', replacement='')
+
+#convert to matrices
+mat_rel_abund<- as.matrix(rel_abund)
+#add contig_20 and unmapped
+all_tax["contig_20", ] <- c("contig_20","contig_20","contig_20","contig_20","contig_20","contig_20","contig_20","contig_20")
+all_tax["unmapped", ] <- c("unmapped","unmapped","unmapped","unmapped","unmapped","unmapped","unmapped","unmapped")
+mat_tax <- all_tax[rownames(mat_rel_abund), , drop = FALSE]
+#remove first column:
+mat_tax <- mat_tax[, -1]
+mat_tax<- as.matrix(mat_tax)
+
+
+#make phyloseq objects
+rel_abund_tab<- otu_table(mat_rel_abund, taxa_are_rows = TRUE)
+tax_tab<- tax_table(mat_tax)
+meta_data<- sample_data(meta)
+
+#merge into one object
+phylo_rel_abund <-merge_phyloseq(rel_abund_tab,tax_tab, meta_data)
+
+#tax fix
+phylo_rel_abund <- phylo_rel_abund %>% tax_fix()
+
+#sort
+phylo_rel_abund <- phylo_rel_abund %>% tax_sort(by = "TR11-B05-S4")
+```
+## Viruses
+```{r}
+#extract rel abund
+all_vMAGs_rel_abund <- all_vMAGs_rel_abund %>% dplyr::select(contains("Relative Abundance", ignore.case = TRUE))
+
+#Standardize column sample names
+names(all_vMAGs_rel_abund) <- sub("-QUALITY_PASSED_trimmed_1.fastq.gz Relative Abundance", "", names(all_vMAGs_rel_abund))
+names(all_vMAGs_rel_abund) <- sub("-QUALITY_PASSED_R1.fastq Relative Abundance", "", names(all_vMAGs_rel_abund))
+names(all_vMAGs_rel_abund) <- sub("-QUALITY_PASSED_R1.fastq.gz Relative Abundance", "", names(all_vMAGs_rel_abund))
+names(all_vMAGs_rel_abund) <- sub("-paired_QC_trimmed_R_1.fastq Relative Abundance", "", names(all_vMAGs_rel_abund))
+#remove % symbol
+names(all_vMAGs_rel_abund) <- substring(names(all_vMAGs_rel_abund),1,nchar(names(all_vMAGs_rel_abund))-4)
+
+#extract taxa only matrix
+#get rid of beginnings of names
+host_prediction[] <- lapply(host_prediction, gsub, pattern='.__', replacement='')
+host_prediction[] <- lapply(host_prediction, gsub, pattern=' ', replacement='')
+host_prediction_for_phylo <- host_prediction[c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Host genome")]
+
+#convert to matrices
+mat_all_vMAGs_rel_abund<- as.matrix(all_vMAGs_rel_abund)
+
+#add unidentified hosts
+mat_host_prediction <- merge(all_vMAGs_rel_abund, host_prediction_for_phylo, by = "row.names", all = TRUE)
+mat_host_prediction <- mat_host_prediction %>% select(!contains("TR"))
+mat_host_prediction[is.na(mat_host_prediction)] <- "Unidentified_host"
+rownames(mat_host_prediction) <- mat_host_prediction$Row.names
+#put in the same order as rel abund mat
+mat_host_prediction <- mat_host_prediction[rownames(mat_all_vMAGs_rel_abund), , drop = FALSE]
+#remove first column:
+mat_host_prediction <- mat_host_prediction[, -1]
+#convert to matrix
+mat_host_prediction<- as.matrix(mat_host_prediction)
+
+
+#make phyloseq objects
+all_vMAGs_rel_abund_tab<- otu_table(mat_all_vMAGs_rel_abund, taxa_are_rows = TRUE)
+host_tab<- tax_table(mat_host_prediction)
+meta_data<- sample_data(meta)
+
+#merge into one object
+phylo_all_vMAGs_rel_abund <-merge_phyloseq(all_vMAGs_rel_abund_tab,host_tab, meta_data)
+
+#tax fix
+phylo_all_vMAGs_rel_abund <- phylo_all_vMAGs_rel_abund %>% tax_fix()
+
+#sort
+phylo_all_vMAGs_rel_abund <- phylo_all_vMAGs_rel_abund %>% tax_sort(by = "TR11-B05-S5")
+
+```
+
+# Create palettes
+```{r}
+#create palettes
+host_pal <- tax_palette(data = phylo_rel_abund, rank = "Order", n = 25, pal = "brewerPlus")
+#Custom colors
+host_pal["Chlorobiales"] <- "#9ea941"
+host_pal["contig_20"] <- "#c4cb8d"
+host_pal["Chromatiales"] <- "#CAB2D6"
+host_pal["Rhodobacterales"] <- "#84C3BE"
+host_pal["Bacteroidales"] <- "#bb1813"
+host_pal["Enterobacterales"] <- "#2a3936"
+tax_palette_plot(host_pal)
+
+
+host_matched_only <- phylo_all_vMAGs_rel_abund %>% subset_taxa(Domain %in% c("Bacteria","Archea"))
+#make palette
+viral_pal <- tax_palette(data = host_matched_only, rank = "Order", n = 20, pal = "kelly")
+viral_pal["Chlorobiales"] <- "#9ea941"
+viral_pal["contig_20"] <- "#c4cb8d"
+viral_pal["Chromatiales"] <- "#CAB2D6"
+viral_pal["Rhodobacterales"] <- "#84C3BE"
+viral_pal["Izemoplasmatales"] <- "#271353"
+viral_pal["Burkholderiales"] <- "#E63244"
+viral_pal["Sphingobacteriales"] <- "#57A639"
+viral_pal["SAR86"] <- "#b796d2"
+viral_pal["Paenibacillales"] <- "#317ef5"
+host_pal["Bacteroidales"] <- "#bb1813"
+host_pal["Enterobacterales"] <- "#2a3936"
+tax_palette_plot(viral_pal)
+
+```
+# Plot hosts
+```{r, fig.width = 8, fig.height = 7}
+
+make_stacked_bar_hosts <- function(phyloseq_obj, sample_order) {
+  plot <- comp_barplot(phyloseq_obj,
+    tax_level = "Order",
+    label = "Days_after_bloom_start",
+    n_taxa = 10,
+    tax_transform_for_plot = "identity",
+    sample_order=sample_order,
+    other_name = "Other",
+    merge_other = FALSE, 
+    bar_width = 0.9,
+    bar_outline_colour = "grey5",
+    palette = host_pal,
+    tax_order = "asis"
+  ) +
+    theme(
+    text = element_text(family= "Helvetica"),
+    axis.text.y = element_text(size = 17,angle = 90),
+    axis.text.x = element_text(size = 16,angle = 0, vjust = 0.5, hjust=1),
+    legend.text = element_text(size = 15),
+    axis.title = element_text(size = 20),
+    title = element_text(size = 20),
+    strip.text = element_text(size = 20),
+    plot.margin = unit(c(0, 0, 0, 0), "cm"),
+    panel.border = element_rect(colour = "black", fill=NA, linewidth=1)
+  ) + xlab("Days after bloom onset") + ylab("Relative abundance") +
+    scale_y_continuous(limits = c(0, 90))
+  return(plot)
+}
+
+s5 <- phylo_rel_abund %>% subset_samples(Size=="S5") %>% subset_taxa(Phylum != "unmapped") %>% subset_samples(SamplingDay %in% c("TR08","TR11","TR12","TR13","TR14", "TR17"))
+s5_plot <- make_stacked_bar_hosts(s5, c("TR08-B05-S5","TR11-B05-S5","TR12-B05-S5","TR13-B05-S5","TR14-B05-S5","TR17-B05-S5"))
+graph2svg(x=s5_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s5_order_plot.svg", font = "Helvetica", bg = "white")
+
+s4 <- phylo_rel_abund %>% subset_samples(Size=="S4") %>% subset_taxa(Phylum != "unmapped") %>% subset_samples(SamplingDay %in% c("TR08","TR11","TR12","TR13","TR14"))
+s4_plot <- make_stacked_bar_hosts(s4, c("TR08-B05-S4","TR11-B05-S4","TR12-B05-S4","TR13-B05-S4","TR14-B05-S4"))
+graph2svg(x=s4_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s4_order_plot.svg", font = "Helvetica", bg = "white")
+
+s3 <- phylo_rel_abund %>% subset_samples(Size=="S3") %>% subset_taxa(Phylum != "unmapped") %>% subset_samples(SamplingDay %in% c("TR08","TR11","TR14"))
+s3_plot <- make_stacked_bar_hosts(s3,c("TR08-B05-S3","TR11-B05-S3","TR14-B05-S3"))
+graph2svg(x=s3_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s3_order_plot.svg", font = "Helvetica", bg = "white")
+
+year2024 <- phylo_rel_abund %>% subset_samples(Year=="2024") %>% subset_taxa(Phylum != "unmapped") %>% subset_samples(SamplingDay %in% c("TR06_2024","TR10_2024"))
+year2024_plot <- make_stacked_bar_hosts(year2024, c("TR06-M-40cm-2024","TR10-M-40cm-2024"))
+graph2svg(x=year2024_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/year2024_order_plot.svg", font = "Helvetica", bg = "white")
+
+year2025 <- phylo_rel_abund %>% subset_samples(Year=="2025") %>% subset_taxa(Phylum != "unmapped")
+year2025_plot <- make_stacked_bar_hosts(year2025, c("TR01-M-50cm-2025"))
+graph2svg(x=year2025_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/year2025_order_plot.svg", font = "Helvetica", bg = "white")
+
+
+```
+# Plot viruses
+```{r, fig.width = 8, fig.height = 7}
+
+
+make_stacked_bar_viruses <- function(phyloseq_obj, sample_order) {
+  plot <- comp_barplot(phyloseq_obj,
+    tax_level = "Order",
+    label = "Days_after_bloom_start",
+    n_taxa = 15,
+    tax_transform_for_plot = "identity",
+    sample_order=sample_order,
+    other_name = "Other",
+    merge_other = FALSE, 
+    bar_width = 0.9,
+    bar_outline_colour = "grey5",
+    palette = viral_pal,
+    tax_order = "asis"
+  ) +
+    theme(
+    text = element_text(family= "Helvetica"),
+    axis.text.y = element_text(size = 17,angle = 90),
+    axis.text.x = element_text(size = 16,angle = 0, vjust = 0.5, hjust=1),
+    legend.text = element_text(size = 15),
+    axis.title = element_text(size = 20),
+    title = element_text(size = 20),
+    strip.text = element_text(size = 20),
+    plot.margin = unit(c(0, 0, 0, 0), "cm"),
+    panel.border = element_rect(colour = "black", fill=NA, linewidth=1)
+  ) + xlab("Days after bloom onset") + ylab("Relative abundance") +
+    scale_y_continuous(limits = c(0, 1.8))
+  return(plot)
+}
+
+host_matched_only <- phylo_all_vMAGs_rel_abund %>% subset_taxa(Domain %in% c("Bacteria","Archea"))
+
+s5_hm <- host_matched_only %>% subset_samples(Size=="S5") %>% subset_samples(SamplingDay %in% c("TR08","TR11","TR12","TR13","TR14", "TR17"))
+s5_hm_plot <- make_stacked_bar_viruses(s5_hm, c("TR08-B05-S5","TR11-B05-S5","TR12-B05-S5","TR13-B05-S5","TR14-B05-S5","TR17-B05-S5"))
+graph2svg(x=s5_hm_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s5_hm_plot.svg", font = "Helvetica", bg = "white")
+
+s4_hm <- host_matched_only %>% subset_samples(Size=="S4") %>% subset_samples(SamplingDay %in% c("TR08","TR11","TR12","TR13","TR14"))
+s4_hm_plot <- make_stacked_bar_viruses(s4_hm, c("TR08-B05-S4","TR11-B05-S4","TR12-B05-S4","TR13-B05-S4","TR14-B05-S4"))
+graph2svg(x=s4_hm_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s4_hm_plot.svg", font = "Helvetica", bg = "white")
+
+s3_hm <- host_matched_only %>% subset_samples(Size=="S3") %>% subset_samples(SamplingDay %in% c("TR08","TR11","TR14"))
+s3_hm_plot <- make_stacked_bar_viruses(s3_hm,c("TR08-B05-S3","TR11-B05-S3","TR14-B05-S3"))
+graph2svg(x=s3_hm_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s3_hm_plot.svg", font = "Helvetica", bg = "white")
+
+year2024_hm <- host_matched_only %>% subset_samples(Year=="2024") %>% subset_samples(SamplingDay %in% c("TR06_2024","TR10_2024"))
+year2024_hm_plot <- make_stacked_bar_viruses(year2024_hm, c("TR06-M-40cm-2024","TR10-M-40cm-2024"))
+graph2svg(x=year2024_hm_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/year2024_hm_plot.svg", font = "Helvetica", bg = "white")
+
+year2025_hm <- host_matched_only %>% subset_samples(Year=="2025")
+year2025_hm_plot <- make_stacked_bar_viruses(year2025_hm, c("TR01-M-50cm-2025"))
+graph2svg(x=year2025_hm_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/year2025_hm_plot.svg", font = "Helvetica", bg = "white")
+
+
+```
+# Number of reads mapped plot
+```{r}
+#get number of reads per sample
+reads_per_sample <- read.csv("Original_files/reads_per_sample.csv", header=TRUE, check.names = FALSE)
+reads_per_sample$type <- "total reads"
+
+#get read mapping files
+#load MAG coverage data
+counts_S3<-read.csv("Original_files/coverm_MAGs_only_derep_counts_S3_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+counts_S4<-read.csv("Original_files/coverm_MAGs_only_derep_counts_S4_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+counts_S5<-read.csv("Original_files/coverm_MAGs_only_derep_counts_S5_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+counts_new<-read.csv("Original_files/coverm_MAGs_only_derep_counts_new_samples_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+mags_list_counts <- list(counts_S3, counts_S4, counts_S5, counts_new)
+all_counts <- mags_list_counts %>% reduce(full_join, by = "Genome")
+rownames(all_counts)<- all_counts$Genome
+#clean up sample names
+names(all_counts) <- sub("-QUALITY_PASSED_R1.fastq.gz Read Count", "", names(all_counts))
+names(all_counts) <- sub("-paired_QC_trimmed_R_1.fastq Read Count", "", names(all_counts))
+#create sum df
+mag_sums <- colSums(all_counts[-1])
+mag_sums <- as.data.frame(t(mag_sums))
+mag_sums$type <- "MAGs"
+
+
+#load vMAG coverage data
+counts_vMAGs_S3<-read.csv("Original_files/coverm_vMAGs_only_derep_counts_S3_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+counts_vMAGs_S4<-read.csv("Original_files/coverm_vMAGs_only_derep_counts_S4_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+counts_vMAGs_S5<-read.csv("Original_files/coverm_vMAGs_only_derep_counts_S5_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+counts_vMAGs_new<-read.csv("Original_files/coverm_vMAGs_only_derep_counts_newreads_08.26.tsv", header=TRUE, check.names = FALSE, sep = "\t")
+vmags_list_counts <- list(counts_vMAGs_S3, counts_vMAGs_S4, counts_vMAGs_S5, counts_vMAGs_new)
+all_vMAGs_counts <- vmags_list_counts %>% reduce(full_join, by = "Genome")
+rownames(all_vMAGs_counts)<- all_vMAGs_counts$Genome
+#clean up sample names
+names(all_vMAGs_counts) <- sub("-QUALITY_PASSED_R1.fastq.gz Read Count", "", names(all_vMAGs_counts))
+names(all_vMAGs_counts) <- sub("-paired_QC_trimmed_R_1.fastq Read Count", "", names(all_vMAGs_counts))
+#merge with host predictions
+all_vMAGs_counts_tax <- merge(all_vMAGs_counts, mat_host_prediction, by.x = "Genome", by.y = "row.names")
+
+#create host vs unidentified categories
+all_vMAGs_counts_sums <- all_vMAGs_counts_tax %>% mutate(type = if_else(Phylum == "Unidentified_host", "Unidentified_host","Host_assigned")) %>%
+  group_by(type) %>% summarise(across(where(is.numeric), sum, na.rm = TRUE))
+
+#combine all tables together
+combined_counts <- bind_rows(reads_per_sample, mag_sums, all_vMAGs_counts_sums)
+
+#subtract mapped reads from total
+new_row <- combined_counts %>% filter(type == "total reads") %>% select(-type) -
+  combined_counts %>% filter(type == "MAGs") %>% select(-type) -
+  combined_counts %>% filter(type == "Host_assigned") %>% select(-type) -
+  combined_counts %>% filter(type == "Unidentified_host") %>% select(-type)
+new_row$type <- "unmapped"
+
+
+
+all_vMAGs_counts_sums <- bind_rows(
+  all_vMAGs_counts_sums,
+  new_row
+)
+
+df_for_plot <- rbind(combined_counts, new_row)
+
+
+#make stacked bar chart
+df_long <- df_for_plot %>% pivot_longer(cols = -type,names_to = "sample",values_to = "reads")
+df_long <- df_long %>% filter(type != "total reads")
+#get order for bars
+df_long <- df_long %>% mutate(type = factor(type,levels = c("unmapped","Host_assigned","Unidentified_host","MAGs")))
+
+make_stacked_bar_reads <- function(df, filter) {
+  df <- df %>% filter(grepl(filter,sample))
+  ggplot(df, aes(x = sample, y = reads, fill = type)) + geom_col(color = "black", linewidth = 0.1) + scale_fill_manual(values = c("Host_assigned" = "#fc6666", "MAGs" = "#8c9a31", "Unidentified_host" = "#fecc67", "unmapped" = "grey")) + theme_classic() +
+    labs(x = "Sample",y = "Reads", fill = "Category") + theme(
+      text = element_text(family= "Helvetica"),
+      axis.text.y = element_text(size = 17,angle = 45),
+      axis.text.x = element_text(size = 16,angle = 90, vjust = 0.5, hjust=1),
+      legend.text = element_text(size = 15),
+      axis.title = element_text(size = 20),
+      title = element_text(size = 20),
+      strip.text = element_text(size = 20),
+      plot.margin = unit(c(0, 0, 0, 0), "cm"),
+      panel.border = element_rect(colour = "black", fill=NA, linewidth=1)
+    ) + scale_y_continuous(limits = c(0, 50000000))
+}
+
+s5_reads_plot <- make_stacked_bar_reads(df_long, "S5")
+graph2svg(x=s5_reads_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s5_reads_plot.svg", font = "Helvetica", bg = "white")
+s4_reads_plot <- make_stacked_bar_reads(df_long, "S4")
+graph2svg(x=s4_reads_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s4_reads_plot.svg", font = "Helvetica", bg = "white")
+s3_reads_plot <- make_stacked_bar_reads(df_long, "S3")
+graph2svg(x=s3_reads_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/s3_reads_plot.svg", font = "Helvetica", bg = "white")
+y2024_reads_plot <- make_stacked_bar_reads(df_long, "2024")
+graph2svg(x=y2024_reads_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/2024_reads_plot.svg", font = "Helvetica", bg = "white")
+y2025_reads_plot <- make_stacked_bar_reads(df_long, "2025")
+graph2svg(x=y2025_reads_plot, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final2/plots/2025_reads_plot.svg", font = "Helvetica", bg = "white")
+```
+
+# Make S2 (Sankey diagram)
+```{r, fig.width = 8, fig.height = 5}
+#install.packages("remotes")
+#remotes::install_github("davidsjoberg/ggsankey")
+library(ggsankey)
+library(RColorBrewer)
+
+for_sankey<-read.csv("for_sankey.txt", header=TRUE, check.names = FALSE, sep = "\t")
+
+for_sankey[] <- lapply(for_sankey, gsub, pattern='.__', replacement='')
+for_sankey[] <- lapply(for_sankey, gsub, pattern='_', replacement=' ')
+
+
+df <- for_sankey %>% make_long(All_contigs, Viral_family, Host_phylum)
+
+
+sankey <- ggplot(df, aes(x = x, 
+               next_x = next_x, 
+               node = node, 
+               next_node = next_node,
+               fill = factor(node),
+               label = node)) +
+  geom_sankey(flow.alpha = 1, node.color = 1) +
+  scale_fill_viridis_d(option = "plasma", alpha = 0.95, direction = -1) +
+  geom_sankey_label(size = 3.5, color = 1, fill = "white") +
+  theme_sankey(base_size = 12) +
+  labs(x = NULL) +
+  theme(legend.position = "none", text=element_text(size=12,  family="Helvetica"))
+
+graph2svg(x=sankey, file="/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final/plots/sankey_diagram.svg", font = "Helvetica", bg = "white")
+
+
+```
+
+# Make supplementary tables 3ab
+```{r}
+#MAGs
+MAG_quality <- read.csv("Original_files/quality_report_MAGs.tsv", header = TRUE, sep = "\t")
+#fix headers on all_rel_abund
+names(all_rel_abund) <- sub("-QUALITY_PASSED_R1.fastq.gz", "", names(all_rel_abund))
+names(all_rel_abund) <- sub("-paired_QC_trimmed_R_1.fastq", "", names(all_rel_abund))
+all_MAG_info <- merge(MAG_quality, mat_tax, by.x = "Name", by.y = "row.names")
+all_MAG_info <- merge(all_MAG_info, all_rel_abund, by.x = "Name", by.y = "row.names")
+write_csv(all_MAG_info, "/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Supplementary_data/all_MAG_info.csv")
+
+#vMAGs
+vMAG_quality <- read.csv("Original_files/quality_summary_viral.tsv", header = TRUE, sep = "\t")
+vMAG_taxonomy <- read.csv("Original_files/vRhyme_derep_longest_all_vMAGs_qc_passed_taxonomy.tsv", header = TRUE, sep = "\t")
+all_vMAG_info <- merge(vMAG_quality, vMAG_taxonomy, by.x = "contig_id", by.y = "seq_name", all.x = TRUE)
+all_vMAG_info <- merge(all_vMAG_info, mat_host_prediction, by.x = "contig_id", by.y = "row.names")
+#fix headers on all_rel_abund
+names(all_vMAGs_rel_abund) <- sub("-QUALITY_PASSED_R1.fastq.gz", "", names(all_vMAGs_rel_abund))
+names(all_vMAGs_rel_abund) <- sub("-paired_QC_trimmed_R_1.fastq", "", names(all_vMAGs_rel_abund))
+all_vMAG_info <- merge(all_vMAG_info, all_vMAGs_rel_abund, by.x = "contig_id", by.y = "row.names")
+write_csv(all_vMAG_info, "/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Supplementary_data/all_vMAG_info.csv")
+
+```
+

@@ -32,6 +32,9 @@ Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins,
 * sandpiper_db_filtering.R
 * bloomer_and_rand_subset_defense_id.sh
 
+[Figures_and_supplementary_tables](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al/Figures_and_supplementary_tables): This folder contains scripts for the production of figures 3, 5, and 6a, supplementary figures S2, S4, and S5-8, and supplementary tables 3, and 5-7.
+
+
 #### additional files
 [nanopore_sequence_processing](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al/nanopore_sequence_processing.sh): contains the workflow for processing the Nanopore data.
 

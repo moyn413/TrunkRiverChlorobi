@@ -1,0 +1,54 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+This script contains code to generate figure S4 
+```{r}
+library(remotes)
+#remotes::install_github("showteeth/ggcoverage")
+library(ggcoverage)
+library(dplyr)
+library(ggplot2)
+
+setwd("/Users/roo/Library/CloudStorage/Box-Box/Desktop/Uchicago/TR_phage/Figures/Metagenomics\ figure/Figure_clean_final/")
+
+#metadata
+meta <- read.csv("sample_metadata_metag.tsv", sep = "\t", header = TRUE)
+
+#pileup
+track_TR14 <- read.csv("Satellite_coverage_for_supp/TR14-B05-S4_to_contig1_pileup_bincov100.txt", sep = "\t")
+track_TR14 <- track_TR14 %>% rename(seqnames = RefName, start = RunningPos, end = Pos, score = Cov)
+track_TR14$Type <- "8"
+track_TR14$Group <- "S4"
+
+track_TR08 <- read.csv("Satellite_coverage_for_supp/TR08-B05-S4_to_contig1_pileup_bincov100.txt", sep = "\t")
+track_TR08 <- track_TR08 %>% rename(seqnames = RefName, start = RunningPos, end = Pos, score = Cov)
+track_TR08$Type <- "2"
+track_TR08$Group <- "S4"
+
+track_TR11 <- read.csv("Satellite_coverage_for_supp/TR11-B05-S4_to_contig1_pileup_bincov100.txt", sep = "\t")
+track_TR11 <- track_TR11 %>% rename(seqnames = RefName, start = RunningPos, end = Pos, score = Cov)
+track_TR11$Type <- "5"
+track_TR11$Group <- "S4"
+
+track_TR12 <- read.csv("Satellite_coverage_for_supp/TR12-B05-S4_to_contig1_pileup_bincov100.txt", sep = "\t")
+track_TR12 <- track_TR12 %>% rename(seqnames = RefName, start = RunningPos, end = Pos, score = Cov)
+track_TR12$Type <- "6"
+track_TR12$Group <- "S4"
+
+track_TR13 <- read.csv("Satellite_coverage_for_supp/TR13-B05-S4_to_contig1_pileup_bincov100.txt", sep = "\t")
+track_TR13 <- track_TR13 %>% rename(seqnames = RefName, start = RunningPos, end = Pos, score = Cov)
+track_TR13$Type <- "7"
+track_TR13$Group <- "S4"
+
+all_tracks <- rbind(track_TR08, track_TR11, track_TR12, track_TR13, track_TR14)
+#extract region
+track_satellite <- all_tracks %>% filter(between(start, 1920000, 1950000))
+#between(start, 1920400, 1945800)
+plot <- ggcoverage(track_satellite, range.position = "out")
+
+ggsave(file="satellite_coverage.svg", plot=plot, width=10, height=8)
+
+```
+
+
