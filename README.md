@@ -2,8 +2,7 @@
 
 Script and data for: 
 
-M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Dumit, R. Weed, K. Koop-Jakobsen, M. Kleiner, S.E. Ruff
-Multi-omics characterization of metabolic and resource acquisition strategies employed by Chlorobi in high-density phototrophic blooms 
+M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Dumit, R. Weed, K. Koop-Jakobsen, M. Kleiner, S.E. Ruff. Anoxygenic phototrophic Chlorobi use broad metabolic and resource acquisition strategies to support stable near-clonal blooms
 
 Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins, E. N., Vanderscheuren, H., Jivaji, A. M., Kleiner, M., Ruff, S. E., Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense
 
