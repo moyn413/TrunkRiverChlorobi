@@ -8,10 +8,6 @@ Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins,
 
 ## Moynihan et al Files
 
-### Amplicon Scripts and Plots
-
-### LoopSeq Scripts and Plots
-
 ### Metaproteomics 
 [Metaproteomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metaproteomics) folder contains scripts and files to make plots of metaproteomics-based biomass, community-wide sulfur and nitrogen cycle genes, and organism-normalized anvio plot of the proteome of the Prosthecochloris GSB-TRL01 metagenome-assembled genome over the sampling time series. 
 
