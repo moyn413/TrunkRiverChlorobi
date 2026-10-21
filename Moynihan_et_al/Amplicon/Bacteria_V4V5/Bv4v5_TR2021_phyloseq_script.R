@@ -1,3 +1,4 @@
+# Script used to process and analysis bacterial v4v5 amplicon data in the 2021 Trunk River GSB bloom dataset. 
 # ------Load packages
 library(plyr) 
 library(dplyr)
