@@ -2,19 +2,14 @@
 
 Script and data for: 
 
-M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Dumit, R. Weed, K. Koop-Jakobsen, M. Kleiner, S.E. Ruff
-Anoxygenic phototrophic Chlorobi form stable near-clonal blooms with broad metabolic capabilities to cycle sulfur, carbon and nitrogen
+M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Dumit, R. Weed, K. Koop-Jakobsen, M. Kleiner, S.E. Ruff. Anoxygenic phototrophic Chlorobi use broad metabolic and resource acquisition strategies to support stable near-clonal blooms
 
 Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins, E. N., Vanderscheuren, H., Jivaji, A. M., Kleiner, M., Ruff, S. E., Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense
 
 ## Moynihan et al Files
 
-### Amplicon Scripts and Plots
-
-### LoopSeq Scripts and Plots
-
-### Metaproteomics Scripts and Plots
-
+### Metaproteomics 
+[Metaproteomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metaproteomics) folder contains scripts and files to make plots of metaproteomics-based biomass, community-wide sulfur and nitrogen cycle genes, and organism-normalized anvio plot of the proteome of the Prosthecochloris GSB-TRL01 metagenome-assembled genome over the sampling time series. 
 
 ## Weed et al Files
 [Weed_et_al](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al): Contains code for Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense with the following sub-directories:
