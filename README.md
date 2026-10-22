@@ -6,7 +6,7 @@ M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Du
 
 Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins, E. N., Vanderscheuren, H., Jivaji, A. M., Kleiner, M., Ruff, S. E., Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense
 
-All raw data is deposited in the Open Science Framework Repository and on NCBI. 
+All raw data is deposited in the Open Science Framework Repository (link) and on NCBI (PRJNA1417754) and PRIDE (PXD064785). 
 
 ## Moynihan et al Files
 
