@@ -8,8 +8,13 @@ Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins,
 
 ## Moynihan et al Files
 
-### Metaproteomics 
 [Metaproteomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metaproteomics) folder contains scripts and files to make plots of metaproteomics-based biomass, community-wide sulfur and nitrogen cycle genes, and organism-normalized anvio plot of the proteome of the Prosthecochloris GSB-TRL01 metagenome-assembled genome over the sampling time series. 
+
+[Metagenomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metagenomics)
+
+[Amplicon](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Amplicon)
+
+[LoopSeq](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/LoopSeq)
 
 ## Weed et al Files
 [Weed_et_al](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al): Contains code for Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense with the following sub-directories:
