@@ -6,6 +6,8 @@ M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Du
 
 Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins, E. N., Vanderscheuren, H., Jivaji, A. M., Kleiner, M., Ruff, S. E., Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense
 
+All raw data is deposited in the Open Science Framework Repository and on NCBI. 
+
 ## Moynihan et al Files
 
 [Metaproteomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metaproteomics) folder contains scripts and files to make plots of metaproteomics-based biomass, community-wide sulfur and nitrogen cycle genes, and organism-normalized anvio plot of the proteome of the Prosthecochloris GSB-TRL01 metagenome-assembled genome over the sampling time series. 
