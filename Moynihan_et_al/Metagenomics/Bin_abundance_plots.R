@@ -272,3 +272,70 @@ bin.abund.S5=  phylo_abund1  %>% ps_filter(Size == "S5") %>%
 #        height = 5)
 # 
 
+
+
+# #----------------------------------------------------------------
+# Abundance of Chlorobi bins 
+# note that data is already in relative abundance percentages, so just need to sum bins
+# #----------------------------------------------------------------
+
+bin.abund.S4=  phylo_abund1  %>% ps_filter(Size == "S4")
+  
+# Calculate % Chlorobi in Bloom TR08
+bloom <- subset_samples(bin.abund.S4, SamplingDay=="TR08")
+chlorobi.bloom<-subset_taxa(bloom, Order == "Chlorobiales")%>% taxa_sums(.)
+sum(chlorobi.bloom)
+
+# semibin_bin.163  metabat_bin.44 
+# 58.39681600      0.08708753 
+# Sum = 58.4839
+
+
+# #----------------------------------------------------------------
+# Calculate % Chlorobi in Bloom TR11
+bloom <- subset_samples(bin.abund.S4, SamplingDay=="TR11")
+chlorobi.bloom<-subset_taxa(bloom, Order == "Chlorobiales")%>% taxa_sums(.)
+chlorobi.bloom
+sum(chlorobi.bloom)
+
+# semibin_bin.163  metabat_bin.44 
+#  75.4764100       0.1045149 
+# Sum = 75.58092
+
+# #----------------------------------------------------------------
+
+# Calculate % Chlorobi in Bloom TR12
+bloom <- subset_samples(bin.abund.S4, SamplingDay=="TR12")
+chlorobi.bloom<-subset_taxa(bloom, Order == "Chlorobiales")%>% taxa_sums(.)
+chlorobi.bloom
+sum(chlorobi.bloom)
+
+# semibin_bin.163  metabat_bin.44 
+#   80.22665000      0.09298983 
+# Sum = 80.31964
+
+
+# #----------------------------------------------------------------
+# Calculate % Chlorobi in Bloom TR13
+bloom <- subset_samples(bin.abund.S4, SamplingDay=="TR13")
+chlorobi.bloom<-subset_taxa(bloom, Order == "Chlorobiales")%>% taxa_sums(.)
+chlorobi.bloom
+sum(chlorobi.bloom)
+
+# semibin_bin.163  metabat_bin.44 
+#   80.22665000      0.09298983 
+# Sum = 80.19436
+
+# #----------------------------------------------------------------
+
+# Calculate % Chlorobi in Bloom TR14
+bloom <- subset_samples(bin.abund.S4, SamplingDay=="TR14")
+chlorobi.bloom<-subset_taxa(bloom, Order == "Chlorobiales")%>% taxa_sums(.)
+chlorobi.bloom
+sum(chlorobi.bloom)
+
+# semibin_bin.163  metabat_bin.44 
+# 50.9565430       0.0824436 
+# Sum = 51.03899
+
+# #----------------------------------------------------------------
