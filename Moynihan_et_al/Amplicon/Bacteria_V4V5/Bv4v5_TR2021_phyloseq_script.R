@@ -69,7 +69,7 @@ ps.TR<- ps.TR %>% subset_samples(Name != "TR11_B05" & Name !="TR13_B05" & Name !
 saveRDS(ps.TR, "/Users/molly/Dropbox/POSTDOC_MBL/Writing/Manuscripts/Ecosystem_Paper/TR_EcosystemEngineerPaper/Paper1_Proteomics_MetaG/Data_Tables/to Upload on github/amplicon_R_scripts/Bv4v5_TR2021_phyloseq.rds")
 
 # -------------------------------------------#
-# -----Remove contaminants and Chloroplasts
+# -----Remove contaminants and Chloroplasts & Mitochondria
 # -------------------------------------------#
 
 # Run decontam in prevalence mode
@@ -130,7 +130,7 @@ ps.2021.LR <- prune_samples(sample_sums(ps.2021)>=10000, ps.2021)
 # -------------------------------------------#
 ## Make phyloseq with low abundant ASVs removed
 # -------------------------------------------#
-# Remove OTUs occurring fewer than 10x in entire dataset
+# Remove ASVs occurring fewer than 10x in entire dataset
 ps.all.LO = prune_taxa(taxa_sums(ps.all.LR)>=10, ps.all.LR) #n=2363 (removes 1203 taxa)
 
 # -------------------------------------------#

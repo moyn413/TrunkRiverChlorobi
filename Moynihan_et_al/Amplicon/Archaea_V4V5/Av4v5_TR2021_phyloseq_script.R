@@ -145,7 +145,7 @@ ps.bloom.abund = ps_abundant(ps.bloom.norm,contrib_min=0.01, "Bloom_all_abund")
 # Bloom
 #-------------------------------------------------------------------
 
-bloom.bar = ps.bloom.LR.norm %>% 
+bloom.bar = ps.bloom.norm %>% 
   comp_barplot(
     tax_level = "Genus",
     label = "Name", # name an alternative variable to label axis
