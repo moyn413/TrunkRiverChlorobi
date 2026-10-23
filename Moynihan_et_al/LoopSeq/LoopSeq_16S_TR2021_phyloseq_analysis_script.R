@@ -16,7 +16,7 @@ library(microViz)
 # -------------------------------------------#
 # ------Load phyloseq object with LoopSeq data
 # -------------------------------------------#
-ps <- readRDS("~/TR2021_LoopSeq_16S_phyloseq.rds")   #read RDS phyloseq file
+ps <- readRDS("/Users/molly/Documents/GitHub/TrunkRiverChlorobi/Moynihan_et_al/LoopSeq/TR2021_LoopSeq_16S_phyloseq.rds")   #read RDS phyloseq file
 
 # -------------------------------------------#
 # ------Address NAs in taxonomic ranking

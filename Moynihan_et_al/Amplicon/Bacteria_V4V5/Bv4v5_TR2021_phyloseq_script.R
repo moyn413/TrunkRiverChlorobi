@@ -18,7 +18,7 @@ library(microViz)
 # -------------------------------------------#
 #This phyloseq object contains data from multiple sampling years in Trunk River. 
 # Only 2021 data were used in this study.
-ps <- readRDS("/Users/molly/Dropbox/POSTDOC_MBL/Data/Amplicon/Merged_TR_data_2021-2023/dada2/TR2021-2023_16S_phyloseq.rds")   #read RDS phyloseq file
+ps <- readRDS("~/TR2021-2023_16S_phyloseq.rds")   #read RDS phyloseq file
 
 # -------------------------------------------#
 # ------Address NAs in taxonomic ranking
@@ -66,7 +66,7 @@ ps.TR<- ps.TR %>% subset_samples(Name != "TR11_B05" & Name !="TR13_B05" & Name !
 
 # Save phyloseq object of 2021 data used in this study.
 # This is the object that is shared on github. 
-saveRDS(ps.TR, "/Users/molly/Dropbox/POSTDOC_MBL/Writing/Manuscripts/Ecosystem_Paper/TR_EcosystemEngineerPaper/Paper1_Proteomics_MetaG/Data_Tables/to Upload on github/amplicon_R_scripts/Bv4v5_TR2021_phyloseq.rds")
+saveRDS(ps.TR, "~/Bv4v5_TR2021_phyloseq.rds")
 
 # -------------------------------------------#
 # -----Remove contaminants and Chloroplasts & Mitochondria
@@ -131,7 +131,7 @@ ps.2021.LR <- prune_samples(sample_sums(ps.2021)>=10000, ps.2021)
 ## Make phyloseq with low abundant ASVs removed
 # -------------------------------------------#
 # Remove ASVs occurring fewer than 10x in entire dataset
-ps.all.LO = prune_taxa(taxa_sums(ps.all.LR)>=10, ps.all.LR) #n=2363 (removes 1203 taxa)
+ps.all.LO = prune_taxa(taxa_sums(ps.2021.LR)>=10, ps.2021.LR) #n=2363 (removes 1203 taxa)
 
 # -------------------------------------------#
 # Noramalize
@@ -153,7 +153,7 @@ ps_abundant <- function(ps,contrib_min=0.01, title){
 
 
 # Normalize phyloseq files with all ASVs
-ps.all.LR.norm = ps_normalize_median(ps.all.LR, "16S_all_LR_norm")
+ps.all.LR.norm = ps_normalize_median(ps.2021.LR, "16S_all_LR_norm")
 
 # Normalize phyloseq file without low abundant ASVs
 ps.all.norm = ps_normalize_median(ps.all.LO, "16S_all_norm")
@@ -266,6 +266,7 @@ y1 <-sum(asv1_subset)/sum(all)*100;y1
 z1 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z1
 # 82.49687 % Chloribales
 # 79.38266 % otu0001
+# 96.22506 % of Chlorbiales are otu0001
 
 #----------------------------------------------------------------
 # Calculate % other abundant taxa in Bloom
@@ -324,7 +325,7 @@ y2 <-sum(asv1_subset)/sum(all)*100;y2
 # 68.42582 % Chloribales
 # 67.68236 % otu0001
 z2 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z2
-# 98.91348& of Chlorobi are otu0001
+# 98.91348 of Chlorobi are otu0001
 
 #----------------------------------------------------------------
 # Calculate % Chlorobi in Bloom TR09
@@ -337,7 +338,7 @@ y3 <-sum(asv1_subset)/sum(all)*100;y3
 # 87.66523 % Chlorobiales
 # 87.2431 % otu0001
 z3 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z3
-# 99.51848& of Chlorobi are otu0001
+# 99.51848 of Chlorobi are otu0001
 
 
 #----------------------------------------------------------------
@@ -351,7 +352,7 @@ y4 <-sum(asv1_subset)/sum(all)*100;y4
 # 80.1559 % Chlorobiales
 # 79.83556 % otu0001
 z4 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z4
-# 99.60035& of Chlorobi are otu0001
+# 99.60035 of Chlorobi are otu0001
 
 
 
@@ -366,7 +367,7 @@ y5 <-sum(asv1_subset)/sum(all)*100;y5
 # 84.13471 % Chlorobiales
 # 75.12395 % otu0001
 z5 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z5
-# 89.29008& of Chlorobi are otu0001
+# 89.29008 of Chlorobi are otu0001
 
 
 
@@ -381,7 +382,7 @@ y6 <-sum(asv1_subset)/sum(all)*100;y6
 # 96.07716 % Chlorobiales
 # 95.42601 % otu0001
 z6 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z6
-# 99.60035& of Chlorobi are otu0001
+# 99.60035 of Chlorobi are otu0001
 
 
 #----------------------------------------------------------------
@@ -395,7 +396,7 @@ y7 <-sum(asv1_subset)/sum(all)*100;y7
 # 86.44797 % Chlorobiales
 # 76.25938 % otu0001
 z7 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z7
-# 88.21419& of Chlorobi are otu0001
+# 88.21419 of Chlorobi are otu0001
 
 
 #----------------------------------------------------------------
@@ -409,7 +410,7 @@ y8 <-sum(asv1_subset)/sum(all)*100;y8
 # 74.88532 % Chlorobiales
 # 74.42035 % otu0001
 z8 <-sum(asv1_subset)/sum(chlorobi.bloom)*100;z8
-# 99.37909& of Chlorobi are otu0001
+# 99.37909 of Chlorobi are otu0001
 
 
 #----------------------------------------------------------------
@@ -424,7 +425,7 @@ y9 <-sum(asv1_subset)/sum(all)*100;y9
 # 37.20344 % otu0001
 
 z9 <-sum(asv1_subset)/sum(chlorobi.latebloom)*100;z9
-# 97.07265& of Chlorobi are otu0001
+# 97.07265 of Chlorobi are otu0001
 
 
 
@@ -441,7 +442,7 @@ y10 <-sum(asv1_subset)/sum(all)*100;y10
 # 18.4726 % otu0001
 
 z10 <-sum(asv1_subset)/sum(chlorobi.latebloom)*100;z10
-# 88.18919& of Chlorobi are otu0001
+# 88.18919 of Chlorobi are otu0001
 
 #----------------------------------------------------------------
 # Calculate % Chlorobi in Late Bloom TR17
@@ -456,7 +457,7 @@ y11 <-sum(asv1_subset)/sum(all)*100;y11
 # 3.368667 % otu0001
 
 z11 <-sum(asv1_subset)/sum(chlorobi.latebloom)*100;z11
-# 88.18919& of Chlorobi are otu0001
+# 85.95787 of Chlorobi are otu0001
 
 
 #----------------------------------------------------------------
