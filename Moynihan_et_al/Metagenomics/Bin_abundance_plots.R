@@ -24,7 +24,7 @@ tpm <- cover %>%  dplyr::select(contains("TPM", ignore.case = TRUE))
 abund1 <- cover %>%  dplyr::select(contains("Relative", ignore.case = TRUE))
 
 # #Export abund1 as csv file
-# write.csv(abund1, "/Users/molly/Dropbox/POSTDOC_MBL/Data/Metagenomes/TR2021_Metagenomes/TR_2021_B05/coverm/relabundance.csv")
+# write.csv(abund1, "~/relabundance.csv")
 
 #Standardize column sample names
 names(rpkm) <- sub(".RPKM", "", names(rpkm))

@@ -5,7 +5,7 @@ library(tidyverse)
 library(phyloseq)
 library(RColorBrewer)
 
-setwd("/Users/molly/Documents/GitHub/TrunkRiverChlorobi/Moynihan_et_al/Metaproteomics/Community_Biomass_plot")
+setwd("~/Community_Biomass_plot")
 biomass<-read.csv("Protein_Biomass.csv", header=TRUE)
 
 rownames(biomass)<- biomass$Accession
