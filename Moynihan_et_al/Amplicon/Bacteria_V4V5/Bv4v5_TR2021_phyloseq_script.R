@@ -68,6 +68,10 @@ ps.TR<- ps.TR %>% subset_samples(Name != "TR11_B05" & Name !="TR13_B05" & Name !
 # This is the object that is shared on github. 
 saveRDS(ps.TR, "~/Bv4v5_TR2021_phyloseq.rds")
 
+# Read in file shared on github
+ps.TR <- readRDS("~/Bv4v5_TR2021_phyloseq.rds")   #read RDS phyloseq file
+
+
 # -------------------------------------------#
 # -----Remove contaminants and Chloroplasts & Mitochondria
 # -------------------------------------------#
