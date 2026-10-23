@@ -6,17 +6,17 @@ M.A. Moynihan, O.L. Mathieson, C.A. Crowley, E. Greene, H. Vanderscheuren, D. Du
 
 Weed, R., Moynihan, M. A., Greene, E., Mathieson, O. L., Crowley, C.A., Junkins, E. N., Vanderscheuren, H., Jivaji, A. M., Kleiner, M., Ruff, S. E., Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense
 
-All raw data is deposited in the Open Science Framework Repository (link) and on NCBI (PRJNA1417754) and PRIDE (PXD064785). 
+Raw sequencing and metaproteomics data are deposited on NCBI (PRJNA1417754) and PRIDE (PXD064785). Raw and processed data are deposited in an Open Science Framework Repository (link).
 
 ## Moynihan et al Files
 
-[Metaproteomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metaproteomics) folder contains scripts and files to make plots of metaproteomics-based biomass, community-wide sulfur and nitrogen cycle genes, and organism-normalized anvio plot of the proteome of the Prosthecochloris GSB-TRL01 metagenome-assembled genome over the sampling time series. 
+[Metaproteomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metaproteomics): Scripts and files to make plots of metaproteomics-based biomass, community-wide sulfur and nitrogen cycle genes, and organism-normalized anvio plot of the proteome of the Prosthecochloris GSB-TRL01 metagenome-assembled genome over the sampling time series. 
 
-[Metagenomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metagenomics)
+[Metagenomics](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Metagenomics): Scripts and files to make plots of metagenome-based bin abundances from CoverM output. 
 
-[Amplicon](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Amplicon)
+[Amplicon](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/Amplicon): Scripts and files for 16S rRNA V4V5 amplicon sequence analysis and plots of bacterial and archaeal communities. 
 
-[LoopSeq](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/LoopSeq)
+[LoopSeq](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Moynihan_et_al/LoopSeq): Scripts and files for LoopSeq full-length 16S rRNA sequence analysis and plots. 
 
 ## Weed et al Files
 [Weed_et_al](https://github.com/moyn413/TrunkRiverChlorobi/tree/main/Weed_et_al): Contains code for Bloom-forming anoxygenic phototrophs heavily invest in anti-phage defense with the following sub-directories:
